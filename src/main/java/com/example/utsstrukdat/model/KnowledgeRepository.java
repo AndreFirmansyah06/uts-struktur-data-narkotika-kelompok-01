@@ -35,3 +35,38 @@ public class KnowledgeRepository {
         }
         return hasil;
     }
+
+    // 2. Method khusus VALIDASI TAMBAH DATA (Cek Duplikasi) - Mengembalikan boolean
+    public boolean isNomorPerkaraExists(String nomor) { // ini baru
+        if (nomor == null || nomor.isBlank()) { // ini baru
+            return false;
+        }
+
+        for (int i = 0; i < daftarPutusan.size(); i++) {
+            Putusan p = daftarPutusan.get(i);
+            // Menggunakan equalsIgnoreCase untuk mencocokkan nomor perkara secara PERSIS
+            if (p.getNomorPerkara() != null &&
+                    p.getNomorPerkara().equalsIgnoreCase(nomor.trim())) { // ini baru
+                return true; // Langsung kembalikan true jika ditemukan yang sama
+            }
+        }
+        return false; // Kembalikan false jika tidak ada yang sama
+    }
+
+    public DynamicArray<Putusan> cariByCaseId(String caseId) { // ini baru - Ubah return type ke DynamicArray
+        DynamicArray<Putusan> hasil = new DynamicArray<>(); // ini baru
+
+        if (caseId == null || caseId.isBlank()) { // ini baru
+            return hasil;
+        }
+
+        for (int i = 0; i < daftarPutusan.size(); i++) {
+            Putusan p = daftarPutusan.get(i);
+            // PERBAIKAN: Gunakan getCaseId() (bukan getNomorPerkara()) dan gunakan contains
+            if (p.getCaseId() != null &&
+                    p.getCaseId().toLowerCase().contains(caseId.toLowerCase().trim())) { // ini baru
+                hasil.add(p); // ini baru
+            }
+        }
+        return hasil; // ini baru
+    }
