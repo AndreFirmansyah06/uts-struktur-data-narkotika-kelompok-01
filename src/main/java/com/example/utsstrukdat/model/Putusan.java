@@ -45,3 +45,38 @@ public class Putusan {
         this.sourcePages = new SimpleStringProperty("");
         jumlahDibuat++;
     }
+
+    public Putusan(String caseId, String nomorPerkara, String pengadilan, LocalDate tanggalPutusan,
+                   String terdakawaKode, int tuntutanBulan, int vonisBulan, long dendaRupiah, String barangBukti, String jenisNarkotika,
+                   double beratBarangBukti, String pasalTerbukti, String pasalDakwaan,
+                   String keadaanMemberatkan, String keadaanMeringankan, String sourcePages) {
+        this.caseId = new SimpleStringProperty(caseId);
+        this.nomorPerkara = new SimpleStringProperty(nomorPerkara);
+        this.pengadilan = new SimpleStringProperty(pengadilan);
+        this.tanggalPutusan = new SimpleObjectProperty<>(tanggalPutusan);
+        this.terdakawaKode = new SimpleStringProperty(terdakawaKode);
+        this.tuntutanBulan = new SimpleIntegerProperty(tuntutanBulan);
+        this.jenisNarkotika = new SimpleStringProperty(jenisNarkotika);
+        this.beratBarangBuktiGram = new SimpleDoubleProperty(beratBarangBukti);
+        this.pasalTerbukti = new SimpleStringProperty(pasalTerbukti);
+        this.pasalDakwaan = new SimpleStringProperty(pasalDakwaan);
+        this.vonisBulan = new SimpleIntegerProperty(vonisBulan);
+        this.dendaRupiah = new SimpleLongProperty(dendaRupiah);
+        this.barangBukti = new SimpleStringProperty(barangBukti);
+        this.keadaanMemberatkan = new SimpleStringProperty(keadaanMemberatkan);
+        this.keadaanMeringankan = new SimpleStringProperty(keadaanMeringankan);
+        this.sourcePages = new SimpleStringProperty(sourcePages);
+        jumlahDibuat++;
+    }
+
+
+    public static int getJumlahDibuat() {
+        return jumlahDibuat;
+    }
+
+
+    @Override
+    public String toString() {
+        return String.format("Nomor: %s | Terdakwa: %s | Vonis: %d bulan | Denda: Rp%.0f",
+                nomorPerkara.get(), terdakawaKode.get(), vonisBulan.get(), dendaRupiah.get());
+    }
