@@ -121,4 +121,16 @@ public class FXMLController {
     private Label lblStatus;
     @FXML
     private Label lblTotalData;
+
+
+    private KnowledgeController controller;
+
+    private ObservableList<Putusan> dataList = FXCollections.observableArrayList();
+
+    public void setController(KnowledgeController controller) {
+        this.controller = controller;
+        refreshTabel(controller.getSemuaPutusan());
+        amountData();
+    }
+
 }
