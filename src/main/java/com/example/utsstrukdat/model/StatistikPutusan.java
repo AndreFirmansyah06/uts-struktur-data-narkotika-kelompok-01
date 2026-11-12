@@ -68,3 +68,29 @@ public class StatistikPutusan {
             distribusiNarkoba[i++] = entry.getKey() + ": " + entry.getValue() + " kasus";
         }
     }
+
+    public int getTotalPerkara() {
+
+        return totalPerkara;
+    }
+
+    public double getRataRataVonis() {
+
+        return rataRataVonis;
+    }
+
+    public double getTotalDenda() {
+
+        return grandTotalDenda;
+    }
+
+    public String getJenisNarkotikaTerbanyak() {
+
+        return jenisNarkotikaTerbanyak;
+    }
+
+    public String[] getDistribusiPeran() {
+
+        return distribusiNarkoba;
+    }
+}
