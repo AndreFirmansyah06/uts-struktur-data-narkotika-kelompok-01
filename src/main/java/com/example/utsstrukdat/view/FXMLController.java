@@ -133,4 +133,107 @@ public class FXMLController {
         amountData();
     }
 
+    @FXML
+    public void initialize() {
+        // SETUP KOLOM
+        colCase.setCellValueFactory(cell ->
+                cell.getValue().caseIdProperty());
+        colNomorPerkara.setCellValueFactory(cell ->
+                cell.getValue().nomorPerkaraProperty());
+        colPengadilan.setCellValueFactory(cell ->
+                cell.getValue().pengadilanProperty());
+        colTanggalPutusan.setCellValueFactory(cell ->
+                cell.getValue().tanggalPutusanProperty());
+        colKodeTerdakwa.setCellValueFactory(cell ->
+                cell.getValue().terdakawaKodeProperty());
+        colJenisNarkotika.setCellValueFactory(cell ->
+                cell.getValue().jenisNarkotikaProperty());
+        colBeratBarangBukti.setCellValueFactory(cell ->
+                cell.getValue().beratBarangBuktiGramProperty().asObject());
+        colPasalDakwaan.setCellValueFactory(cell ->
+                cell.getValue().pasalDakwaanProperty());
+        colPasalTerbukti.setCellValueFactory(cell ->
+                cell.getValue().pasalTerbuktiProperty());
+        colTuntutanBulan.setCellValueFactory(cell ->
+                cell.getValue().tuntutanBulanProperty().asObject());
+        colVonisBulan.setCellValueFactory(cell ->
+                cell.getValue().vonisBulanProperty().asObject());
+        colDendaRupiah.setCellValueFactory(cell ->
+                cell.getValue().dendaRupiahProperty().asObject());
+        colBarangBukti.setCellValueFactory(cell ->
+                cell.getValue().BarangBuktiProperty());
+        colKeadaanMemberatkan.setCellValueFactory(cell ->
+                cell.getValue().keadaanMemberatkanProperty());
+        colKeadaanMeringankan.setCellValueFactory(cell ->
+                cell.getValue().keadaanMeringankanProperty());
+        colSourcePages.setCellValueFactory(cell ->
+                cell.getValue().sourcePagesProperty());
+
+
+        // EVENT UNTUK UPDATE (KLIK DATA DI TABEL DAN DATA AKAN MUNCUL DI FORM
+        tablePutusan.getSelectionModel().selectedItemProperty().addListener(
+                (obs, oldVal, newVal) -> {
+                    if (newVal != null) {
+                        txtCaseId.setText(newVal.getCaseId());
+                        txtNomorPerkara.setText(newVal.getNomorPerkara());
+                        txtPengadilan.setText(newVal.getPengadilan());
+                        txtTanggalPutusan.setValue(newVal.getTanggalPutusan());
+                        txtKodeTerdakwa.setText(newVal.getterdakawaKode());
+                        txtPasalDakwaan.setText(String.valueOf(newVal.getpasalDakwaan()));
+                        cmbJenisNarkotika.setValue(newVal.getJenisNarkotika());
+                        txtBeratBarangBukti.setText(String.valueOf(newVal.getBeratBarangBuktiGram()));
+                        txtPasalTerbukti.setText(newVal.getpasalTerbukti());
+                        txtTuntutanBulan.setText(String.valueOf(newVal.gettuntutanBulan()));
+                        txtVonisBulan.setText(String.valueOf(newVal.getVonisBulan()));
+                        txtDendaRupiah.setText(String.valueOf(newVal.getdendaRupiah()));
+                        txtBarangBukti.setText(String.valueOf(newVal.getBarangBukti()));
+                        txtKeadaanMemberatkan.setText(newVal.getkeadaanMemberatkan());
+                        txtKeadaanMeringankan.setText(newVal.getkeadaanMeringankan());
+                        txtSourcePages.setText(newVal.getSourcePages());
+                    }
+                }
+        );
+
+        tablePutusan.setItems(dataList);
+    }
+
+    @FXML
+    private void onTambahPutusan() {
+
+        String jenisNarkotika = cmbJenisNarkotika.getValue();
+
+        try {
+            controller.tambahPutusan(
+                    txtCaseId.getText(),
+                    txtNomorPerkara.getText(),
+                    txtPengadilan.getText(),
+                    txtTanggalPutusan.getValue(),
+                    txtKodeTerdakwa.getText(),
+                    txtBeratBarangBukti.getText(),
+                    jenisNarkotika,
+                    txtBarangBukti.getText(),
+                    txtPasalDakwaan.getText(),
+                    txtPasalTerbukti.getText(),
+                    txtTuntutanBulan.getText(),
+                    txtDendaRupiah.getText(),
+                    txtVonisBulan.getText(),
+                    txtKeadaanMeringankan.getText(),
+                    txtKeadaanMemberatkan.getText(),
+                    txtSourcePages.getText()
+            );
+
+            setStatus("");
+            showAlert(Alert.AlertType.INFORMATION, "Tambah Data Putusan", "Data Putusan Berhasil Ditambahkan");
+            onClearForm();
+            refreshTabel(controller.getSemuaPutusan());
+            amountData();
+            updateStatistik();
+            AuditLog();
+
+        } catch (Exception e) {
+            setStatus("");
+            showAlert(Alert.AlertType.WARNING, "Tambah Data Putusan", e.getMessage());
+        }
+    }
+
 }
