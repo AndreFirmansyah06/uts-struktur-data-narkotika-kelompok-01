@@ -130,3 +130,30 @@ public class KnowledgeRepository {
         // 3. Jika tidak ditemukan
         return false;
     }
+
+    public DynamicArray<Putusan> filterByVonisRange(int vonisMin, int vonisMax) {
+        DynamicArray<Putusan> hasil = new DynamicArray<>();
+
+        for (int i = 0; i < daftarPutusan.size(); i++) {
+            Putusan p = daftarPutusan.get(i);
+            int vonis = p.getVonisBulan();
+            if (vonis >= vonisMin && vonis <= vonisMax) {
+                hasil.add(p);
+            }
+        }
+        return hasil;
+    }
+
+    public DynamicArray<Putusan> filterByBB(double beratMin, double beratMax) {
+        DynamicArray<Putusan> hasil = new DynamicArray<>();
+
+        for (int i = 0; i < daftarPutusan.size(); i++) {
+            Putusan p = daftarPutusan.get(i);
+            double vonis = p.getBeratBarangBuktiGram();
+            if (vonis >= beratMin && vonis <= beratMax) {
+                hasil.add(p);
+            }
+        }
+        return hasil;
+    }
+}
