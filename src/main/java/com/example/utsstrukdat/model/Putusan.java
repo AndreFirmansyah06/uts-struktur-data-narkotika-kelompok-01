@@ -80,3 +80,244 @@ public class Putusan {
         return String.format("Nomor: %s | Terdakwa: %s | Vonis: %d bulan | Denda: Rp%.0f",
                 nomorPerkara.get(), terdakawaKode.get(), vonisBulan.get(), dendaRupiah.get());
     }
+
+
+    public String getCaseId() {
+
+        return caseId.get();
+    }
+
+    public void setCaseId(String caseId) {
+        this.nomorPerkara.set(caseId);
+    }
+
+    public SimpleStringProperty caseIdProperty() {
+
+        return caseId;
+    }
+
+    public String getNomorPerkara() {
+
+        return nomorPerkara.get();
+    }
+
+    public void setNomorPerkara(String nomorPerkara) {
+
+        this.nomorPerkara.set(nomorPerkara);
+    }
+
+    public SimpleStringProperty nomorPerkaraProperty() {
+
+        return nomorPerkara;
+    }
+
+    public String getPengadilan() {
+
+        return pengadilan.get();
+    }
+
+    public void setPengadilan(String pengadilan) {
+
+        this.pengadilan.set(pengadilan);
+    }
+
+    public SimpleStringProperty pengadilanProperty() {
+
+        return pengadilan;
+    }
+
+
+    public LocalDate getTanggalPutusan() {
+
+        return tanggalPutusan.get();
+    }
+
+    public void setTanggalPutusan(LocalDate tanggalPutusan) {
+
+        this.tanggalPutusan.set(tanggalPutusan);
+    }
+
+    public ObjectProperty<LocalDate> tanggalPutusanProperty() {
+
+        return tanggalPutusan;
+    }
+
+    public double getBeratBarangBuktiGram() {
+
+        return beratBarangBuktiGram.get();
+    }
+
+    public void setBeratBarangBuktiGram(double beratBarangBuktiGram) {
+        this.beratBarangBuktiGram.set(beratBarangBuktiGram);
+    }
+
+    public SimpleDoubleProperty beratBarangBuktiGramProperty() {
+
+        return beratBarangBuktiGram;
+    }
+
+    public String getterdakawaKode() {
+
+        return terdakawaKode.get();
+    }
+
+    public void setterdakawaKode(String terdakawaKode) {
+
+        this.terdakawaKode.set(terdakawaKode);
+    }
+
+    public SimpleStringProperty terdakawaKodeProperty() {
+
+        return terdakawaKode;
+    }
+
+
+    public int gettuntutanBulan() {
+
+        return tuntutanBulan.get();
+    }
+
+    public void settuntutanBulan(int tuntutanBulan) {
+
+        this.tuntutanBulan.set(tuntutanBulan);
+    }
+
+    public SimpleIntegerProperty tuntutanBulanProperty() {
+
+        return tuntutanBulan;
+    }
+
+    public String getJenisNarkotika() {
+
+        return jenisNarkotika.get();
+    }
+
+    public void setJenisNarkotika(String jenisNarkotika) {
+
+        this.jenisNarkotika.set(jenisNarkotika);
+    }
+
+    public SimpleStringProperty jenisNarkotikaProperty() {
+
+        return jenisNarkotika;
+    }
+
+    public String getBarangBukti() {
+
+        return barangBukti.get();
+    }
+
+    public void setBarangBukti(String barangBukti) {
+
+        this.barangBukti.set(barangBukti);
+    }
+
+    public SimpleStringProperty BarangBuktiProperty() {
+
+        return barangBukti;
+    }
+
+
+    public String getpasalTerbukti() {
+
+        return pasalTerbukti.get();
+    }
+
+    public void setpasalTerbukti(String pasalTerbukti) {
+
+        this.pasalTerbukti.set(pasalTerbukti);
+    }
+
+    public SimpleStringProperty pasalTerbuktiProperty() {
+
+        return pasalTerbukti;
+    }
+
+    public String getpasalDakwaan() {
+
+        return pasalDakwaan.get();
+    }
+
+    public void setpasalDakwaan(String pasalDakwaan) {
+
+        this.pasalDakwaan.set(pasalDakwaan);
+    }
+
+    public SimpleStringProperty pasalDakwaanProperty() {
+
+        return pasalDakwaan;
+    }
+
+    public int getVonisBulan() {
+
+        return vonisBulan.get();
+    }
+
+    public void setVonisBulan(int vonisBulan) {
+
+        this.vonisBulan.set(vonisBulan);
+    }
+
+    public SimpleIntegerProperty vonisBulanProperty() {
+
+        return vonisBulan;
+    }
+
+    public long getdendaRupiah() {
+
+        return dendaRupiah.get();
+    }
+
+    public void setdendaRupiah(long dendaRupiah) {
+
+        this.dendaRupiah.set(dendaRupiah);
+    }
+
+    public SimpleLongProperty dendaRupiahProperty() {
+
+        return dendaRupiah;
+    }
+
+    public String getkeadaanMemberatkan() {
+
+        return keadaanMemberatkan.get();
+    }
+
+    public void setkeadaanMemberatkan(String keadaanMemberatkan) {
+        this.keadaanMemberatkan.set(keadaanMemberatkan);
+    }
+
+    public SimpleStringProperty keadaanMemberatkanProperty() {
+
+        return keadaanMemberatkan;
+    }
+
+    public String getkeadaanMeringankan() {
+
+        return keadaanMeringankan.get();
+    }
+
+    public void setkeadaanMMeringankan(String keadaanMeringankan) {
+        this.keadaanMemberatkan.set(keadaanMeringankan);
+    }
+
+    public SimpleStringProperty keadaanMeringankanProperty() {
+
+        return keadaanMeringankan;
+    }
+
+    public String getSourcePages() {
+
+        return sourcePages.get();
+    }
+
+    public void setSourcePages(String sourcePages) {
+
+        this.sourcePages.set(sourcePages);
+    }
+
+    public SimpleStringProperty sourcePagesProperty() {
+
+        return sourcePages;
+    }
+}
