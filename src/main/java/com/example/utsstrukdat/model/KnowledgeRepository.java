@@ -96,3 +96,37 @@ public class KnowledgeRepository {
         }
         return hasil;
     }
+
+    public boolean update(String nomor, Putusan putusan) {
+        for (int i = 0; i < daftarPutusan.size(); i++) {
+            if (daftarPutusan.get(i).getNomorPerkara().equalsIgnoreCase(nomor)) {
+                daftarPutusan.set(i, putusan);
+                return true;
+            }
+        }
+        return false;
+    }
+
+
+    public boolean hapus(String nomor) {
+        int indexToRemove = -1;
+
+        // 1. Cari indeks dari data berdasarkan nomor
+        for (int i = 0; i < daftarPutusan.size(); i++) {
+            Putusan p = daftarPutusan.get(i);
+            // Pastikan 'getNomor()' disesuaikan dengan method getter di kelas Putusan Anda
+            if (p.getNomorPerkara().equals(nomor)) {
+                indexToRemove = i;
+                break;
+            }
+        }
+
+        // 2. Jika data ditemukan (indeks valid), hapus menggunakan method remove(int position)
+        if (indexToRemove != -1) {
+            daftarPutusan.remove(indexToRemove);
+            return true;
+        }
+
+        // 3. Jika tidak ditemukan
+        return false;
+    }
