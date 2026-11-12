@@ -70,3 +70,29 @@ public class KnowledgeRepository {
         }
         return hasil; // ini baru
     }
+
+    public DynamicArray<Putusan> getDaftarSemua() {
+
+        return this.daftarPutusan;
+    }
+
+    public int getTotalData() {
+
+        return daftarPutusan.size();
+    }
+
+    public DynamicArray<Putusan> filterByJenis(String jenis) {
+
+        if (jenis.equalsIgnoreCase("Semua")) {
+            return new DynamicArray<>();
+        }
+
+        DynamicArray<Putusan> hasil = new DynamicArray<>();
+        for (int i = 0; i < daftarPutusan.size(); i++) {
+            Putusan p = daftarPutusan.get(i);
+            if (p.getJenisNarkotika().equalsIgnoreCase(jenis)) {
+                hasil.add(p);
+            }
+        }
+        return hasil;
+    }
