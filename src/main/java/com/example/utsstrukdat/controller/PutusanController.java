@@ -18,7 +18,7 @@ public class PutusanController {
     private final KnowledgeRepository repository;
     private final ArrayStack<AuditLog> audit = new ArrayStack<>();
 
-    public KnowledgeController(KnowledgeRepository repository) {
+    public PutusanController(KnowledgeRepository repository) {
 
         this.repository = repository;
     }
