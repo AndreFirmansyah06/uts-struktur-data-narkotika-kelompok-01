@@ -139,4 +139,69 @@ public class PutusanController {
 
     }`
 
+    public DynamicArray<Putusan> cariPutusan(String keyword, String mode) {
+        if (keyword == null || keyword.isBlank() || mode == null) {
+            return new DynamicArray<>();
+        }
+
+        switch (mode.toLowerCase().trim()) {
+            case "nomor perkara":
+                return repository.cariByNomor(keyword); // ini baru
+
+            case "case id":
+                return repository.cariByCaseId(keyword); // ini baru - Langsung return DynamicArray
+
+            default:
+                return new DynamicArray<>();
+        }
+    }
+
+    //     FILTER DATA
+    public DynamicArray<Putusan> filterPutusan(String kriteria, String nilai) {
+        if (kriteria == null || nilai == null) {
+            return new DynamicArray<>();
+        }
+        switch (kriteria.toLowerCase()) {
+            case "jenis":
+                return repository.filterByJenis(nilai);
+//            case "pengadilan":
+//                return repository.filterByPengadilan(nilai);
+            default:
+                return new DynamicArray<>();
+        }
+    }
+
+    // GET DATA STATISTIK
+    public StatistikPutusan getStatistik() {
+
+        return new StatistikPutusan(repository.getDaftarSemua());
+    }
+
+    public void importData(File file) {
+        if (file == null) return;
+
+        try {
+            DynamicArray<Putusan> data = CSVFileHandler.bacaFile(file);
+
+            if (data == null) return;
+
+            // ini baru - Kunci ukuran batas awal sebelum looping berjalan
+            int totalDataBaru = data.size();
+            System.out.println("[DEBUG IMPORT] Memulai import " + totalDataBaru + " data...");
+
+            for (int i = 0; i < totalDataBaru; i++) { // ini baru - Gunakan variabel totalDataBaru
+                Putusan p = data.get(i);
+                if (p != null) {
+                    repository.simpan(p);
+                }
+            }
+            catat("Import Berhasil ", "");
+            System.out.println("[DEBUG IMPORT] Selesai mengimpor data.");
+        }
+        catch (Exception e) {
+            System.err.println("Gagal import: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+
 }
