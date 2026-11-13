@@ -443,4 +443,32 @@ public class FXMLController {
         refreshTabel(controller.getSemuaPutusan());
         setStatus("Menampilkan seluruh data putusan.");
     }
+
+    public void AuditLog(){
+        DynamicArray<String> log = controller.riwayat();
+        StringBuilder al = new StringBuilder();
+
+        for (int i = 0; i < log.size(); i++) {
+            al.append("• ").append(log.get(i)).append("\n");
+        }
+        txtAuditLog.setText(al.toString());
+    }
+
+    public void onClearForm() {
+        txtCaseId.clear();
+        txtNomorPerkara.clear();
+        txtTanggalPutusan.setValue(null);
+        txtKodeTerdakwa.clear();
+        txtBeratBarangBukti.clear();
+        txtPasalDakwaan.clear();
+        txtPasalTerbukti.clear();
+        txtTuntutanBulan.clear();
+        txtVonisBulan.clear();
+        txtDendaRupiah.clear();
+        txtBarangBukti.clear();
+        txtKeadaanMemberatkan.clear();
+        txtKeadaanMeringankan.clear();
+        txtSourcePages.clear();
+        cmbJenisNarkotika.setValue("Pilih Jenis Narkoba");
+    }
 }
