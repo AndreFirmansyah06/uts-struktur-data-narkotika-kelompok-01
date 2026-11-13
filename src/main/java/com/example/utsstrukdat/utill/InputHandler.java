@@ -15,3 +15,21 @@ public class InputHandler {
             throw new IllegalArgumentException(namaField + " harus berupa angka bulat yang valid!");
         }
     }
+
+    public static double validasiDouble(String value, String namaField) {
+        try {
+            return Double.parseDouble(value);
+        } catch (NumberFormatException e) {
+            throw new IllegalArgumentException(namaField + " harus berupa angka desimal yang valid!");
+        }
+    }
+
+    public static double validasiLong(String value, String namaField) {
+        try {
+            return Long.parseLong(value.trim());
+        } catch (NumberFormatException e) {
+            throw new IllegalArgumentException(namaField + " harus berupa angka long yang valid!");
+        }
+    }
+
+}
