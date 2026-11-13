@@ -1,4 +1,5 @@
-package com.example.utsstrukdat.utill;
+package com.example.utsstrukdat.util;
+import com.example.utsstrukdat.model.StrukturData;
 
 public class ArrayStack<T> implements StrukturData<T> {
     private Object[] data;

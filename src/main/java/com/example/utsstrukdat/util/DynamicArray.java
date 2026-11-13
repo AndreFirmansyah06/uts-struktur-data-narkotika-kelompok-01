@@ -1,4 +1,5 @@
-package com.example.utsstrukdat.utill;
+package com.example.utsstrukdat.util;
+import com.example.utsstrukdat.model.StrukturData;
 
 public class DynamicArray<T> implements StrukturData<T> {
     // ini baru - Hapus kata kunci 'static' agar tiap instance memiliki memori sendiri
