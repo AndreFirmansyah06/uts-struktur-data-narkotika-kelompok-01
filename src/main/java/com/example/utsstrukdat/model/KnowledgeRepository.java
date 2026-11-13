@@ -1,5 +1,7 @@
 package com.example.utsstrukdat.model;
 
+import com.example.utsstrukdat.util.DynamicArray;
+
 public class KnowledgeRepository {
 
     private DynamicArray<Putusan> daftarPutusan = new DynamicArray<>();

@@ -3,6 +3,8 @@ package com.example.utsstrukdat.model;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.example.utsstrukdat.util.DynamicArray;
+
 public class StatistikPutusan {
 
     private int totalPerkara;
