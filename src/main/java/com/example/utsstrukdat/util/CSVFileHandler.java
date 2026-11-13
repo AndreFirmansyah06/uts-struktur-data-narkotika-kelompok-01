@@ -1,6 +1,6 @@
 package com.example.utsstrukdat.util;
 
-import com.example.tugasbesarpbo.model.Putusan;
+import com.example.utsstrukdat.model.Putusan;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVPrinter;
