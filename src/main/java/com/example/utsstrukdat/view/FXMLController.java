@@ -236,4 +236,74 @@ public class FXMLController {
         }
     }
 
+    @FXML
+    private void onUpdatePutusan() {
+        String nomor = txtNomorPerkara.getText();
+        if (nomor == null || nomor.isBlank()) {
+            setStatus("Nomor perkara tidak boleh kosong saat update.");
+            return;
+        }
+        String jenisNarkotika = cmbJenisNarkotika.getValue();
+
+
+        try {
+            boolean berhasil = controller.updatePutusan(
+
+                    txtCaseId.getText(),
+                    nomor.trim(),
+                    txtPengadilan.getText(),
+                    txtTanggalPutusan.getValue(),
+                    txtKodeTerdakwa.getText(),
+                    txtBeratBarangBukti.getText(),
+                    jenisNarkotika,
+                    txtBarangBukti.getText(),
+                    txtPasalDakwaan.getText(),
+                    txtPasalTerbukti.getText(),
+                    txtVonisBulan.getText(),
+                    txtTuntutanBulan.getText(),
+                    txtDendaRupiah.getText(),
+                    txtKeadaanMeringankan.getText(),
+                    txtKeadaanMemberatkan.getText(),
+                    txtSourcePages.getText()
+            );
+            if (berhasil) {
+                showAlert(Alert.AlertType.INFORMATION, "Update Data Putusan", "Data Putusan Berhasil Diupdate");
+                setStatus("");
+                onClearForm();
+                refreshTabel(controller.getSemuaPutusan());
+//                amountData();
+                updateStatistik();
+                AuditLog();
+            } else {
+                setStatus("");
+                showAlert(Alert.AlertType.WARNING, "Update Data Putusan", "Data dengan nomor perkara " + nomor + " tersebut tidak ditemukan");
+            }
+        } catch (IllegalArgumentException e) {
+            setStatus(e.getMessage());
+            showAlert(Alert.AlertType.WARNING, "Update Data Putusan", "Pastikan kolom Umur, Berat, Vonis Hukuman, dan Denda berisi angka yang valid");
+        }
+    }
+
+    @FXML
+    private void onHapusPutusan() {
+        String nomor = txtNomorPerkara.getText();
+        if (nomor == null || nomor.isBlank()) {
+            setStatus("Pilih nomor perkara yang ingin dihapus.");
+            return;
+        }
+        boolean berhasil = controller.hapusPutusan(nomor.trim());
+        if (berhasil) {
+            setStatus("");
+            showAlert(Alert.AlertType.INFORMATION, "Hapus Data Putusan", "Data putusan nomor " + nomor + " berhasil dihapus");
+            onClearForm();
+            refreshTabel(controller.getSemuaPutusan());
+            amountData();
+            updateStatistik();
+            AuditLog();
+        } else {
+            setStatus("");
+            showAlert(Alert.AlertType.WARNING, "Hapus Data Putusan", "Data dengan nomor perkara tersebut tidak ditemukan");
+        }
+    }
+
 }
