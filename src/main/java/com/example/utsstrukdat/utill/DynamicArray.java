@@ -70,3 +70,34 @@ public class DynamicArray<T> implements StrukturData<T> {
         size = 0;
         validateInvariant();
     }
+
+
+    public void insert(int position, T value) {
+        if (position < 0 || position > size) {
+            throw new IndexOutOfBoundsException("Posisi indeks tidak valid: " + position);
+        }
+        ensureCapacity();
+
+        // ini baru - Perbaikan sintaks System.arraycopy
+        System.arraycopy(elements, position, elements, position + 1, size - position);
+
+        elements[position] = value;
+        size++;
+        validateInvariant();
+    }
+
+    public void set(int position, T value) {
+        checkIndex(position);
+        elements[position] = value;
+        validateInvariant();
+    }
+
+    public int search(T value) {
+        for (int i = 0; i < size; i++) {
+            if (value == null ? elements[i] == null : value.equals(elements[i])) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
