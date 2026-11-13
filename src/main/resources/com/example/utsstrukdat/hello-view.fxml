@@ -1,16 +1,275 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.utsstrukdat.HelloController">
+<?import javafx.scene.control.TextArea?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.utsstrukdat.view.FXMLController"
+            prefHeight="720.0" prefWidth="1280.0">
+
     <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+        <Insets top="10" right="10" bottom="10" left="10"/>
     </padding>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+    <!-- ================= TOP: HEADER ================= -->
+    <top>
+        <VBox spacing="2">
+            <padding>
+                <Insets top="0" right="0" bottom="10" left="0"/>
+            </padding>
+            <children>
+                <Label text="KNOWLEDGE MANAGEMENT SYSTEM"
+                       style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #2c3e50;"/>
+                <Label text="Putusan Pengadilan Narkotika"
+                       style="-fx-font-size: 14px; -fx-text-fill: #7f8c8d;"/>
+            </children>
+        </VBox>
+    </top>
+
+    <left>
+        <VBox spacing="6" prefWidth="300.0" minWidth="280.0" maxWidth="320.0"
+              style="-fx-background-color: #ecf0f1; -fx-background-radius: 5;">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <children>
+                <Label text="📋 Form Input Putusan" style="-fx-font-size: 14px; -fx-font-weight: bold;"/>
+
+                <TextField fx:id="txtCaseId" promptText="Contoh: 001"/>
+                <TextField fx:id="txtNomorPerkara" promptText="Contoh: 1001/Pid.Sus/2024/PN Sby"/>
+
+                <DatePicker fx:id="txtTanggalPutusan" promptText="DD-MM-YYYY" maxWidth="Infinity"/>
+                <TextField fx:id="txtKodeTerdakwa" promptText="Kode terdakwa"/>
+
+                <ComboBox fx:id="cmbJenisNarkotika" value="Pilih jenis narkotika" maxWidth="Infinity">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="Pilih jenis narkotika"/>
+                            <String fx:value="Sabu-sabu"/>
+                            <String fx:value="Ganja"/>
+                            <String fx:value="Ekstasi"/>
+                            <String fx:value="Heroin"/>
+                            <String fx:value="Kokain"/>
+                            <String fx:value="LSD"/>
+                            <String fx:value="Putaw"/>
+                        </FXCollections>
+                    </items>
+                </ComboBox>
+                <TextField fx:id="txtPengadilan" promptText="Pengadilan Negeri Malang"/>
+                <TextField fx:id="txtBeratBarangBukti" promptText="Berat Barang Bukti (gram)"/>
+                <TextField fx:id="txtPasalDakwaan" promptText="Contoh: Pasal 111 ayat (1)"/>
+                <TextField fx:id="txtPasalTerbukti" promptText="Contoh: Pasal 111 ayat (1)"/>
+                <TextField fx:id="txtTuntutanBulan" promptText="Lama hukuman (bulan)"/>
+                <TextField fx:id="txtVonisBulan" promptText="Lama hukuman (bulan)"/>
+                <TextField fx:id="txtDendaRupiah" promptText="Besaran Denda"/>
+                <TextField fx:id="txtBarangBukti" promptText="Nama barang bukti"/>
+                <TextField fx:id="txtKeadaanMemberatkan" promptText="Punya riwayat penyakit"/>
+                <TextField fx:id="txtKeadaanMeringankan" promptText="Punya riwayat penyakit"/>
+                <TextField fx:id="txtSourcePages" promptText="Halaman 21"/>
+
+                <HBox spacing="10">
+
+                    <children>
+
+                        <Button fx:id="btnTambah" text="Tambah Putusan" maxWidth="Infinity"
+
+                                style="-fx-background-color: #27ae60; -fx-text-fill: white; -fx-font-weight: bold;"
+
+                                onAction="#onTambahPutusan" HBox.hgrow="ALWAYS"/>
+
+                        <Button fx:id="btnUpdate" text="Update Putusan" maxWidth="Infinity"
+
+                                style="-fx-background-color: #204ef5; -fx-text-fill: white; -fx-font-weight: bold;"
+
+                                onAction="#onUpdatePutusan" HBox.hgrow="ALWAYS"/>
+
+
+                    </children>
+
+                </HBox>
+
+
+                <HBox spacing="10">
+
+                    <Button fx:id="btnHapus" text="Hapus Putusan" maxWidth="Infinity"
+
+                            style="-fx-background-color: #f01d0a; -fx-text-fill: white; -fx-font-weight: bold;"
+
+                            onAction="#onHapusPutusan" HBox.hgrow="ALWAYS"/>
+
+                    <Button fx:id="btnReset" text="Reset Form" maxWidth="Infinity"
+
+                            style="-fx-background-color: #f0710a; -fx-text-fill: white;"
+
+                            onAction="#onResetForm" HBox.hgrow="ALWAYS"/>
+
+                </HBox>
+
+
+            </children>
+
+            <Button fx:id="btnUploadFile" text="Upload File (.csv)" maxWidth="Infinity"
+
+                    style="-fx-background-color: #27ae60; -fx-text-fill: white;"
+
+                    onAction="#onUploadFile" HBox.hgrow="ALWAYS"/>
+
+        </VBox>
+
+    </left>
+    <center>
+        <VBox spacing="10" VBox.vgrow="ALWAYS">
+            <padding>
+                <Insets top="0" right="0" bottom="0" left="10"/>
+            </padding>
+            <children>
+                <!-- Baris Filter 1 -->
+                <HBox spacing="15" alignment="CENTER_LEFT">
+                    <children>
+                        <HBox spacing="8" alignment="CENTER_LEFT" HBox.hgrow="ALWAYS">
+                            <Label text="Cari:" style="-fx-font-weight: bold;"/>
+                            <ComboBox fx:id="cbSearchMode" value="Pilih" prefWidth="130">
+                                <items>
+                                    <FXCollections fx:factory="observableArrayList">
+                                        <String fx:value="Case ID"/>
+                                        <String fx:value="Nomor Perkara"/>
+                                    </FXCollections>
+                                </items>
+                            </ComboBox>
+                            <TextField fx:id="txtCari" promptText="Masukkan nomor perkara / case id"
+                                       HBox.hgrow="ALWAYS"/>
+                            <Button fx:id="btnCari" text="🔍 Cari" onAction="#onSearch"/>
+                        </HBox>
+
+
+
+                        <HBox spacing="8" alignment="CENTER_LEFT">
+                            <Label text="Jenis:"/>
+                            <ComboBox fx:id="cmbFilterJenis" value="Semua" prefWidth="120">
+                                <items>
+                                    <FXCollections fx:factory="observableArrayList">
+                                        <String fx:value="Semua"/>
+                                        <String fx:value="Sabu-sabu"/>
+                                        <String fx:value="Ganja"/>
+                                        <String fx:value="Ekstasi"/>
+                                        <String fx:value="Heroin"/>
+                                        <String fx:value="Kokain"/>
+                                        <String fx:value="LSD"/>
+                                        <String fx:value="Putaw"/>
+                                    </FXCollections>
+                                </items>
+                            </ComboBox>
+                            <Button fx:id="btnFilter" text="🔍 Filter" onAction="#onFilter"
+                                    style="-fx-background-color: #3498db; -fx-text-fill: white;"/>
+                        </HBox>
+                    </children>
+                </HBox>
+
+                <!-- Baris Filter 2 -->
+                <HBox spacing="10" alignment="CENTER_LEFT">
+                    <children>
+                        <Label text="Rentang Vonis (bulan):"/>
+                        <TextField fx:id="txtVonisMin" promptText="Min" prefWidth="70"/>
+                        <Label text="s/d"/>
+                        <TextField fx:id="txtVonisMax" promptText="Maks" prefWidth="70"/>
+                        <Button fx:id="btnFilterVonis" text="🔍 Filter Vonis" onAction="#onFilterVonis"
+                                style="-fx-background-color: #3498db; -fx-text-fill: white;"/>
+
+                    </children>
+                    <children>
+                        <Label text="Rentang BB:"/>
+                        <TextField fx:id="txtBeratMin" promptText="Min" prefWidth="70"/>
+                        <Label text="s/d"/>
+                        <TextField fx:id="txtBeratMax" promptText="Maks" prefWidth="70"/>
+                        <Button fx:id="" text="🔍 Filter BB" onAction="#onFilterBeratBarangBukti"
+                                style="-fx-background-color: #3498db; -fx-text-fill: white;"/>
+                        <Button fx:id="btnResetFilter" text="❌ Reset Filter" onAction="#onResetFilter"
+                                style="-fx-background-color: #95a5a6; -fx-text-fill: white;"/>
+                        <Button fx:id="btnExport" text="Ekspor CSV" onAction="#onEksporCSV"
+                                style="-fx-background-color: #95a5a6; -fx-text-fill: white;"/>
+                    </children>
+                </HBox>
+
+                <!-- Tabel Data (Mengisi sisa area vertikal secara dinamis) -->
+                <TableView fx:id="tablePutusan" VBox.vgrow="ALWAYS">
+                    <columnResizePolicy>
+                        <TableView fx:constant="UNCONSTRAINED_RESIZE_POLICY"/>
+                    </columnResizePolicy>
+                    <columns>
+                        <TableColumn fx:id="colCase" text="Case ID" prefWidth="100"/>
+                        <TableColumn fx:id="colNomorPerkara" text="Nomor Perkara" prefWidth="140"/>
+                        <TableColumn fx:id="colPengadilan" text="Pengadilan" prefWidth="110"/>
+                        <TableColumn fx:id="colTanggalPutusan" text="Tanggal Putusan" prefWidth="110"/>
+                        <TableColumn fx:id="colKodeTerdakwa" text="Kode Terdakwa" prefWidth="100"/>
+                        <TableColumn fx:id="colJenisNarkotika" text="Jenis Narkotika" prefWidth="110"/>
+                        <TableColumn fx:id="colBeratBarangBukti" text="Berat BB (gr)" prefWidth="90"/>
+                        <TableColumn fx:id="colPasalDakwaan" text="Pasal Dakwaan" prefWidth="120"/>
+                        <TableColumn fx:id="colPasalTerbukti" text="Pasal Terbukti" prefWidth="120"/>
+                        <TableColumn fx:id="colTuntutanBulan" text="Tuntutan (bln)" prefWidth="100"/>
+                        <TableColumn fx:id="colVonisBulan" text="Vonis (bln)" prefWidth="90"/>
+                        <TableColumn fx:id="colDendaRupiah" text="Denda" prefWidth="100"/>
+                        <TableColumn fx:id="colBarangBukti" text="Barang Bukti" prefWidth="120"/>
+                        <TableColumn fx:id="colKeadaanMemberatkan" text="Keadaan Memberatkan" prefWidth="140"/>
+                        <TableColumn fx:id="colKeadaanMeringankan" text="Keadaan Meringankan" prefWidth="140"/>
+                        <TableColumn fx:id="colSourcePages" text="Source Pages" prefWidth="100"/>
+                    </columns>
+                </TableView>
+
+                <Label fx:id="lblTotalData" text="Total: 0 data" style="-fx-font-weight: bold;"/>
+            </children>
+        </VBox>
+    </center>
+
+    <right>
+        <VBox spacing="10" prefWidth="250"
+              style="-fx-background-color: #ecf0f1; -fx-background-radius: 5;">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <children>
+                <Label text="📊 Statistik Ringkasan" style="-fx-font-size: 14px; -fx-font-weight: bold;"/>
+
+                <Label fx:id="lblTotalPutusan" text="Total Putusan: 0" maxWidth="Infinity"
+                       style="-fx-font-size: 12px; -fx-padding: 5px; -fx-background-color: white; -fx-background-radius: 3;"/>
+                <Label fx:id="lblRataRataVonis" text="Rata-rata Vonis: 0 bulan" maxWidth="Infinity"
+                       style="-fx-font-size: 12px; -fx-padding: 5px; -fx-background-color: white; -fx-background-radius: 3;"/>
+                <Label fx:id="lblRataRataDenda" text="Rata-rata Denda: Rp 0" maxWidth="Infinity"
+                       style="-fx-font-size: 12px; -fx-padding: 5px; -fx-background-color: white; -fx-background-radius: 3;"/>
+
+                <Label text="Distribusi Narkoba:" style="-fx-font-weight: bold;"/>
+                <TextArea fx:id="txtDistribusiPeran" editable="false" prefHeight="200"
+                          style="-fx-font-family: monospace;"/>
+                <Label text="Audit Log:" style="-fx-font-weight: bold;"/>
+                <TextArea fx:id="txtAuditLog" editable="false" prefHeight="200"
+                          style="-fx-font-family: monospace;"/>
+            </children>
+        </VBox>
+    </right>
+
+    <!-- ================= BOTTOM: STATUS BAR ================= -->
+    <bottom>
+        <HBox style="-fx-background-color: #34495e;">
+            <padding>
+                <Insets top="5" right="10" bottom="5" left="10"/>
+            </padding>
+            <children>
+                <Label fx:id="lblStatus" text="✅ Sistem siap. Silakan masukkan data putusan."
+                       style="-fx-text-fill: white;"/>
+            </children>
+        </HBox>
+    </bottom>
+
+</BorderPane>
