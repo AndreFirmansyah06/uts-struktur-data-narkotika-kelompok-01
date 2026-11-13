@@ -471,4 +471,91 @@ public class FXMLController {
         txtSourcePages.clear();
         cmbJenisNarkotika.setValue("Pilih Jenis Narkoba");
     }
+
+    @FXML
+    private void onUploadFile() {
+        try {
+            FileChooser chooser = new FileChooser();
+            chooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("CSV Files", "*.csv"));
+
+            Stage stage = (Stage) btnUploadFile.getScene().getWindow();
+            File file = chooser.showOpenDialog(stage);
+
+            if (file == null) return;
+
+            setStatus("Memproses import file CSV...");
+
+            new Thread(() -> {
+                // 1. Panggil importData di background thread
+                controller.importData(file);
+
+                // 2. Refresh UI di Platform.runLater
+                javafx.application.Platform.runLater(() -> {
+                    DynamicArray<Putusan> semuaData = controller.getSemuaPutusan();
+                    refreshTabel(semuaData);
+                    amountData();
+                    updateStatistik();
+                    setStatus("Berhasil mengimpor data. Total data saat ini: " + semuaData.size());
+                });
+            }).start();
+            AuditLog();
+
+        } catch (Exception e) {
+            setStatus("Gagal: " + e.getMessage());
+        }
+    }
+
+    @FXML
+    private void onResetForm() {
+        onClearForm();
+        setStatus("Form telah direset.");
+    }
+
+    @FXML
+    private void onEksporCSV() {
+        try {
+            // Mengambil seluruh data di repository (atau data yang sedang tampil)
+            DynamicArray<Putusan> dataToExport = controller.getSemuaPutusan();
+
+            if (dataToExport == null || dataToExport.isEmpty()) {
+                showAlert(Alert.AlertType.WARNING, "Ekspor CSV", "Tidak ada data yang tersedia untuk diekspor!");
+                return;
+            }
+
+            FileChooser chooser = new FileChooser();
+            chooser.setTitle("Simpan File CSV");
+            chooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("CSV Files (*.csv)", "*.csv"));
+            chooser.setInitialFileName("daftar_putusan_narkotika.csv");
+
+            Stage stage = (Stage) btnUploadFile.getScene().getWindow();
+            File file = chooser.showSaveDialog(stage);
+
+            if (file == null) {
+                return; // Pengguna membatalkan dialog simpan
+            }
+
+            setStatus("Mengekspor data ke file CSV...");
+
+            // Jalankan penulisan file di Background Thread
+            new Thread(() -> {
+                try {
+                    controller.eksporData(file, dataToExport);
+
+                    javafx.application.Platform.runLater(() -> {
+                        setStatus("Berhasil mengekspor " + dataToExport.size() + " data ke file CSV.");
+                        showAlert(Alert.AlertType.INFORMATION, "Ekspor CSV Berhasil",
+                                "Data berhasil disimpan ke:\n" + file.getAbsolutePath());
+                    });
+                } catch (Exception e) {
+                    javafx.application.Platform.runLater(() -> {
+                        setStatus("Gagal mengekspor CSV: " + e.getMessage());
+                        showAlert(Alert.AlertType.ERROR, "Ekspor CSV Gagal", e.getMessage());
+                    });
+                }
+            }).start();
+
+        } catch (Exception e) {
+            setStatus("Gagal: " + e.getMessage());
+        }
+    }
 }
