@@ -1,9 +1,6 @@
 package com.example.utsstrukdat.utill;
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.Reader;
+import java.io.*;
 import java.time.LocalDate;
 
 public class CSVFileHandler {
@@ -72,3 +69,43 @@ public class CSVFileHandler {
         System.out.println("[DEBUG CSV] Total baris CSV berhasil di-parse: " + daftar.size());
         return daftar;
     }
+
+    public static void eksporFile(File file, DynamicArray<Putusan> data) throws Exception {
+        CSVFormat format = CSVFormat.RFC4180.builder()
+                .setHeader(
+                        "case_id", "nomor_perkara", "pengadilan", "tanggal_putusan",
+                        "kode_terdakwa", "jenis_narkotika", "berat_barang_bukti",
+                        "pasal_dakwaan", "pasal_terbukti", "tuntutan_bulan",
+                        "vonis_bulan", "denda_rupiah", "barang_bukti",
+                        "keadaan_memberatkan", "keadaan_meringankan", "source_pages"
+                )
+                .build();
+
+        try (Writer writer = new FileWriter(file);
+             CSVPrinter csvPrinter = new CSVPrinter(writer, format)) {
+
+            for (int i = 0; i < data.size(); i++) {
+                Putusan p = data.get(i);
+                csvPrinter.printRecord(
+                        p.getCaseId(),
+                        p.getNomorPerkara(),
+                        p.getPengadilan(),
+                        p.getTanggalPutusan() != null ? p.getTanggalPutusan().toString() : "",
+                        p.getterdakawaKode(),
+                        p.getJenisNarkotika(),
+                        p.getBeratBarangBuktiGram(),
+                        p.getpasalDakwaan(),
+                        p.getpasalTerbukti(),
+                        p.gettuntutanBulan(),
+                        p.getVonisBulan(),
+                        p.getdendaRupiah(),
+                        p.getBarangBukti(),
+                        p.getkeadaanMemberatkan(),
+                        p.getkeadaanMeringankan(),
+                        p.getSourcePages()
+                );
+            }
+            csvPrinter.flush();
+        }
+    }
+}
