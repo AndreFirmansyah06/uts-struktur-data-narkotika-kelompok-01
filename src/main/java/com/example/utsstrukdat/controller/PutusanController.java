@@ -137,7 +137,7 @@ public class PutusanController {
         catat("Hapus", nomor);
         return repository.hapus(nomor);
 
-    }`
+    }
 
     public DynamicArray<Putusan> cariPutusan(String keyword, String mode) {
         if (keyword == null || keyword.isBlank() || mode == null) {
