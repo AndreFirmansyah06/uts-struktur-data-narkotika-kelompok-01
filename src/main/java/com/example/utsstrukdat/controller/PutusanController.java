@@ -204,4 +204,50 @@ public class PutusanController {
         }
     }
 
+    public DynamicArray<Putusan> filterByRentangVonis(String vonisMinStr, String vonisMaxStr) {
+        int vonisMin = InputHandler.validasiInt(vonisMinStr, "Vonis Minimal");
+        int vonisMax = InputHandler.validasiInt(vonisMaxStr, "Vonis Maksimal");
+
+        if (vonisMin > vonisMax) {
+            throw new IllegalArgumentException(
+                    "Vonis Minimal tidak boleh lebih besar dari Vonis Maksimal.");
+        }
+
+//        catat("Hapus", repository.filterByVonisRange(vonisMinStr,0).size());
+
+        return repository.filterByVonisRange(vonisMin, vonisMax);
+    }
+
+    //    // METHOD UNTUK FILTER Berat Barang Bukti
+    public DynamicArray<Putusan> filterByRentangBB(String beratMinStr, String beratMaxStr) {
+        double beratMin = InputHandler.validasiDouble(beratMinStr, "Berat Minimal");
+        double beratMax = InputHandler.validasiDouble(beratMaxStr, "Berat Maksimal");
+
+        if (beratMin > beratMax) {
+            throw new IllegalArgumentException(
+                    "Vonis Minimal tidak boleh lebih besar dari Vonis Maksimal.");
+        }
+
+        return repository.filterByBB(beratMin, beratMax);
+    }
+
+    // ini baru - Method untuk mengekspor data ke CSV lewat Controller
+    public void eksporData(File file, DynamicArray<Putusan> data) throws Exception {
+        if (file == null || data == null) return;
+        CSVFileHandler.eksporFile(file, data);
+    }
+
+    private void catat(String aksi, String detail) {
+        audit.push(new AuditLog(aksi, detail));
+    }
+
+    /**
+     * Riwayat dari yang terbaru, tanpa mengubah isi stack.
+     */
+    public DynamicArray<String> riwayat() {
+        DynamicArray<String> hasil = new DynamicArray<>();
+        for (int i = 0; i < audit.size(); i++) hasil.add(audit.get(i).toString());
+        return hasil;
+    }
+
 }
