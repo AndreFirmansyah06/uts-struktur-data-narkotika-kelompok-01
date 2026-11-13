@@ -44,3 +44,38 @@ public class ArrayStack<T> implements StrukturData<T> {
     @Override public void add(T v) {
         push(v);
     }
+
+    @Override
+    @SuppressWarnings("unchecked")
+    public T get(int pos) {
+        if (pos < 0 || pos >= top) throw new IndexOutOfBoundsException("Posisi " + pos);
+        return (T) data[top - 1 - pos];
+    }
+
+    @Override
+    public T remove(int pos) {
+        if (pos != 0) throw new UnsupportedOperationException("Stack hanya boleh menghapus elemen teratas");
+        return pop();
+    }
+
+    @Override public int size() { return top; }
+    @Override public boolean isEmpty() { return top == 0; }
+
+    @Override
+    public boolean contains(T v) {
+        for (int i = 0; i < top; i++) if (data[i] != null && data[i].equals(v)) return true;
+        return false;
+    }
+
+    @Override
+    public void clear() {
+        for (int i = 0; i < top; i++) data[i] = null;
+        top = 0;
+    }
+
+    public void validateInvariant() {
+        if (top < 0 || top > data.length) throw new IllegalStateException("top di luar kapasitas");
+        for (int i = top; i < data.length; i++)
+            if (data[i] != null) throw new IllegalStateException("slot di atas top tidak null: " + i);
+    }
+}
