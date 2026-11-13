@@ -78,7 +78,6 @@ public class DynamicArray<T> implements StrukturData<T> {
         }
         ensureCapacity();
 
-        // ini baru - Perbaikan sintaks System.arraycopy
         System.arraycopy(elements, position, elements, position + 1, size - position);
 
         elements[position] = value;
@@ -100,4 +99,42 @@ public class DynamicArray<T> implements StrukturData<T> {
         }
         return -1;
     }
+
+    private void ensureCapacity() {
+        if (size >= elements.length) {
+            int newCapacity = elements.length == 0 ? DEFAULT_CAPACITY : elements.length * 2;
+            Object[] newArray = new Object[newCapacity];
+            System.arraycopy(elements, 0, newArray, 0, elements.length);
+            elements = newArray;
+        }
+    }
+
+    private void checkIndex(int position) {
+        if (position < 0 || position >= size) {
+            throw new IndexOutOfBoundsException("Indeks: " + position + ", Ukuran: " + size);
+        }
+    }
+
+    public void validateInvariant() {
+        if (size < 0) {
+            throw new IllegalStateException("Invarian rusak: Ukuran negatif.");
+        }
+        if (elements == null) {
+            throw new IllegalStateException("Invarian rusak: Array null.");
+        }
+        if (size > elements.length) {
+            throw new IllegalStateException("Invarian rusak: Ukuran melebihi kapasitas.");
+        }
+        for (int i = size; i < elements.length; i++) {
+            if (elements[i] != null) {
+                throw new IllegalStateException("Invarian rusak: Ada elemen di luar size.");
+            }
+        }
+    }
+
+    public int capacity() {
+
+        return elements.length;
+    }
+}
 
