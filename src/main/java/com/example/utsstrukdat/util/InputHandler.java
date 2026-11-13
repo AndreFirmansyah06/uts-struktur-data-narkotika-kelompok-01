@@ -1,4 +1,4 @@
-package com.example.utsstrukdat.utill;
+package com.example.utsstrukdat.util;
 
 public class InputHandler {
     public static String validasiString(String value, String namaField) {

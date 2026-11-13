@@ -1,4 +1,4 @@
-package com.example.utsstrukdat.utill;
+package com.example.utsstrukdat.util;
 
 import java.time.LocalDateTime;
 
