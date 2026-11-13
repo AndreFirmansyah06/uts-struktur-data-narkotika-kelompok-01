@@ -8,7 +8,7 @@ import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import com.example.utsstrukdat.model.Putusan;
-import com.example.utsstrukdat.controller.KnowledgeController;
+import com.example.utsstrukdat.controller.PutusanController;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
@@ -123,11 +123,11 @@ public class FXMLController {
     private Label lblTotalData;
 
 
-    private KnowledgeController controller;
+    private PutusanController controller;
 
     private ObservableList<Putusan> dataList = FXCollections.observableArrayList();
 
-    public void setController(KnowledgeController controller) {
+    public void setController(PutusanController controller) {
         this.controller = controller;
         refreshTabel(controller.getSemuaPutusan());
         amountData();
