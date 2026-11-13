@@ -1,9 +1,9 @@
 package com.example.utsstrukdat.app;
 
-import com.example.tugasbesarpbo.controller.KnowledgeController;
-import com.example.tugasbesarpbo.model.KnowledgeRepository;
-import com.example.tugasbesarpbo.model.Putusan;
-import com.example.tugasbesarpbo.view.FXMLController;
+import com.example.utsstrukdat.controller.PutusanController;
+import com.example.utsstrukdat.model.KnowledgeRepository;
+import com.example.utsstrukdat.model.Putusan;
+import com.example.utsstrukdat.view.FXMLController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class Main {
     private static final KnowledgeRepository repository = new KnowledgeRepository();
-    private static final KnowledgeController controller = new KnowledgeController(repository);
+    private static final PutusanController controller = new PutusanController(repository);
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("/com/example/utsstrukdat/hello-view.fxml"));
