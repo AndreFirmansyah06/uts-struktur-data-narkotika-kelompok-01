@@ -1,4 +1,17 @@
 package com.example.utsstrukdat.utill;
 
 public class InputHandler {
-}
+    public static String validasiString(String value, String namaField) {
+        if (value == null || value.isBlank()) {
+            throw new IllegalArgumentException(namaField + " wajib diisi!");
+        }
+        return value.trim();
+    }
+
+    public static int validasiInt(String value, String namaField) {
+        try {
+            return Integer.parseInt(value.trim());
+        } catch (NumberFormatException e) {
+            throw new IllegalArgumentException(namaField + " harus berupa angka bulat yang valid!");
+        }
+    }
