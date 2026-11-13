@@ -306,4 +306,56 @@ public class FXMLController {
         }
     }
 
+    public void setStatus(String pesan) {
+        lblStatus.setText(pesan);
+    }
+
+    public void showAlert(Alert.AlertType type, String title, String content) {
+        Alert alert = new Alert(type);
+        alert.setTitle(title);
+        alert.setHeaderText(null);
+        alert.setContentText(content);
+        alert.showAndWait();
+    }
+
+    private void refreshTabel(DynamicArray<Putusan> data) {
+        ObservableList<Putusan> list = FXCollections.observableArrayList(); // ini baru
+
+        if (data != null) {
+            for (int i = 0; i < data.size(); i++) {
+                list.add(data.get(i)); // ini baru - Masukkan elemen dari DynamicArray ke ObservableList
+            }
+        }
+
+        tablePutusan.setItems(list); // ini baru - Ikat daftar terbaru ke TableView
+        tablePutusan.refresh(); // ini baru - Paksa JavaFX menggambar ulang baris tabel
+    }
+
+
+    private void amountData() {
+        lblTotalData.setText("Total: " + controller.getTotalDataPutusan() + " data");
+    }
+
+    public void updateStatistik() {
+        StatistikPutusan stat = controller.getStatistik();
+
+        lblTotalPutusan.setText(
+                "Total Perkara : " + stat.getTotalPerkara());
+
+        lblRataRataVonis.setText(
+                String.format("Rata-rata Vonis : %.0f bulan",
+                        stat.getRataRataVonis()));
+
+        lblRataRataDenda.setText(
+                String.format("Total Denda : Rp %.2f ",
+                        stat.getTotalDenda()));
+
+        StringBuilder sb = new StringBuilder();
+
+        for (String s : stat.getDistribusiPeran()) {
+            sb.append("• ").append(s).append("\n");
+        }
+
+        txtDistribusiPeran.setText(sb.toString());
+    }
 }
