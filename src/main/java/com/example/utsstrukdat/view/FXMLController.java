@@ -358,4 +358,89 @@ public class FXMLController {
 
         txtDistribusiPeran.setText(sb.toString());
     }
+
+    @FXML
+    private void onSearch() {
+        String keyword = txtCari.getText();
+        String mode = cbSearchMode.getValue();
+
+        // ini baru - Jika kotak pencarian kosong, tampilkan kembali seluruh data
+        if (keyword == null || keyword.trim().isEmpty()) {
+            DynamicArray<Putusan> semuaData = controller.getSemuaPutusan(); // atau repository.getDaftarPutusan() // ini baru
+            refreshTabel(semuaData);
+            setStatus("Menampilkan semua data putusan (" + semuaData.size() + " data)."); // ini baru
+            return; // ini baru
+        }
+
+        System.out.println("Keyword : " + keyword + " | Mode: " + mode);
+        DynamicArray<Putusan> hasil = controller.cariPutusan(keyword, mode);
+        System.out.println("Ukuran Hasil" + hasil.size());
+        refreshTabel(hasil);
+        setStatus("Ditemukan " + hasil.size() + " data untuk pencarian \"" + keyword + "\".");
+    }
+
+    @FXML
+    private void onFilter() {
+
+        String jenis = cmbFilterJenis.getValue();
+
+        String kategori;
+        String keyword;
+
+        if (jenis != null) {
+            kategori = "jenis";
+            keyword = jenis;
+        }  else {
+            setStatus("Pilih filter terlebih dahulu.");
+            return;
+        }
+
+        DynamicArray<Putusan> hasil = controller.filterPutusan(kategori, keyword);
+
+        refreshTabel(hasil);
+        setStatus("Ditemukan " + hasil.size() + " data.");
+    }
+
+    @FXML
+    private void onFilterVonis() {
+        try {
+            DynamicArray<Putusan> hasil = controller.filterByRentangVonis(
+                    txtVonisMin.getText(),
+                    txtVonisMax.getText()
+            );
+            refreshTabel(hasil);
+            setStatus("Filter vonis diterapkan: " + hasil.size() + " data ditemukan.");
+        } catch (IllegalArgumentException e) {
+            setStatus(e.getMessage());
+        }
+    }
+
+    @FXML
+    private void onFilterBeratBarangBukti() {
+        try {
+            DynamicArray<Putusan> hasil = controller.filterByRentangBB(
+                    txtBeratMin.getText(),
+                    txtBeratMax.getText()
+            );
+            refreshTabel(hasil);
+            setStatus("Rentang Berat Barang Bukti Yang Diterapkan: " + hasil.size() + " data ditemukan.");
+        } catch (IllegalArgumentException e) {
+            setStatus(e.getMessage());
+        }
+    }
+
+
+
+    @FXML
+    private void onResetFilter() {
+        txtCari.clear();
+        txtVonisMin.clear();
+        txtVonisMax.clear();
+        txtBeratMax.clear();
+        txtBeratMin.clear();
+        cmbFilterJenis.setValue("Semua");
+        cbSearchMode.setValue("Pilih");
+        refreshTabel(controller.getSemuaPutusan());
+        setStatus("Menampilkan seluruh data putusan.");
+    }
 }
