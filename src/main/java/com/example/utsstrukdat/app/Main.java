@@ -10,7 +10,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import java.io.IOException;
 
-public class Main {
+public class Main extends Application{
     private static final KnowledgeRepository repository = new KnowledgeRepository();
     private static final PutusanController controller = new PutusanController(repository);
     @Override
