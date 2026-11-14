@@ -1,0 +1,816 @@
+case_id,field_name,value,source_file,source_page,extractor,reviewer,status
+P001,nomorPerkara,65/Pid.Sus/2026/PN.Mlg,putusan_65_pid.sus_2026_pn_mlg_20261101170936.pdf,1,Reza,Andre,verified
+P001,pengadilan,Pengadilan Negeri Malang,putusan_65_pid.sus_2026_pn_mlg_20261101170936.pdf,1,Reza,Andre,verified
+P001,tanggalPutusan,2026-05-04,putusan_65_pid.sus_2026_pn_mlg_20261101170936.pdf,23,Reza,Andre,verified
+P001,terdakwaKode,T001_DAP,putusan_65_pid.sus_2026_pn_mlg_20261101170936.pdf,1,Reza,Andre,verified
+P001,jenisNarkotika,""MDMA (Inex/Ekstasi), Metamfetamina (Sabu), Triheksifenidil HCl (Pil Double L)"",putusan_65_pid.sus_2026_pn_mlg_20261101170936.pdf,2,Reza,Andre,verified"
+P001,beratBarangBuktiGram,0.45,putusan_65_pid.sus_2026_pn_mlg_20261101170936.pdf,18,Reza,Andre,verified
+P001,pasalDakwaan,Pasal 114 ayat (1) UU No. 35/2009 jo. UU No. 1/2026 & Pasal 435 UU No. 17/2023,putusan_65_pid.sus_2026_pn_mlg_20261101170936.pdf,2,Reza,Andre,verified
+P001,pasalTerbukti,Pasal 114 ayat (1) UU No. 35 Tangan 2009 tentang Narkotika jo. UU No. 1 Tahun 2026,putusan_65_pid.sus_2026_pn_mlg_20261101170936.pdf,21,Reza,Andre,verified
+P001,tuntutanBulan,66,putusan_65_pid.sus_2026_pn_mlg_20261101170936.pdf,17,Reza,Andre,verified
+P001,vonisBulan,60,putusan_65_pid.sus_2026_pn_mlg_20261101170936.pdf,23,Reza,Andre,verified
+P001,dendaRupiah,600000000,putusan_65_pid.sus_2026_pn_mlg_20261101170936.pdf,23,Reza,Andre,verified
+P001,barangBukti,""1 plastik klip berisi 2 butir tablet/inex (0,2 gram), 1 klip sabu (0,25 gram), 20 botol pil logo 'Y' (20.000 butir), 1 HP iPhone XR, 1 tas selempang"",putusan_65_pid.sus_2026_pn_mlg_20261101170936.pdf,18,Reza,Andre,verified"
+P001,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program Pemerintah dalam pemberantasan peredaran gelap narkotika dan obat-obatan terlarang,putusan_65_pid.sus_2026_pn_mlg_20261101170936.pdf,22,Reza,Andre,verified
+P001,keadaanMeringankan,""Terdakwa bersikap sopan di persidangan, menyesali perbuatannya, dan belum pernah dihukum"",putusan_65_pid.sus_2026_pn_mlg_20261101170936.pdf,22,Reza,Andre,verified"
+P001,sourcePages,""1-2 (Identitas), 2-4 (Dakwaan), 18-20 (BB), 21-22 (Pertimbangan), 23-24 (Vonis)"",putusan_65_pid.sus_2026_pn_mlg_20261101170936.pdf,1-24,Reza,Andre,verified"
+
+P002,nomorPerkara,70/Pid.Sus/2026/PN Mlg,putusan_70_pid.sus_2026_pn_mlg_20261029141717.pdf,1,Reza,Andre,verified
+P002,pengadilan,Pengadilan Negeri Malang,putusan_70_pid.sus_2026_pn_mlg_20261029141717.pdf,1,Reza,Andre,verified
+P002,tanggalPutusan,2026-04-27,putusan_70_pid.sus_2026_pn_mlg_20261029141717.pdf,25,Reza,Andre,verified
+P002,terdakwaKode,T002_HA,putusan_70_pid.sus_2026_pn_mlg_20261029141717.pdf,1,Reza,Andre,verified
+P002,jenisNarkotika,""Metamfetamina (Sabu), Ganja"",putusan_70_pid.sus_2026_pn_mlg_20261029141717.pdf,3,Reza,Andre,verified"
+P002,beratBarangBuktiGram,12.2,putusan_70_pid.sus_2026_pn_mlg_20261029141717.pdf,19,Reza,Andre,verified
+P002,pasalDakwaan,Pasal 114 ayat (2) UU No. 35/2009 jo. UU No. 1/2023 jo. UU No. 1/2026 & Pasal 111 ayat (1) UU No. 35/2009,putusan_70_pid.sus_2026_pn_mlg_20261029141717.pdf,3,Reza,Andre,verified
+P002,pasalTerbukti,Pasal 114 ayat (2) UU No. 35 Tahun 2009 tentang Narkotika jo. UU No. 1 Tahun 2023 jo. UU No. 1 Tahun 2026,putusan_70_pid.sus_2026_pn_mlg_20261029141717.pdf,22,Reza,Andre,verified
+P002,tuntutanBulan,96,putusan_70_pid.sus_2026_pn_mlg_20261029141717.pdf,18,Reza,Andre,verified
+P002,vonisBulan,84,putusan_70_pid.sus_2026_pn_mlg_20261029141717.pdf,25,Reza,Andre,verified
+P002,dendaRupiah,1000000000,putusan_70_pid.sus_2026_pn_mlg_20261029141717.pdf,25,Reza,Andre,verified
+P002,barangBukti,""13 plastik klip sabu (bersih 9,03 gram), 1 kantong kertas berisi ganja (bersih 3,17 gram), 1 timbangan digital, 1 HP Redmi Note 9"",putusan_70_pid.sus_2026_pn_mlg_20261029141717.pdf,19,Reza,Andre,verified"
+P002,keadaanMemberatkan,Perbuatan Terdakwa meresahkan masyarakat dan tidak mendukung program Pemerintah dalam pemberantasan narkotika,putusan_70_pid.sus_2026_pn_mlg_20261029141717.pdf,24,Reza,Andre,verified
+P002,keadaanMeringankan,""Terdakwa mengaku berterus terang, bersikap sopan, dan berjanji tidak akan mengulangi perbuatannya"",putusan_70_pid.sus_2026_pn_mlg_20261029141717.pdf,24,Reza,Andre,verified"
+P002,sourcePages,""1-2 (Identitas), 3-5 (Dakwaan), 19-21 (BB), 22-24 (Pertimbangan), 25 (Vonis)"",putusan_70_pid.sus_2026_pn_mlg_20261029141717.pdf,1-25,Reza,Andre,verified"
+
+P003,nomorPerkara,111/Pid.Sus/2026/PN Mlg,putusan_111_pid.sus_2026_pn_mlg_20261031142006.pdf,1,Reza,Andre,verified
+P003,pengadilan,Pengadilan Negeri Malang,putusan_111_pid.sus_2026_pn_mlg_20261031142006.pdf,1,Reza,Andre,verified
+P003,tanggalPutusan,2026-07-06,putusan_111_pid.sus_2026_pn_mlg_20261031142006.pdf,21,Reza,Andre,verified
+P003,terdakwaKode,T003_VPA,putusan_111_pid.sus_2026_pn_mlg_20261031142006.pdf,1,Reza,Andre,verified
+P003,jenisNarkotika,""Metamfetamina (Sabu), Ganja"",putusan_111_pid.sus_2026_pn_mlg_20261031142006.pdf,2,Reza,Andre,verified"
+P003,beratBarangBuktiGram,5.16,putusan_111_pid.sus_2026_pn_mlg_20261031142006.pdf,16,Reza,Andre,verified
+P003,pasalDakwaan,Pasal 114 ayat (1) UU No. 35/2009 jo. UU No. 1/2023 jo. UU No. 1/2026 & Pasal 111 ayat (1) UU No. 35/2009,putusan_111_pid.sus_2026_pn_mlg_20261031142006.pdf,2,Reza,Andre,verified
+P003,pasalTerbukti,Pasal 114 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika jo. UU No. 1 Tahun 2023 jo. UU No. 1 Tahun 2026,putusan_111_pid.sus_2026_pn_mlg_20261031142006.pdf,19,Reza,Andre,verified
+P003,tuntutanBulan,72,putusan_111_pid.sus_2026_pn_mlg_20261031142006.pdf,15,Reza,Andre,verified
+P003,vonisBulan,60,putusan_111_pid.sus_2026_pn_mlg_20261031142006.pdf,21,Reza,Andre,verified
+P003,dendaRupiah,600000000,putusan_111_pid.sus_2026_pn_mlg_20261031142006.pdf,21,Reza,Andre,verified
+P003,barangBukti,""11 paket sabu (bersih 4,82 gram), 1 bungkus ganja (bersih 0,34 gram), 1 timbangan digital, 1 HP Poco X3"",putusan_111_pid.sus_2026_pn_mlg_20261031142006.pdf,16,Reza,Andre,verified"
+P003,keadaanMemberatkan,Perbuatan Terdakwa bertentangan dengan upaya pemerintah dalam memberantas peredaran gelap narkotika,putusan_111_pid.sus_2026_pn_mlg_20261031142006.pdf,20,Reza,Andre,verified
+P003,keadaanMeringankan,""Terdakwa berusia muda, bersikap sopan selama persidangan, dan mengakui perbuatannya secara jujur"",putusan_111_pid.sus_2026_pn_mlg_20261031142006.pdf,20,Reza,Andre,verified"
+P003,sourcePages,""1-2 (Identitas), 2-4 (Dakwaan), 16-18 (BB), 19-20 (Pertimbangan), 21 (Vonis)"",putusan_111_pid.sus_2026_pn_mlg_20261031142006.pdf,1-21,Reza,Andre,verified"
+
+P004,nomorPerkara,116/Pid.Sus/2026/PN Mlg,putusan_116_pid.sus_2026_pn_mlg_20261031141630.pdf,1,Reza,Andre,verified
+P004,pengadilan,Pengadilan Negeri Malang,putusan_116_pid.sus_2026_pn_mlg_20261031141630.pdf,1,Reza,Andre,verified
+P004,tanggalPutusan,2026-07-15,putusan_116_pid.sus_2026_pn_mlg_20261031141630.pdf,20,Reza,Andre,verified
+P004,terdakwaKode,T004_SA,putusan_116_pid.sus_2026_pn_mlg_20261031141630.pdf,1,Reza,Andre,verified
+P004,jenisNarkotika,Metamfetamina (Sabu),putusan_116_pid.sus_2026_pn_mlg_20261031141630.pdf,3,Reza,Andre,verified
+P004,beratBarangBuktiGram,41.75,putusan_116_pid.sus_2026_pn_mlg_20261031141630.pdf,15,Reza,Andre,verified
+P004,pasalDakwaan,Pasal 114 ayat (2) UU No. 35/2009 jo. UU No. 1/2023 jo. UU No. 1/2026,putusan_116_pid.sus_2026_pn_mlg_20261031141630.pdf,3,Reza,Andre,verified
+P004,pasalTerbukti,Pasal 114 ayat (2) UU No. 35 Tahun 2009 tentang Narkotika jo. UU No. 1 Tahun 2023 jo. UU No. 1 Tahun 2026,putusan_116_pid.sus_2026_pn_mlg_20261031141630.pdf,18,Reza,Andre,verified
+P004,tuntutanBulan,120,putusan_116_pid.sus_2026_pn_mlg_20261031141630.pdf,14,Reza,Andre,verified
+P004,vonisBulan,108,putusan_116_pid.sus_2026_pn_mlg_20261031141630.pdf,20,Reza,Andre,verified
+P004,dendaRupiah,75000000,putusan_116_pid.sus_2026_pn_mlg_20261031141630.pdf,20,Reza,Andre,verified
+P004,barangBukti,""1 plastik klip besar sabu (bersih 41,75 gram), 1 timbangan elektrik, 1 HP Samsung A12, isolasi hitam"",putusan_116_pid.sus_2026_pn_mlg_20261031141630.pdf,15,Reza,Andre,verified"
+P004,keadaanMemberatkan,""Jumlah barang bukti sabu relatif banyak (41,75 gram) dan perbuatan Terdakwa merusak generasi muda"",putusan_116_pid.sus_2026_pn_mlg_20261031141630.pdf,19,Reza,Andre,verified"
+P004,keadaanMeringankan,""Terdakwa menyesali perbuatannya, kooperatif, serta memiliki tanggungan keluarga"",putusan_116_pid.sus_2026_pn_mlg_20261031141630.pdf,19,Reza,Andre,verified"
+P004,sourcePages,""1-2 (Identitas), 3-5 (Dakwaan), 15-17 (BB), 18-19 (Pertimbangan), 20 (Vonis)"",putusan_116_pid.sus_2026_pn_mlg_20261031141630.pdf,1-20,Reza,Andre,verified"
+
+P005,nomorPerkara,122/Pid.Sus/2026/PN Mlg,putusan_122_pid.sus_2026_pn_mlg_20261031123105.pdf,1,Reza,Andre,verified
+P005,pengadilan,Pengadilan Negeri Malang,putusan_122_pid.sus_2026_pn_mlg_20261031123105.pdf,1,Reza,Andre,verified
+P005,tanggalPutusan,2026-07-18,putusan_122_pid.sus_2026_pn_mlg_20261031123105.pdf,19,Reza,Andre,verified
+P005,terdakwaKode,T005_AWAA,putusan_122_pid.sus_2026_pn_mlg_20261031123105.pdf,1,Reza,Andre,verified
+P005,jenisNarkotika,Metamfetamina (Sabu),putusan_122_pid.sus_2026_pn_mlg_20261031123105.pdf,2,Reza,Andre,verified
+P005,beratBarangBuktiGram,13.72,putusan_122_pid.sus_2026_pn_mlg_20261031123105.pdf,14,Reza,Andre,verified
+P005,pasalDakwaan,Pasal 114 ayat (2) UU No. 35/2009 jo. UU No. 1/2026,putusan_122_pid.sus_2026_pn_mlg_20261031123105.pdf,2,Reza,Andre,verified
+P005,pasalTerbukti,Pasal 114 ayat (2) UU No. 35 Tahun 2009 tentang Narkotika jo. UU No. 1 Tahun 2026,putusan_122_pid.sus_2026_pn_mlg_20261031123105.pdf,17,Reza,Andre,verified
+P005,tuntutanBulan,120,putusan_122_pid.sus_2026_pn_mlg_20261031123105.pdf,13,Reza,Andre,verified
+P005,vonisBulan,120,putusan_122_pid.sus_2026_pn_mlg_20261031123105.pdf,19,Reza,Andre,verified
+P005,dendaRupiah,50000000,putusan_122_pid.sus_2026_pn_mlg_20261031123105.pdf,19,Reza,Andre,verified
+P005,barangBukti,""2 bungkus sabu (bersih 7,97 gram dan 5,75 gram), 1 HP Oppo A54, lakban cokelat, tas pinggang"",putusan_122_pid.sus_2026_pn_mlg_20261031123105.pdf,14,Reza,Andre,verified"
+P005,keadaanMemberatkan,Terdakwa terlibat dalam jaringan peredaran narkotika skala sedang dan meresahkan masyarakat,putusan_122_pid.sus_2026_pn_mlg_20261031123105.pdf,18,Reza,Andre,verified
+P005,keadaanMeringankan,Terdakwa bersikap sopan di persidangan dan berterus terang,putusan_122_pid.sus_2026_pn_mlg_20261031123105.pdf,18,Reza,Andre,verified
+P005,sourcePages,""1-2 (Identitas), 2-4 (Dakwaan), 14-16 (BB), 17-18 (Pertimbangan), 19 (Vonis)"",putusan_122_pid.sus_2026_pn_mlg_20261031123105.pdf,1-19,Reza,Andre,verified"
+
+P006,nomorPerkara,131/Pid.Sus/2026/PN Mlg,putusan_131_pid.sus_2026_pn_mlg_20261031141602.pdf,1,Reza,Andre,verified
+P006,pengadilan,Pengadilan Negeri Malang,putusan_131_pid.sus_2026_pn_mlg_20261031141602.pdf,1,Reza,Andre,verified
+P006,tanggalPutusan,2026-07-15,putusan_131_pid.sus_2026_pn_mlg_20261031141602.pdf,16,Reza,Andre,verified
+P006,terdakwaKode,T006_SMF,putusan_131_pid.sus_2026_pn_mlg_20261031141602.pdf,1,Reza,Andre,verified
+P006,jenisNarkotika,Ganja,putusan_131_pid.sus_2026_pn_mlg_20261031141602.pdf,2,Reza,Andre,verified
+P006,beratBarangBuktiGram,164.47,putusan_131_pid.sus_2026_pn_mlg_20261031141602.pdf,9,Reza,Andre,verified
+P006,pasalDakwaan,Pasal 114 ayat (1) UU No. 35/2009 jo. Pasal II ayat (11) UU No. 1/2026 ATAU Pasal 111 ayat (1) UU No. 35/2009,putusan_131_pid.sus_2026_pn_mlg_20261031141602.pdf,2,Reza,Andre,verified
+P006,pasalTerbukti,Pasal 114 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika jo. Pasal II ayat (11) UU No. 1 Tahun 2026,putusan_131_pid.sus_2026_pn_mlg_20261031141602.pdf,14,Reza,Andre,verified
+P006,tuntutanBulan,60,putusan_131_pid.sus_2026_pn_mlg_20261031141602.pdf,10,Reza,Andre,verified
+P006,vonisBulan,60,putusan_131_pid.sus_2026_pn_mlg_20261031141602.pdf,15,Reza,Andre,verified
+P006,dendaRupiah,600000000,putusan_131_pid.sus_2026_pn_mlg_20261031141602.pdf,15,Reza,Andre,verified
+P006,barangBukti,""4 bungkus plastik klip ganja (63,33 gram), 1 kardus kecil ganja (101,14 gram), 1 HP iPhone warna emas, 1 timbangan digital"",putusan_131_pid.sus_2026_pn_mlg_20261031141602.pdf,9,Reza,Andre,verified"
+P006,keadaanMemberatkan,Perbuatan Terdakwa tidak mendukung program pemerintah dalam pemberantasan tindak pidana narkotika,putusan_131_pid.sus_2026_pn_mlg_20261031141602.pdf,15,Reza,Andre,verified
+P006,keadaanMeringankan,""Terdakwa belum pernah dihukum, menyesali perbuatannya, dan masih berusia muda"",putusan_131_pid.sus_2026_pn_mlg_20261031141602.pdf,15,Reza,Andre,verified"
+P006,sourcePages,""1 (Identitas), 2-5 (Dakwaan), 9 (BB), 11-14 (Pertimbangan), 15-16 (Vonis)"",putusan_131_pid.sus_2026_pn_mlg_20261031141602.pdf,1-16,Reza,Andre,verified"
+
+P007,nomorPerkara,139/Pid.Sus/2026/PN Mlg,putusan_139_pid.sus_2026_pn_mlg_20261031123440.pdf,1,Reza,Andre,verified
+P007,pengadilan,Pengadilan Negeri Malang,putusan_139_pid.sus_2026_pn_mlg_20261031123440.pdf,1,Reza,Andre,verified
+P007,tanggalPutusan,2026-07-13,putusan_139_pid.sus_2026_pn_mlg_20261031123440.pdf,17,Reza,Andre,verified
+P007,terdakwaKode,T007_FMI,putusan_139_pid.sus_2026_pn_mlg_20261031123440.pdf,1,Reza,Andre,verified
+P007,jenisNarkotika,Metamfetamina (Sabu),putusan_139_pid.sus_2026_pn_mlg_20261031123440.pdf,2,Reza,Andre,verified
+P007,beratBarangBuktiGram,0.22,putusan_139_pid.sus_2026_pn_mlg_20261031123440.pdf,9,Reza,Andre,verified
+P007,pasalDakwaan,Pasal 114 ayat (1) UU No. 35/2009 jo. UU No. 1/2023 jo. UU No. 1/2026 ATAU Pasal 609 ayat (1) huruf a UU No. 1/2023,putusan_139_pid.sus_2026_pn_mlg_20261031123440.pdf,2,Reza,Andre,verified
+P007,pasalTerbukti,Pasal 609 ayat (1) huruf a UU No. 1 Tahun 2023 tentang KUHP jo. UU No. 1 Tahun 2026,putusan_139_pid.sus_2026_pn_mlg_20261031123440.pdf,14,Reza,Andre,verified
+P007,tuntutanBulan,36,putusan_139_pid.sus_2026_pn_mlg_20261031123440.pdf,10,Reza,Andre,verified
+P007,vonisBulan,36,putusan_139_pid.sus_2026_pn_mlg_20261031123440.pdf,16,Reza,Andre,verified
+P007,dendaRupiah,600000000,putusan_139_pid.sus_2026_pn_mlg_20261031123440.pdf,16,Reza,Andre,verified
+P007,barangBukti,""2 plastik klip berisi sabu (bersih 0,22 gram), 1 plastik klip kosong, 1 HP Oppo warna biru"",putusan_139_pid.sus_2026_pn_mlg_20261031123440.pdf,9,Reza,Andre,verified"
+P007,keadaanMemberatkan,Terdakwa sudah pernah dijatuhi pidana perkara Narkotika dan perbuatannya tidak mendukung pemberantasan Narkotika,putusan_139_pid.sus_2026_pn_mlg_20261031123440.pdf,15,Reza,Andre,verified
+P007,keadaanMeringankan,""Terdakwa bersikap sopan, berterus terang, mengakui perbuatannya, dan masih berusia muda"",putusan_139_pid.sus_2026_pn_mlg_20261031123440.pdf,15,Reza,Andre,verified"
+P007,sourcePages,""1 (Identitas), 2-5 (Dakwaan), 9 (BB), 11-15 (Pertimbangan), 16-17 (Vonis)"",putusan_139_pid.sus_2026_pn_mlg_20261031123440.pdf,1-17,Reza,Andre,verified"
+
+P008,nomorPerkara,140/Pid.Sus/2026/PN Mlg,putusan_140_pid.sus_2026_pn_mlg_20261031142015.pdf,1,Reza,Andre,verified
+P008,pengadilan,Pengadilan Negeri Malang,putusan_140_pid.sus_2026_pn_mlg_20261031142015.pdf,1,Reza,Andre,verified
+P008,tanggalPutusan,2026-06-29,putusan_140_pid.sus_2026_pn_mlg_20261031142015.pdf,23,Reza,Andre,verified
+P008,terdakwaKode,T008_S,putusan_140_pid.sus_2026_pn_mlg_20261031142015.pdf,1,Reza,Andre,verified
+P008,jenisNarkotika,2C-B (Inex/Ekstasi),putusan_140_pid.sus_2026_pn_mlg_20261031142015.pdf,3,Reza,Andre,verified
+P008,beratBarangBuktiGram,14.74,putusan_140_pid.sus_2026_pn_mlg_20261031142015.pdf,12,Reza,Andre,verified
+P008,pasalDakwaan,Pasal 114 ayat (2) UU No. 35/2009 jo. UU No. 1/2023 jo. UU No. 1/2026 ATAU Pasal 609 ayat (2) huruf a UU No. 1/2023,putusan_140_pid.sus_2026_pn_mlg_20261031142015.pdf,3,Reza,Andre,verified
+P008,pasalTerbukti,Pasal 609 ayat (2) huruf a UU No. 1 Tahun 2023 tentang KUHP jo. UU No. 1 Tahun 2026,putusan_140_pid.sus_2026_pn_mlg_20261031142015.pdf,19,Reza,Andre,verified
+P008,tuntutanBulan,120,putusan_140_pid.sus_2026_pn_mlg_20261031142015.pdf,20,Reza,Andre,verified
+P008,vonisBulan,96,putusan_140_pid.sus_2026_pn_mlg_20261031142015.pdf,22,Reza,Andre,verified
+P008,dendaRupiah,50000000,putusan_140_pid.sus_2026_pn_mlg_20261031142015.pdf,22,Reza,Andre,verified
+P008,barangBukti,""1 pocket berisi 40 butir ekstasi logo Hello Kitty (bersih 14,74 gram), 1 HP Vivo Y18, 1 sepeda motor Suzuki FU N-3535-BH"",putusan_140_pid.sus_2026_pn_mlg_20261031142015.pdf,12,Reza,Andre,verified"
+P008,keadaanMemberatkan,""Perbuatan Terdakwa meresahkan masyarakat, bertentangan dengan program pemerintah, dan Terdakwa merupakan residivis"",putusan_140_pid.sus_2026_pn_mlg_20261031142015.pdf,21,Reza,Andre,verified"
+P008,keadaanMeringankan,""Terdakwa bersikap sopan di persidangan, mengakui terus terang perbuatannya, dan menyesali perbuatannya"",putusan_140_pid.sus_2026_pn_mlg_20261031142015.pdf,21,Reza,Andre,verified"
+P008,sourcePages,""1 (Identitas), 3-7 (Dakwaan), 12 (BB), 14-21 (Pertimbangan), 22-23 (Vonis)"",putusan_140_pid.sus_2026_pn_mlg_20261031142015.pdf,1-23,Reza,Andre,verified"
+
+P009,nomorPerkara,148/Pid.Sus/2026/PN Mlg,putusan_148_pid.sus_2026_pn_mlg_20261031141611.pdf,1,Reza,Andre,verified
+P009,pengadilan,Pengadilan Negeri Malang,putusan_148_pid.sus_2026_pn_mlg_20261031141611.pdf,1,Reza,Andre,verified
+P009,tanggalPutusan,2026-07-15,putusan_148_pid.sus_2026_pn_mlg_20261031141611.pdf,24,Reza,Andre,verified
+P009,terdakwaKode,T009_RF_AS,putusan_148_pid.sus_2026_pn_mlg_20261031141611.pdf,1,Reza,Andre,verified
+P009,jenisNarkotika,Metamfetamina (Sabu),putusan_148_pid.sus_2026_pn_mlg_20261031141611.pdf,3,Reza,Andre,verified
+P009,beratBarangBuktiGram,3.68,putusan_148_pid.sus_2026_pn_mlg_20261031141611.pdf,15,Reza,Andre,verified
+P009,pasalDakwaan,Pasal 114 ayat (1) jo. Pasal 132 ayat (1) UU No. 35/2009 jo. UU No. 1/2023 jo. UU No. 1/2026,putusan_148_pid.sus_2026_pn_mlg_20261031141611.pdf,3,Reza,Andre,verified
+P009,pasalTerbukti,Pasal 114 ayat (1) jo. Pasal 132 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika,putusan_148_pid.sus_2026_pn_mlg_20261031141611.pdf,22,Reza,Andre,verified
+P009,tuntutanBulan,66,putusan_148_pid.sus_2026_pn_mlg_20261031141611.pdf,16,Reza,Andre,verified
+P009,vonisBulan,66,putusan_148_pid.sus_2026_pn_mlg_20261031141611.pdf,23,Reza,Andre,verified
+P009,dendaRupiah,600000000,putusan_148_pid.sus_2026_pn_mlg_20261031141611.pdf,23,Reza,Andre,verified
+P009,barangBukti,""3 plastik klip kecil sabu (0,32 gram), 1 plastik klip sabu (3,36 gram), 1 timbangan digital, 1 HP Redmi, 1 HP Samsung, 1 tas pinggang"",putusan_148_pid.sus_2026_pn_mlg_20261031141611.pdf,15,Reza,Andre,verified"
+P009,keadaanMemberatkan,Perbuatan Para Terdakwa tidak mendukung program pemerintah dan Para Terdakwa merupakan residivis perkara Narkotika,putusan_148_pid.sus_2026_pn_mlg_20261031141611.pdf,23,Reza,Andre,verified
+P009,keadaanMeringankan,""Para Terdakwa menyesali perbuatannya dan memiliki tanggungan keluarga"",putusan_148_pid.sus_2026_pn_mlg_20261031141611.pdf,23,Reza,Andre,verified"
+P009,sourcePages,""1 (Identitas), 3-11 (Dakwaan), 15 (BB), 17-22 (Pertimbangan), 23-24 (Vonis)"",putusan_148_pid.sus_2026_pn_mlg_20261031141611.pdf,1-24,Reza,Andre,verified"
+
+P010,nomorPerkara,160/Pid.Sus/2026/PN Mlg,putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,1,Reza,Andre,verified
+P010,pengadilan,Pengadilan Negeri Malang,putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,1,Reza,Andre,verified
+P010,tanggalPutusan,2026-07-15,putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,16,Reza,Andre,verified
+P010,terdakwaKode,T010_OW,putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,1,Reza,Andre,verified
+P010,jenisNarkotika,Metamfetamina (Sabu),putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,2,Reza,Andre,verified
+P010,beratBarangBuktiGram,1.44,putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,11,Reza,Andre,verified
+P010,pasalDakwaan,Pasal 114 ayat (1) UU No. 35/2009 jo. UU No. 1/2023 jo. UU No. 1/2026 ATAU Pasal 609 ayat (1) huruf a UU No. 1/2023,putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,2,Reza,Andre,verified
+P010,pasalTerbukti,Pasal 114 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika jo. UU No. 1 Tahun 2026,putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,14,Reza,Andre,verified
+P010,tuntutanBulan,54,putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,10,Reza,Andre,verified
+P010,vonisBulan,60,putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,15,Reza,Andre,verified
+P010,dendaRupiah,1000000000,putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,15,Reza,Andre,verified
+P010,barangBukti,""7 bungkus plastik klip sabu (bersih 1,44 gram), 1 timbangan digital, 1 alat hisap (bong), 1 HP Oppo warna hitam"",putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,11,Reza,Andre,verified"
+P010,keadaanMemberatkan,Perbuatan Terdakwa bertentangan dengan program pemerintah dalam pemberantasan Narkotika,putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,14,Reza,Andre,verified
+P010,keadaanMeringankan,""Terdakwa menyesali dan mengakui terus terang perbuatannya, serta belum pernah dipidana sebelumnya"",putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,14,Reza,Andre,verified"
+P010,sourcePages,""1 (Identitas), 3-8 (Dakwaan), 11 (BB), 12-14 (Pertimbangan), 15-16 (Vonis)"",putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,1-16,Reza,Andre,verified"
+
+P010,nomorPerkara,160/Pid.Sus/2026/PN Mlg,putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,1,Reza,Andre,verified
+P010,pengadilan,Pengadilan Negeri Malang,putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,1,Reza,Andre,verified
+P010,tanggalPutusan,2026-07-15,putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,16,Reza,Andre,verified
+P010,terdakwaKode,T010_OW,putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,1,Reza,Andre,verified
+P010,jenisNarkotika,Metamfetamina (Sabu),putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,2,Reza,Andre,verified
+P010,beratBarangBuktiGram,1.44,putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,11,Reza,Andre,verified
+P010,pasalDakwaan,Pasal 114 ayat (1) UU No. 35/2009 jo. UU No. 1/2023 jo. UU No. 1/2026 ATAU Pasal 609 ayat (1) huruf a UU No. 1/2023,putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,2,Reza,Andre,verified
+P010,pasalTerbukti,Pasal 114 ayat (1) UU No. 35 Tahun 2009 tentang Narkotika jo. UU No. 1 Tahun 2026,putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,14,Reza,Andre,verified
+P010,tuntutanBulan,54,putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,10,Reza,Andre,verified
+P010,vonisBulan,60,putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,15,Reza,Andre,verified
+P010,dendaRupiah,1000000000,putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,15,Reza,Andre,verified
+P010,barangBukti,""7 bungkus plastik klip sabu (bersih 1,44 gram), 1 timbangan digital, 1 alat hisap (bong), 1 HP Oppo warna hitam"",putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,11,Reza,Andre,verified"
+P010,keadaanMemberatkan,Perbuatan Terdakwa bertentangan dengan program pemerintah dalam pemberantasan Narkotika,putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,14,Reza,Andre,verified
+P010,keadaanMeringankan,""Terdakwa menyesali dan mengakui terus terang perbuatannya, serta belum pernah dipidana sebelumnya"",putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,14,Reza,Andre,verified"
+P010,sourcePages,""1 (Identitas), 2-8 (Dakwaan), 11 (BB), 12-14 (Pertimbangan), 15-16 (Vonis)"",putusan_160_pid.sus_2026_pn_mlg_20261031141619.pdf,1-16,Reza,Andre,verified"
+
+P011,nomorPerkara,163/Pid.Sus/2026/PN Mlg,putusan_163_pid.sus_2026_pn_mlg_20261031141804.pdf,1,Reza,Andre,verified
+P011,pengadilan,Pengadilan Negeri Malang,putusan_163_pid.sus_2026_pn_mlg_20261031141804.pdf,1,Reza,Andre,verified
+P011,tanggalPutusan,2026-07-13,putusan_163_pid.sus_2026_pn_mlg_20261031141804.pdf,26,Reza,Andre,verified
+P011,terdakwaKode,T012_HAR,putusan_163_pid.sus_2026_pn_mlg_20261031141804.pdf,1,Reza,Andre,verified
+P011,jenisNarkotika,Metamfetamina (Sabu),putusan_163_pid.sus_2026_pn_mlg_20261031141804.pdf,3,Reza,Andre,verified
+P011,beratBarangBuktiGram,1.71,putusan_163_pid.sus_2026_pn_mlg_20261031141804.pdf,5,Reza,Andre,verified
+P011,pasalDakwaan,Pasal 114 ayat (1) UU No. 35/2009,putusan_163_pid.sus_2026_pn_mlg_20261031141804.pdf,6,Reza,Andre,verified
+P011,pasalTerbukti,Pasal 114 ayat (1) UU No. 35/2009,putusan_163_pid.sus_2026_pn_mlg_20261031141804.pdf,25,Reza,Andre,verified
+P011,tuntutanBulan,54,putusan_163_pid.sus_2026_pn_mlg_20261031141804.pdf,2,Reza,Andre,verified
+P011,vonisBulan,48,putusan_163_pid.sus_2026_pn_mlg_20261031141804.pdf,25,Reza,Andre,verified
+P011,dendaRupiah,600000000,putusan_163_pid.sus_2026_pn_mlg_20261031141804.pdf,25,Reza,Andre,verified
+P011,barangBukti,""5 plastik klip sabu 1.71g, kotak plastik, sedotan, timbangan digital, HP iPhone"",putusan_163_pid.sus_2026_pn_mlg_20261031141804.pdf,24,Reza,Andre,verified"
+P011,keadaanMemberatkan,""Merugikan masyarakat, pernah dihukum, bertentangan dengan program pemerintah"",putusan_163_pid.sus_2026_pn_mlg_20261031141804.pdf,24,Reza,Andre,verified"
+P011,keadaanMeringankan,""Menyesal, sopan, mengakui terus terang"",putusan_163_pid.sus_2026_pn_mlg_20261031141804.pdf,24,Reza,Andre,verified"
+P011,sourcePages,""1 (Identitas), 3-6 (Dakwaan), 15-16 (Saksi), 24-25 (Pertimbangan), 26 (Vonis)"",putusan_163_pid.sus_2026_pn_mlg_20261031141804.pdf,1-26,Reza,Andre,verified"
+
+P012,nomorPerkara,164/Pid.Sus/2026/PN Mlg,putusan_164_pid.sus_2026_pn_mlg_20261031141828.pdf,1,Reza,Andre,verified
+P012,pengadilan,Pengadilan Negeri Malang,putusan_164_pid.sus_2026_pn_mlg_20261031141828.pdf,1,Reza,Andre,verified
+P012,tanggalPutusan,2026-07-13,putusan_164_pid.sus_2026_pn_mlg_20261031141828.pdf,2,Reza,Andre,verified
+P012,terdakwaKode,T013_FS,putusan_164_pid.sus_2026_pn_mlg_20261031141828.pdf,1,Reza,Andre,verified
+P012,jenisNarkotika,Metamfetamina (Sabu),putusan_164_pid.sus_2026_pn_mlg_20261031141828.pdf,1,Reza,Andre,verified
+P012,beratBarangBuktiGram,2.11,putusan_164_pid.sus_2026_pn_mlg_20261031141828.pdf,2,Reza,Andre,verified
+P012,pasalDakwaan,Pasal 114 ayat (1) UU No. 35/2009,putusan_164_pid.sus_2026_pn_mlg_20261031141828.pdf,1,Reza,Andre,verified
+P012,pasalTerbukti,Pasal 114 ayat (1) UU No. 35/2009,putusan_164_pid.sus_2026_pn_mlg_20261031141828.pdf,1,Reza,Andre,verified
+P012,tuntutanBulan,0,putusan_164_pid.sus_2026_pn_mlg_20261031141828.pdf,1,Reza,Andre,verified
+P012,vonisBulan,36,putusan_164_pid.sus_2026_pn_mlg_20261031141828.pdf,1,Reza,Andre,verified
+P012,dendaRupiah,600000000,putusan_164_pid.sus_2026_pn_mlg_20261031141828.pdf,1,Reza,Andre,verified
+P012,barangBukti,""Dompet hijau berisi sedotan sabu 0.2g & 0.04g, bong/pipet sabu 1.87g, HP Infinix"",putusan_164_pid.sus_2026_pn_mlg_20261031141828.pdf,2,Reza,Andre,verified"
+P012,keadaanMemberatkan,-,putusan_164_pid.sus_2026_pn_mlg_20261031141828.pdf,1,Reza,Andre,verified
+P012,keadaanMeringankan,-,putusan_164_pid.sus_2026_pn_mlg_20261031141828.pdf,1,Reza,Andre,verified
+P012,sourcePages,""1-2 (Petikan Putusan / Identitas / Dakwaan / Vonis)"",putusan_164_pid.sus_2026_pn_mlg_20261031141828.pdf,1-2,Reza,Andre,verified"
+
+P013,nomorPerkara,175/Pid.Sus/2026/PN Mlg,putusan_175_pid.sus_2026_pn_mlg_20261031123216.pdf,1,Reza,Andre,verified
+P013,pengadilan,Pengadilan Negeri Malang,putusan_175_pid.sus_2026_pn_mlg_20261031123216.pdf,1,Reza,Andre,verified
+P013,tanggalPutusan,2026-07-29,putusan_175_pid.sus_2026_pn_mlg_20261031123216.pdf,41,Reza,Andre,verified
+P013,terdakwaKode,T014_RYS,putusan_175_pid.sus_2026_pn_mlg_20261031123216.pdf,1,Reza,Andre,verified
+P013,jenisNarkotika,Metamfetamina (Sabu),putusan_175_pid.sus_2026_pn_mlg_20261031123216.pdf,3,Reza,Andre,verified
+P013,beratBarangBuktiGram,21.04,putusan_175_pid.sus_2026_pn_mlg_20261031123216.pdf,18,Reza,Andre,verified
+P013,pasalDakwaan,Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU No. 35/2009,putusan_175_pid.sus_2026_pn_mlg_20261031123216.pdf,3,Reza,Andre,verified
+P013,pasalTerbukti,Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU No. 35/2009,putusan_175_pid.sus_2026_pn_mlg_20261031123216.pdf,39,Reza,Andre,verified
+P013,tuntutanBulan,102,putusan_175_pid.sus_2026_pn_mlg_20261031123216.pdf,2,Reza,Andre,verified
+P013,vonisBulan,90,putusan_175_pid.sus_2026_pn_mlg_20261031123216.pdf,40,Reza,Andre,verified
+P013,dendaRupiah,1000000000,putusan_175_pid.sus_2026_pn_mlg_20261031123216.pdf,40,Reza,Andre,verified
+P013,barangBukti,""1 klip 0.18g, 2 klip 0.32g, 19 klip 5.58g, 60 klip 14.96g, HP Samsung"",putusan_175_pid.sus_2026_pn_mlg_20261031123216.pdf,39,Reza,Andre,verified"
+P013,keadaanMemberatkan,""Meresahkan masyarakat, tidak mendukung program, residivis"",putusan_175_pid.sus_2026_pn_mlg_20261031123216.pdf,39,Reza,Andre,verified"
+P013,keadaanMeringankan,""Sopan, mengakui terus terang, menyesal"",putusan_175_pid.sus_2026_pn_mlg_20261031123216.pdf,39,Reza,Andre,verified"
+P013,sourcePages,""1 (Identitas), 3-12 (Dakwaan), 18 (BB), 38-40 (Pertimbangan), 41 (Vonis)"",putusan_175_pid.sus_2026_pn_mlg_20261031123216.pdf,1-41,Reza,Andre,verified"
+
+P014,nomorPerkara,176/Pid.Sus/2026/PN Mlg,putusan_176_pid.sus_2026_pn_mlg_20261031123251.pdf,1,Reza,Andre,verified
+P014,pengadilan,Pengadilan Negeri Malang,putusan_176_pid.sus_2026_pn_mlg_20261031123251.pdf,1,Reza,Andre,verified
+P014,tanggalPutusan,2026-07-29,putusan_176_pid.sus_2026_pn_mlg_20261031123251.pdf,33,Reza,Andre,verified
+P014,terdakwaKode,T015_UIA,putusan_176_pid.sus_2026_pn_mlg_20261031123251.pdf,1,Reza,Andre,verified
+P014,jenisNarkotika,Metamfetamina (Sabu),putusan_176_pid.sus_2026_pn_mlg_20261031123251.pdf,3,Reza,Andre,verified
+P014,beratBarangBuktiGram,5.76,putusan_176_pid.sus_2026_pn_mlg_20261031123251.pdf,12,Reza,Andre,verified
+P014,pasalDakwaan,Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU No. 35/2009,putusan_176_pid.sus_2026_pn_mlg_20261031123251.pdf,6,Reza,Andre,verified
+P014,pasalTerbukti,Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU No. 35/2009,putusan_176_pid.sus_2026_pn_mlg_20261031123251.pdf,31,Reza,Andre,verified
+P014,tuntutanBulan,96,putusan_176_pid.sus_2026_pn_mlg_20261031123251.pdf,2,Reza,Andre,verified
+P014,vonisBulan,84,putusan_176_pid.sus_2026_pn_mlg_20261031123251.pdf,31,Reza,Andre,verified
+P014,dendaRupiah,1000000000,putusan_176_pid.sus_2026_pn_mlg_20261031123251.pdf,31,Reza,Andre,verified
+P014,barangBukti,""Dompet hitam, 1 klip sabu 0.18g, 19 klip sabu 5.58g, HP Samsung"",putusan_176_pid.sus_2026_pn_mlg_20261031123251.pdf,29,Reza,Andre,verified"
+P014,keadaanMemberatkan,""Meresahkan, tidak mendukung program, residivis"",putusan_176_pid.sus_2026_pn_mlg_20261031123251.pdf,30,Reza,Andre,verified"
+P014,keadaanMeringankan,""Sopan, mengakui, menyesal"",putusan_176_pid.sus_2026_pn_mlg_20261031123251.pdf,30,Reza,Andre,verified"
+P014,sourcePages,""1 (Identitas), 3-10 (Dakwaan), 12 (BB), 29-31 (Pertimbangan), 32-33 (Vonis)"",putusan_176_pid.sus_2026_pn_mlg_20261031123251.pdf,1-33,Reza,Andre,verified"
+
+P015,nomorPerkara,177/Pid.Sus/2026/PN Mlg,putusan_177_pid.sus_2026_pn_mlg_20261031123140.pdf,1,Reza,Andre,verified
+P015,pengadilan,Pengadilan Negeri Malang,putusan_177_pid.sus_2026_pn_mlg_20261031123140.pdf,1,Reza,Andre,verified
+P015,tanggalPutusan,2026-07-29,putusan_177_pid.sus_2026_pn_mlg_20261031123140.pdf,35,Reza,Andre,verified
+P015,terdakwaKode,T016_RSF,putusan_177_pid.sus_2026_pn_mlg_20261031123140.pdf,1,Reza,Andre,verified
+P015,jenisNarkotika,Metamfetamina (Sabu),putusan_177_pid.sus_2026_pn_mlg_20261031123140.pdf,3,Reza,Andre,verified
+P015,beratBarangBuktiGram,20.86,putusan_177_pid.sus_2026_pn_mlg_20261031123140.pdf,17,Reza,Andre,verified
+P015,pasalDakwaan,Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU No. 35/2009,putusan_177_pid.sus_2026_pn_mlg_20261031123140.pdf,3,Reza,Andre,verified
+P015,pasalTerbukti,Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU No. 35/2009,putusan_177_pid.sus_2026_pn_mlg_20261031123140.pdf,33,Reza,Andre,verified
+P015,tuntutanBulan,90,putusan_177_pid.sus_2026_pn_mlg_20261031123140.pdf,2,Reza,Andre,verified
+P015,vonisBulan,78,putusan_177_pid.sus_2026_pn_mlg_20261031123140.pdf,33,Reza,Andre,verified
+P015,dendaRupiah,1000000000,putusan_177_pid.sus_2026_pn_mlg_20261031123140.pdf,34,Reza,Andre,verified
+P015,barangBukti,""Bedak berisi 2 klip sabu 0.32g, 60 klip 14.96g, 19 klip 5.58g, timbangan, HP Oppo, motor Honda"",putusan_177_pid.sus_2026_pn_mlg_20261031123140.pdf,32,Reza,Andre,verified"
+P015,keadaanMemberatkan,""Meresahkan, tidak mendukung program"",putusan_177_pid.sus_2026_pn_mlg_20261031123140.pdf,32,Reza,Andre,verified"
+P015,keadaanMeringankan,""Sopan, mengakui, menyesal, belum pernah dihukum"",putusan_177_pid.sus_2026_pn_mlg_20261031123140.pdf,33,Reza,Andre,verified"
+P015,sourcePages,""1 (Identitas), 3-10 (Dakwaan), 17 (BB), 32-33 (Pertimbangan), 34-35 (Vonis)"",putusan_177_pid.sus_2026_pn_mlg_20261031123140.pdf,1-35,Reza,Andre,verified"
+
+P016,nomorPerkara,185/Pid.Sus/2026/PN Mlg,putusan_185_pid.sus_2026_pn_mlg_20261031104127.pdf,1,Reza,Andre,verified
+P016,pengadilan,Pengadilan Negeri Malang,putusan_185_pid.sus_2026_pn_mlg_20261031104127.pdf,1,Reza,Andre,verified
+P016,tanggalPutusan,2026-09-07,putusan_185_pid.sus_2026_pn_mlg_20261031104127.pdf,19,Reza,Andre,verified
+P016,terdakwaKode,T017_GRP,putusan_185_pid.sus_2026_pn_mlg_20261031104127.pdf,1,Reza,Andre,verified
+P016,jenisNarkotika,Metamfetamina (Sabu),putusan_185_pid.sus_2026_pn_mlg_20261031104127.pdf,3,Reza,Andre,verified
+P016,beratBarangBuktiGram,0.12,putusan_185_pid.sus_2026_pn_mlg_20261031104127.pdf,10,Reza,Andre,verified
+P016,pasalDakwaan,Pasal 114 ayat (1) UU No. 35/2009,putusan_185_pid.sus_2026_pn_mlg_20261031104127.pdf,3,Reza,Andre,verified
+P016,pasalTerbukti,Pasal 114 ayat (1) UU No. 35/2009,putusan_185_pid.sus_2026_pn_mlg_20261031104127.pdf,18,Reza,Andre,verified
+P016,tuntutanBulan,39,putusan_185_pid.sus_2026_pn_mlg_20261031104127.pdf,2,Reza,Andre,verified
+P016,vonisBulan,36,putusan_185_pid.sus_2026_pn_mlg_20261031104127.pdf,18,Reza,Andre,verified
+P016,dendaRupiah,600000000,putusan_185_pid.sus_2026_pn_mlg_20261031104127.pdf,18,Reza,Andre,verified
+P016,barangBukti,""2 klip sabu 0.12g, dompet coklat, HP Samsung"",putusan_185_pid.sus_2026_pn_mlg_20261031104127.pdf,18,Reza,Andre,verified"
+P016,keadaanMemberatkan,""Tidak mendukung program"",putusan_185_pid.sus_2026_pn_mlg_20261031104127.pdf,18,Reza,Andre,verified"
+P016,keadaanMeringankan,""Mengaku bersalah, sopan"",putusan_185_pid.sus_2026_pn_mlg_20261031104127.pdf,18,Reza,Andre,verified"
+P016,sourcePages,""1 (Identitas), 3-6 (Dakwaan), 10 (BB), 18 (Pertimbangan), 19 (Vonis)"",putusan_185_pid.sus_2026_pn_mlg_20261031104127.pdf,1-19,Reza,Andre,verified"
+
+P017,nomorPerkara,198/Pid.Sus/2026/PN Mlg,putusan_198_pid.sus_2026_pn_mlg_20261031104010.pdf,1,Reza,Andre,verified
+P017,pengadilan,Pengadilan Negeri Malang,putusan_198_pid.sus_2026_pn_mlg_20261031104010.pdf,1,Reza,Andre,verified
+P017,tanggalPutusan,2026-09-09,putusan_198_pid.sus_2026_pn_mlg_20261031104010.pdf,29,Reza,Andre,verified
+P017,terdakwaKode,T018_DBP,putusan_198_pid.sus_2026_pn_mlg_20261031104010.pdf,1,Reza,Andre,verified
+P017,jenisNarkotika,Metamfetamina (Sabu),putusan_198_pid.sus_2026_pn_mlg_20261031104010.pdf,3,Reza,Andre,verified
+P017,beratBarangBuktiGram,1.08,putusan_198_pid.sus_2026_pn_mlg_20261031104010.pdf,16,Reza,Andre,verified
+P017,pasalDakwaan,Pasal 114 ayat (1) UU No. 35/2009,putusan_198_pid.sus_2026_pn_mlg_20261031104010.pdf,3,Reza,Andre,verified
+P017,pasalTerbukti,Pasal 114 ayat (1) UU No. 35/2009,putusan_198_pid.sus_2026_pn_mlg_20261031104010.pdf,28,Reza,Andre,verified
+P017,tuntutanBulan,96,putusan_198_pid.sus_2026_pn_mlg_20261031104010.pdf,2,Reza,Andre,verified
+P017,vonisBulan,72,putusan_198_pid.sus_2026_pn_mlg_20261031104010.pdf,28,Reza,Andre,verified
+P017,dendaRupiah,50000000,putusan_198_pid.sus_2026_pn_mlg_20261031104010.pdf,28,Reza,Andre,verified
+P017,barangBukti,""Sabu 1.08g, pipet kaca, bong, sedotan, korek, bungkus rokok, tas selempang, HP Vivo"",putusan_198_pid.sus_2026_pn_mlg_20261031104010.pdf,28,Reza,Andre,verified"
+P017,keadaanMemberatkan,""Residivis, tidak mendukung program"",putusan_198_pid.sus_2026_pn_mlg_20261031104010.pdf,27,Reza,Andre,verified"
+P017,keadaanMeringankan,""Sopan, berterus terang, masih muda"",putusan_198_pid.sus_2026_pn_mlg_20261031104010.pdf,27,Reza,Andre,verified"
+P017,sourcePages,""1 (Identitas), 3-8 (Dakwaan), 16 (BB), 27-28 (Pertimbangan), 29 (Vonis)"",putusan_198_pid.sus_2026_pn_mlg_20261031104010.pdf,1-29,Reza,Andre,verified"
+
+P018,nomorPerkara,205/Pid.Sus/2026/PN Mlg,putusan_205_pid.sus_2026_pn_mlg_20261031103948.pdf,1,Reza,Andre,verified
+P018,pengadilan,Pengadilan Negeri Malang,putusan_205_pid.sus_2026_pn_mlg_20261031103948.pdf,1,Reza,Andre,verified
+P018,tanggalPutusan,2026-09-09,putusan_205_pid.sus_2026_pn_mlg_20261031103948.pdf,24,Reza,Andre,verified
+P018,terdakwaKode,T019_BS,putusan_205_pid.sus_2026_pn_mlg_20261031103948.pdf,1,Reza,Andre,verified
+P018,jenisNarkotika,Metamfetamina (Sabu),putusan_205_pid.sus_2026_pn_mlg_20261031103948.pdf,3,Reza,Andre,verified
+P018,beratBarangBuktiGram,8.328,putusan_205_pid.sus_2026_pn_mlg_20261031103948.pdf,13,Reza,Andre,verified
+P018,pasalDakwaan,Pasal 114 ayat (2) UU No. 35/2009,putusan_205_pid.sus_2026_pn_mlg_20261031103948.pdf,3,Reza,Andre,verified
+P018,pasalTerbukti,Pasal 114 ayat (2) UU No. 35/2009,putusan_205_pid.sus_2026_pn_mlg_20261031103948.pdf,23,Reza,Andre,verified
+P018,tuntutanBulan,84,putusan_205_pid.sus_2026_pn_mlg_20261031103948.pdf,2,Reza,Andre,verified
+P018,vonisBulan,78,putusan_205_pid.sus_2026_pn_mlg_20261031103948.pdf,23,Reza,Andre,verified
+P018,dendaRupiah,600000000,putusan_205_pid.sus_2026_pn_mlg_20261031103948.pdf,23,Reza,Andre,verified
+P018,barangBukti,""Sabu 8.328g, timbangan, plastik klip, bong, pipet, skrop, kotak HP, HP Tecno, uang 200rb"",putusan_205_pid.sus_2026_pn_mlg_20261031103948.pdf,22,Reza,Andre,verified"
+P018,keadaanMemberatkan,""Tidak mendukung program"",putusan_205_pid.sus_2026_pn_mlg_20261031103948.pdf,22,Reza,Andre,verified"
+P018,keadaanMeringankan,""Mengakui, sopan, kooperatif"",putusan_205_pid.sus_2026_pn_mlg_20261031103948.pdf,22,Reza,Andre,verified"
+P018,sourcePages,""1 (Identitas), 3-5 (Dakwaan), 13 (BB), 22-23 (Pertimbangan), 24 (Vonis)"",putusan_205_pid.sus_2026_pn_mlg_20261031103948.pdf,1-24,Reza,Andre,verified"
+
+P019,nomorPerkara,206/Pid.Sus/2026/PN Mlg,putusan_206_pid.sus_2026_pn_mlg_20261031104020.pdf,1,Reza,Andre,verified
+P019,pengadilan,Pengadilan Negeri Malang,putusan_206_pid.sus_2026_pn_mlg_20261031104020.pdf,1,Reza,Andre,verified
+P019,tanggalPutusan,2026-09-09,putusan_206_pid.sus_2026_pn_mlg_20261031104020.pdf,37,Reza,Andre,verified
+P019,terdakwaKode,T020_MSR,putusan_206_pid.sus_2026_pn_mlg_20261031104020.pdf,1,Reza,Andre,verified
+P019,jenisNarkotika,""Ekstasi (MDMA), Metamfetamina (Sabu), Ganja"",putusan_206_pid.sus_2026_pn_mlg_20261031104020.pdf,3,Reza,Andre,verified"
+P019,beratBarangBuktiGram,72.793,putusan_206_pid.sus_2026_pn_mlg_20261031104020.pdf,21,Reza,Andre,verified
+P019,pasalDakwaan,""Pasal 114 ayat (2) & Pasal 111 ayat (1) UU No. 35/2009"",putusan_206_pid.sus_2026_pn_mlg_20261031104020.pdf,3,Reza,Andre,verified"
+P019,pasalTerbukti,""Pasal 114 ayat (1) & Pasal 111 ayat (1) UU No. 35/2009"",putusan_206_pid.sus_2026_pn_mlg_20261031104020.pdf,35,Reza,Andre,verified"
+P019,tuntutanBulan,108,putusan_206_pid.sus_2026_pn_mlg_20261031104020.pdf,2,Reza,Andre,verified
+P019,vonisBulan,102,putusan_206_pid.sus_2026_pn_mlg_20261031104020.pdf,35,Reza,Andre,verified
+P019,dendaRupiah,600000000,putusan_206_pid.sus_2026_pn_mlg_20261031104020.pdf,35,Reza,Andre,verified
+P019,barangBukti,""Ekstasi 81 butir 31.362g, Sabu 0.681g, Ganja 40.75g, 2 timbangan, sendok, skrop, bong, tas kain, HP Iphone, uang 6rb"",putusan_206_pid.sus_2026_pn_mlg_20261031104020.pdf,34,Reza,Andre,verified"
+P019,keadaanMemberatkan,""Meresahkan, tidak mendukung program"",putusan_206_pid.sus_2026_pn_mlg_20261031104020.pdf,35,Reza,Andre,verified"
+P019,keadaanMeringankan,""Kooperatif, mengakui, menyesal, belum pernah dihukum"",putusan_206_pid.sus_2026_pn_mlg_20261031104020.pdf,35,Reza,Andre,verified"
+P019,sourcePages,""1 (Identitas), 3-10 (Dakwaan), 21 (BB), 34-35 (Pertimbangan), 36-37 (Vonis)"",putusan_206_pid.sus_2026_pn_mlg_20261031104020.pdf,1-37,Reza,Andre,verified"
+
+P020,nomorPerkara,207/Pid.Sus/2026/PN Mlg,putusan_207_pid.sus_2026_pn_mlg_20261031104002.pdf,1,Reza,Andre,verified
+P020,pengadilan,Pengadilan Negeri Malang,putusan_207_pid.sus_2026_pn_mlg_20261031104002.pdf,1,Reza,Andre,verified
+P020,tanggalPutusan,2026-09-09,putusan_207_pid.sus_2026_pn_mlg_20261031104002.pdf,22,Reza,Andre,verified
+P020,terdakwaKode,T021_AMN,putusan_207_pid.sus_2026_pn_mlg_20261031104002.pdf,1,Reza,Andre,verified
+P020,jenisNarkotika,Metamfetamina (Sabu),putusan_207_pid.sus_2026_pn_mlg_20261031104002.pdf,3,Reza,Andre,verified
+P020,beratBarangBuktiGram,11.37,putusan_207_pid.sus_2026_pn_mlg_20261031104002.pdf,12,Reza,Andre,verified
+P020,pasalDakwaan,Pasal 114 ayat (2) UU No. 35/2009,putusan_207_pid.sus_2026_pn_mlg_20261031104002.pdf,3,Reza,Andre,verified
+P020,pasalTerbukti,Pasal 114 ayat (2) UU No. 35/2009,putusan_207_pid.sus_2026_pn_mlg_20261031104002.pdf,21,Reza,Andre,verified
+P020,tuntutanBulan,90,putusan_207_pid.sus_2026_pn_mlg_20261031104002.pdf,2,Reza,Andre,verified
+P020,vonisBulan,78,putusan_207_pid.sus_2026_pn_mlg_20261031104002.pdf,21,Reza,Andre,verified
+P020,dendaRupiah,600000000,putusan_207_pid.sus_2026_pn_mlg_20261031104002.pdf,21,Reza,Andre,verified
+P020,barangBukti,""28 klip 4.54g, 2 klip 6.83g, tas hitam, HP Infinix, 2 plastik klip kosong, 2 timbangan, 1 ikat sedotan"",putusan_207_pid.sus_2026_pn_mlg_20261031104002.pdf,20,Reza,Andre,verified"
+P020,keadaanMemberatkan,""Tidak mendukung program"",putusan_207_pid.sus_2026_pn_mlg_20261031104002.pdf,21,Reza,Andre,verified"
+P020,keadaanMeringankan,""Mengaku bersalah, sopan, belum pernah dihukum"",putusan_207_pid.sus_2026_pn_mlg_20261031104002.pdf,21,Reza,Andre,verified"
+P020,sourcePages,""1 (Identitas), 3-8 (Dakwaan), 12 (BB), 20-21 (Pertimbangan), 22 (Vonis)"",putusan_207_pid.sus_2026_pn_mlg_20261031104002.pdf,1-22,Reza,Andre,verified"
+
+P021,nomorPerkara,208/Pid.Sus/2026/PN Mlg,putusan_208_pid.sus_2026_pn_mlg_20261031122831.pdf,1,Reza,Andre,verified
+P021,pengadilan,Pengadilan Negeri Malang,putusan_208_pid.sus_2026_pn_mlg_20261031122831.pdf,1,Reza,Andre,verified
+P021,tanggalPutusan,2026-08-19,putusan_208_pid.sus_2026_pn_mlg_20261031122831.pdf,29,Reza,Andre,verified
+P021,terdakwaKode,T022_YBT,putusan_208_pid.sus_2026_pn_mlg_20261031122831.pdf,1,Reza,Andre,verified
+P021,jenisNarkotika,Metamfetamina (Sabu),putusan_208_pid.sus_2026_pn_mlg_20261031122831.pdf,3,Reza,Andre,verified
+P021,beratBarangBuktiGram,0.06,putusan_208_pid.sus_2026_pn_mlg_20261031122831.pdf,2,Reza,Andre,verified
+P021,pasalDakwaan,Pasal 114 ayat (1) UU No. 35/2009 jo. UU No. 1/2023 jo. UU No. 1/2026,putusan_208_pid.sus_2026_pn_mlg_20261031122831.pdf,3,Reza,Andre,verified
+P021,pasalTerbukti,Pasal 114 ayat (1) UU No. 35/2009 jo. UU No. 1/2023 jo. UU No. 1/2026,putusan_208_pid.sus_2026_pn_mlg_20261031122831.pdf,28,Reza,Andre,verified
+P021,tuntutanBulan,72,putusan_208_pid.sus_2026_pn_mlg_20261031122831.pdf,2,Reza,Andre,verified
+P021,vonisBulan,60,putusan_208_pid.sus_2026_pn_mlg_20261031122831.pdf,28,Reza,Andre,verified
+P021,dendaRupiah,600000000,putusan_208_pid.sus_2026_pn_mlg_20261031122831.pdf,2,Reza,Andre,verified
+P021,barangBukti,""Sabu 0.06g, 3 pipet kaca, plastik klip, sendok, timbangan, HP Realme"",putusan_208_pid.sus_2026_pn_mlg_20261031122831.pdf,2,Reza,Andre,verified"
+P021,keadaanMemberatkan,Tidak mendukung program pemerintah,putusan_208_pid.sus_2026_pn_mlg_20261031122831.pdf,27,Reza,Andre,verified
+P021,keadaanMeringankan,""Mengaku bersalah, menyesal, tulang punggung keluarga"",putusan_208_pid.sus_2026_pn_mlg_20261031122831.pdf,27,Reza,Andre,verified"
+P021,sourcePages,""1-2 (Identitas), 3 (Dakwaan), 2 (BB & Tuntutan), 27-28 (Pertimbangan), 29 (Vonis)"",putusan_208_pid.sus_2026_pn_mlg_20261031122831.pdf,1-29,Reza,Andre,verified"
+
+P022,nomorPerkara,216/Pid.Sus/2026/PN Mlg,putusan_216_pid.sus_2026_pn_mlg_20261031104203.pdf,1,Reza,Andre,verified
+P022,pengadilan,Pengadilan Negeri Malang,putusan_216_pid.sus_2026_pn_mlg_20261031104203.pdf,1,Reza,Andre,verified
+P022,tanggalPutusan,2026-09-07,putusan_216_pid.sus_2026_pn_mlg_20261031104203.pdf,34,Reza,Andre,verified
+P022,terdakwaKode,T023_SAP,putusan_216_pid.sus_2026_pn_mlg_20261031104203.pdf,1,Reza,Andre,verified
+P022,jenisNarkotika,Metamfetamina (Sabu),putusan_216_pid.sus_2026_pn_mlg_20261031104203.pdf,2,Reza,Andre,verified
+P022,beratBarangBuktiGram,0.83,putusan_216_pid.sus_2026_pn_mlg_20261031104203.pdf,2,Reza,Andre,verified
+P022,pasalDakwaan,Pasal 114 ayat (1) jo. Pasal 132 ayat (1) UU No. 35/2009,putusan_216_pid.sus_2026_pn_mlg_20261031104203.pdf,2,Reza,Andre,verified
+P022,pasalTerbukti,Pasal 114 ayat (1) jo. Pasal 132 ayat (1) UU No. 35/2009,putusan_216_pid.sus_2026_pn_mlg_20261031104203.pdf,32,Reza,Andre,verified
+P022,tuntutanBulan,42,putusan_216_pid.sus_2026_pn_mlg_20261031104203.pdf,2,Reza,Andre,verified
+P022,vonisBulan,36,putusan_216_pid.sus_2026_pn_mlg_20261031104203.pdf,33,Reza,Andre,verified
+P022,dendaRupiah,600000000,putusan_216_pid.sus_2026_pn_mlg_20261031104203.pdf,33,Reza,Andre,verified
+P022,barangBukti,""7 plastik klip sabu 0.83g, timbangan, plastik klip, HP Realme"",putusan_216_pid.sus_2026_pn_mlg_20261031104203.pdf,2,Reza,Andre,verified"
+P022,keadaanMemberatkan,""Tidak mendukung program, meresahkan masyarakat, residivis"",putusan_216_pid.sus_2026_pn_mlg_20261031104203.pdf,32,Reza,Andre,verified"
+P022,keadaanMeringankan,""Sopan, mengakui, menyesal"",putusan_216_pid.sus_2026_pn_mlg_20261031104203.pdf,32,Reza,Andre,verified"
+P022,sourcePages,""1 (Identitas), 2 (Dakwaan/BB/Tuntutan), 32-33 (Pertimbangan/Vonis), 34 (Penutup)"",putusan_216_pid.sus_2026_pn_mlg_20261031104203.pdf,1-34,Reza,Andre,verified"
+
+P023,nomorPerkara,217/Pid.Sus/2026/PN Mlg,putusan_217_pid.sus_2026_pn_mlg_20261031103932.pdf,1,Reza,Andre,verified
+P023,pengadilan,Pengadilan Negeri Malang,putusan_217_pid.sus_2026_pn_mlg_20261031103932.pdf,1,Reza,Andre,verified
+P023,tanggalPutusan,2026-09-07,putusan_217_pid.sus_2026_pn_mlg_20261031103932.pdf,27,Reza,Andre,verified
+P023,terdakwaKode,T024_RFA,putusan_217_pid.sus_2026_pn_mlg_20261031103932.pdf,1,Reza,Andre,verified
+P023,jenisNarkotika,Metamfetamina (Sabu),putusan_217_pid.sus_2026_pn_mlg_20261031103932.pdf,3,Reza,Andre,verified
+P023,beratBarangBuktiGram,7.47,putusan_217_pid.sus_2026_pn_mlg_20261031103932.pdf,2,Reza,Andre,verified
+P023,pasalDakwaan,Pasal 114 ayat (2) UU No. 35/2009,putusan_217_pid.sus_2026_pn_mlg_20261031103932.pdf,3,Reza,Andre,verified
+P023,pasalTerbukti,Pasal 114 ayat (2) UU No. 35/2009,putusan_217_pid.sus_2026_pn_mlg_20261031103932.pdf,26,Reza,Andre,verified
+P023,tuntutanBulan,72,putusan_217_pid.sus_2026_pn_mlg_20261031103932.pdf,2,Reza,Andre,verified
+P023,vonisBulan,66,putusan_217_pid.sus_2026_pn_mlg_20261031103932.pdf,26,Reza,Andre,verified
+P023,dendaRupiah,600000000,putusan_217_pid.sus_2026_pn_mlg_20261031103932.pdf,26,Reza,Andre,verified
+P023,barangBukti,""35 klip sabu 7.47g, jaket, timbangan, plastik klip, HP Realme"",putusan_217_pid.sus_2026_pn_mlg_20261031103932.pdf,2,Reza,Andre,verified"
+P023,keadaanMemberatkan,""Tidak mendukung program, meresahkan masyarakat"",putusan_217_pid.sus_2026_pn_mlg_20261031103932.pdf,26,Reza,Andre,verified"
+P023,keadaanMeringankan,""Sopan, mengakui, menyesal, belum pernah dihukum"",putusan_217_pid.sus_2026_pn_mlg_20261031103932.pdf,26,Reza,Andre,verified"
+P023,sourcePages,""1 (Identitas), 3 (Dakwaan), 2 (BB & Tuntutan), 26 (Pertimbangan), 27 (Vonis)"",putusan_217_pid.sus_2026_pn_mlg_20261031103932.pdf,1-27,Reza,Andre,verified"
+
+P024,nomorPerkara,219/Pid.Sus/2026/PN Mlg,putusan_219_pid.sus_2026_pn_mlg_20261031104051.pdf,1,Reza,Andre,verified
+P024,pengadilan,Pengadilan Negeri Malang,putusan_219_pid.sus_2026_pn_mlg_20261031104051.pdf,1,Reza,Andre,verified
+P024,tanggalPutusan,2026-09-09,putusan_219_pid.sus_2026_pn_mlg_20261031104051.pdf,34,Reza,Andre,verified
+P024,terdakwaKode,T025_MRS_AS,putusan_219_pid.sus_2026_pn_mlg_20261031104051.pdf,1,Reza,Andre,verified
+P024,jenisNarkotika,Metamfetamina (Sabu),putusan_219_pid.sus_2026_pn_mlg_20261031104051.pdf,3,Reza,Andre,verified
+P024,beratBarangBuktiGram,100.96,putusan_219_pid.sus_2026_pn_mlg_20261031104051.pdf,3,Reza,Andre,verified
+P024,pasalDakwaan,Pasal 114 ayat (2) jo. Pasal 132 ayat (1) UU No. 35/2009,putusan_219_pid.sus_2026_pn_mlg_20261031104051.pdf,4,Reza,Andre,verified
+P024,pasalTerbukti,Pasal 114 ayat (2) jo. Pasal 132 ayat (1) UU No. 35/2009,putusan_219_pid.sus_2026_pn_mlg_20261031104051.pdf,33,Reza,Andre,verified
+P024,tuntutanBulan,120,putusan_219_pid.sus_2026_pn_mlg_20261031104051.pdf,2,Reza,Andre,verified
+P024,vonisBulan,108,putusan_219_pid.sus_2026_pn_mlg_20261031104051.pdf,33,Reza,Andre,verified
+P024,dendaRupiah,600000000,putusan_219_pid.sus_2026_pn_mlg_20261031104051.pdf,33,Reza,Andre,verified
+P024,barangBukti,""2 klip sabu 100.96g, tas kain, 2 HP Redmi, motor Yamaha Mio"",putusan_219_pid.sus_2026_pn_mlg_20261031104051.pdf,3,Reza,Andre,verified"
+P024,keadaanMemberatkan,""Meresahkan, merusak generasi muda, tidak mendukung program"",putusan_219_pid.sus_2026_pn_mlg_20261031104051.pdf,32,Reza,Andre,verified"
+P024,keadaanMeringankan,""Sopan, mengaku, menyesal, belum pernah dihukum, tulang punggung"",putusan_219_pid.sus_2026_pn_mlg_20261031104051.pdf,32,Reza,Andre,verified"
+P024,sourcePages,""1 (Identitas), 4 (Dakwaan), 2-3 (BB & Tuntutan), 32-33 (Pertimbangan/Vonis), 34 (Penutup)"",putusan_219_pid.sus_2026_pn_mlg_20261031104051.pdf,1-34,Reza,Andre,verified"
+
+P025,nomorPerkara,220/Pid.Sus/2026/PN Mlg,putusan_220_pid.sus_2026_pn_mlg_20261031103940.pdf,1,Reza,Andre,verified
+P025,pengadilan,Pengadilan Negeri Malang,putusan_220_pid.sus_2026_pn_mlg_20261031103940.pdf,1,Reza,Andre,verified
+P025,tanggalPutusan,2026-09-09,putusan_220_pid.sus_2026_pn_mlg_20261031103940.pdf,17,Reza,Andre,verified
+P025,terdakwaKode,T026_MRH,putusan_220_pid.sus_2026_pn_mlg_20261031103940.pdf,1,Reza,Andre,verified
+P025,jenisNarkotika,Metamfetamina (Sabu),putusan_220_pid.sus_2026_pn_mlg_20261031103940.pdf,2,Reza,Andre,verified
+P025,beratBarangBuktiGram,1.83,putusan_220_pid.sus_2026_pn_mlg_20261031103940.pdf,2,Reza,Andre,verified
+P025,pasalDakwaan,Pasal 114 ayat (1) UU No. 35/2009,putusan_220_pid.sus_2026_pn_mlg_20261031103940.pdf,2,Reza,Andre,verified
+P025,pasalTerbukti,Pasal 114 ayat (1) UU No. 35/2009,putusan_220_pid.sus_2026_pn_mlg_20261031103940.pdf,16,Reza,Andre,verified
+P025,tuntutanBulan,54,putusan_220_pid.sus_2026_pn_mlg_20261031103940.pdf,2,Reza,Andre,verified
+P025,vonisBulan,42,putusan_220_pid.sus_2026_pn_mlg_20261031103940.pdf,16,Reza,Andre,verified
+P025,dendaRupiah,600000000,putusan_220_pid.sus_2026_pn_mlg_20261031103940.pdf,16,Reza,Andre,verified
+P025,barangBukti,""5 klip sabu 1.83g, tas hitam, HP Samsung"",putusan_220_pid.sus_2026_pn_mlg_20261031103940.pdf,2,Reza,Andre,verified"
+P025,keadaanMemberatkan,Tidak mendukung program,putusan_220_pid.sus_2026_pn_mlg_20261031103940.pdf,16,Reza,Andre,verified
+P025,keadaanMeringankan,""Belum pernah dihukum, mengakui, menyesal"",putusan_220_pid.sus_2026_pn_mlg_20261031103940.pdf,16,Reza,Andre,verified"
+P025,sourcePages,""1 (Identitas), 2 (Dakwaan/BB/Tuntutan), 16 (Pertimbangan/Vonis), 17 (Penutup)"",putusan_220_pid.sus_2026_pn_mlg_20261031103940.pdf,1-17,Reza,Andre,verified"
+
+P026,nomorPerkara,221/Pid.Sus/2026/PN Mlg,putusan_221_pid.sus_2026_pn_mlg_20261031103953.pdf,1,Reza,Andre,verified
+P026,pengadilan,Pengadilan Negeri Malang,putusan_221_pid.sus_2026_pn_mlg_20261031103953.pdf,1,Reza,Andre,verified
+P026,tanggalPutusan,2026-09-09,putusan_221_pid.sus_2026_pn_mlg_20261031103953.pdf,18,Reza,Andre,verified
+P026,terdakwaKode,T027_SGF,putusan_221_pid.sus_2026_pn_mlg_20261031103953.pdf,1,Reza,Andre,verified
+P026,jenisNarkotika,""Metamfetamina (Sabu), Ganja"",putusan_221_pid.sus_2026_pn_mlg_20261031103953.pdf,2,Reza,Andre,verified"
+P026,beratBarangBuktiGram,3.10,putusan_221_pid.sus_2026_pn_mlg_20261031103953.pdf,2,Reza,Andre,verified
+P026,pasalDakwaan,""Pasal 114 ayat (1) & Pasal 111 ayat (1) UU No. 35/2009"",putusan_221_pid.sus_2026_pn_mlg_20261031103953.pdf,2,Reza,Andre,verified"
+P026,pasalTerbukti,Pasal 114 ayat (1) UU No. 35/2009,putusan_221_pid.sus_2026_pn_mlg_20261031103953.pdf,17,Reza,Andre,verified
+P026,tuntutanBulan,72,putusan_221_pid.sus_2026_pn_mlg_20261031103953.pdf,2,Reza,Andre,verified
+P026,vonisBulan,54,putusan_221_pid.sus_2026_pn_mlg_20261031103953.pdf,17,Reza,Andre,verified
+P026,dendaRupiah,600000000,putusan_221_pid.sus_2026_pn_mlg_20261031103953.pdf,17,Reza,Andre,verified
+P026,barangBukti,""4 plastik sabu 2.55g, 1 plastik ganja 0.55g, timbangan, HP Samsung"",putusan_221_pid.sus_2026_pn_mlg_20261031103953.pdf,2,Reza,Andre,verified"
+P026,keadaanMemberatkan,Tidak mendukung program,putusan_221_pid.sus_2026_pn_mlg_20261031103953.pdf,16,Reza,Andre,verified
+P026,keadaanMeringankan,""Belum pernah dihukum, mengakui, menyesal"",putusan_221_pid.sus_2026_pn_mlg_20261031103953.pdf,16,Reza,Andre,verified"
+P026,sourcePages,""1 (Identitas), 2 (Dakwaan/BB/Tuntutan), 16-17 (Pertimbangan/Vonis), 18 (Penutup)"",putusan_221_pid.sus_2026_pn_mlg_20261031103953.pdf,1-18,Reza,Andre,verified"
+
+P027,nomorPerkara,223/Pid.Sus/2026/PN Mlg,putusan_223_pid.sus_2026_pn_mlg_20261030151531.pdf,1,Reza,Andre,verified
+P027,pengadilan,Pengadilan Negeri Malang,putusan_223_pid.sus_2026_pn_mlg_20261030151531.pdf,1,Reza,Andre,verified
+P027,tanggalPutusan,2026-09-16,putusan_223_pid.sus_2026_pn_mlg_20261030151531.pdf,37,Reza,Andre,verified
+P027,terdakwaKode,T028_RPA,putusan_223_pid.sus_2026_pn_mlg_20261030151531.pdf,1,Reza,Andre,verified
+P027,jenisNarkotika,Ganja,putusan_223_pid.sus_2026_pn_mlg_20261030151531.pdf,3,Reza,Andre,verified
+P027,beratBarangBuktiGram,12.84,putusan_223_pid.sus_2026_pn_mlg_20261030151531.pdf,2,Reza,Andre,verified
+P027,pasalDakwaan,Pasal 114 ayat (1) UU No. 35/2009,putusan_223_pid.sus_2026_pn_mlg_20261030151531.pdf,3,Reza,Andre,verified
+P027,pasalTerbukti,Pasal 114 ayat (1) UU No. 35/2009,putusan_223_pid.sus_2026_pn_mlg_20261030151531.pdf,35,Reza,Andre,verified
+P027,tuntutanBulan,84,putusan_223_pid.sus_2026_pn_mlg_20261030151531.pdf,2,Reza,Andre,verified
+P027,vonisBulan,72,putusan_223_pid.sus_2026_pn_mlg_20261030151531.pdf,35,Reza,Andre,verified
+P027,dendaRupiah,50000000,putusan_223_pid.sus_2026_pn_mlg_20261030151531.pdf,35,Reza,Andre,verified
+P027,barangBukti,""Ganja 12.84g, lakban, plastik hitam, HP Samsung, motor Yamaha Mio"",putusan_223_pid.sus_2026_pn_mlg_20261030151531.pdf,2,Reza,Andre,verified"
+P027,keadaanMemberatkan,""Bertentangan dengan program, meresahkan"",putusan_223_pid.sus_2026_pn_mlg_20261030151531.pdf,34,Reza,Andre,verified"
+P027,keadaanMeringankan,""Mengaku, menyesal, belum pernah dihukum"",putusan_223_pid.sus_2026_pn_mlg_20261030151531.pdf,34,Reza,Andre,verified"
+P027,sourcePages,""1 (Identitas), 3 (Dakwaan), 2 (BB & Tuntutan), 34-35 (Pertimbangan/Vonis), 37 (Penutup)"",putusan_223_pid.sus_2026_pn_mlg_20261030151531.pdf,1-37,Reza,Andre,verified"
+
+P028,nomorPerkara,227/Pid.Sus/2026/PN Mlg,putusan_227_pid.sus_2026_pn_mlg_20261031104337.pdf,1,Reza,Andre,verified
+P028,pengadilan,Pengadilan Negeri Malang,putusan_227_pid.sus_2026_pn_mlg_20261031104337.pdf,1,Reza,Andre,verified
+P028,tanggalPutusan,2026-08-12,putusan_227_pid.sus_2026_pn_mlg_20261031104337.pdf,19,Reza,Andre,verified
+P028,terdakwaKode,T029_AA,putusan_227_pid.sus_2026_pn_mlg_20261031104337.pdf,1,Reza,Andre,verified
+P028,jenisNarkotika,Metamfetamina (Sabu),putusan_227_pid.sus_2026_pn_mlg_20261031104337.pdf,3,Reza,Andre,verified
+P028,beratBarangBuktiGram,0.82,putusan_227_pid.sus_2026_pn_mlg_20261031104337.pdf,2,Reza,Andre,verified
+P028,pasalDakwaan,""Pasal 114 ayat (1) ATAU Pasal 609 ayat (1) huruf a"",putusan_227_pid.sus_2026_pn_mlg_20261031104337.pdf,3,Reza,Andre,verified"
+P028,pasalTerbukti,Pasal 609 ayat (1) huruf a,putusan_227_pid.sus_2026_pn_mlg_20261031104337.pdf,18,Reza,Andre,verified
+P028,tuntutanBulan,12,putusan_227_pid.sus_2026_pn_mlg_20261031104337.pdf,2,Reza,Andre,verified
+P028,vonisBulan,8,putusan_227_pid.sus_2026_pn_mlg_20261031104337.pdf,18,Reza,Andre,verified
+P028,dendaRupiah,250000000,putusan_227_pid.sus_2026_pn_mlg_20261031104337.pdf,18,Reza,Andre,verified
+P028,barangBukti,""Sabu 0.82g, HP Vivo"",putusan_227_pid.sus_2026_pn_mlg_20261031104337.pdf,2,Reza,Andre,verified"
+P028,keadaanMemberatkan,""Bertentangan dengan program, residivis narkotika"",putusan_227_pid.sus_2026_pn_mlg_20261031104337.pdf,15,Reza,Andre,verified"
+P028,keadaanMeringankan,""Mengakui, menyesal, sopan, sedang sakit"",putusan_227_pid.sus_2026_pn_mlg_20261031104337.pdf,15,Reza,Andre,verified"
+P028,sourcePages,""1 (Identitas), 3 (Dakwaan), 2 (BB & Tuntutan), 15-18 (Pertimbangan/Vonis), 19 (Penutup)"",putusan_227_pid.sus_2026_pn_mlg_20261031104337.pdf,1-19,Reza,Andre,verified"
+
+P029,nomorPerkara,238/Pid.Sus/2026/PN Mlg,putusan_238_pid.sus_2026_pn_mlg_20261031103748.pdf,1,Reza,Andre,verified
+P029,pengadilan,Pengadilan Negeri Malang,putusan_238_pid.sus_2026_pn_mlg_20261031103748.pdf,1,Reza,Andre,verified
+P029,tanggalPutusan,2026-09-28,putusan_238_pid.sus_2026_pn_mlg_20261031103748.pdf,22,Reza,Andre,verified
+P029,terdakwaKode,T030_MRK,putusan_238_pid.sus_2026_pn_mlg_20261031103748.pdf,1,Reza,Andre,verified
+P029,jenisNarkotika,Ganja,putusan_238_pid.sus_2026_pn_mlg_20261031103748.pdf,3,Reza,Andre,verified
+P029,beratBarangBuktiGram,95.05,putusan_238_pid.sus_2026_pn_mlg_20261031103748.pdf,2,Reza,Andre,verified
+P029,pasalDakwaan,""Pasal 114 ayat (1) ATAU Pasal 111 ayat (1)"",putusan_238_pid.sus_2026_pn_mlg_20261031103748.pdf,3,Reza,Andre,verified"
+P029,pasalTerbukti,Pasal 114 ayat (1) UU No. 35/2009,putusan_238_pid.sus_2026_pn_mlg_20261031103748.pdf,21,Reza,Andre,verified
+P029,tuntutanBulan,54,putusan_238_pid.sus_2026_pn_mlg_20261031103748.pdf,2,Reza,Andre,verified
+P029,vonisBulan,48,putusan_238_pid.sus_2026_pn_mlg_20261031103748.pdf,22,Reza,Andre,verified
+P029,dendaRupiah,600000000,putusan_238_pid.sus_2026_pn_mlg_20261031103748.pdf,22,Reza,Andre,verified
+P029,barangBukti,""Ganja 95.05g, HP Vivo"",putusan_238_pid.sus_2026_pn_mlg_20261031103748.pdf,2,Reza,Andre,verified"
+P029,keadaanMemberatkan,""Bertentangan dengan program, meresahkan"",putusan_238_pid.sus_2026_pn_mlg_20261031103748.pdf,18,Reza,Andre,verified"
+P029,keadaanMeringankan,""Mengaku, menyesal, belum pernah dihukum"",putusan_238_pid.sus_2026_pn_mlg_20261031103748.pdf,18,Reza,Andre,verified"
+P029,sourcePages,""1 (Identitas), 3 (Dakwaan), 2 (BB & Tuntutan), 18-22 (Pertimbangan/Vonis)"",putusan_238_pid.sus_2026_pn_mlg_20261031103748.pdf,1-22,Reza,Andre,verified"
+
+P030,nomorPerkara,239/Pid.Sus/2026/PN Mlg,putusan_239_pid.sus_2026_pn_mlg_20261031103712.pdf,1,Reza,Andre,verified
+P030,pengadilan,Pengadilan Negeri Malang,putusan_239_pid.sus_2026_pn_mlg_20261031103712.pdf,1,Reza,Andre,verified
+P030,tanggalPutusan,2026-09-16,putusan_239_pid.sus_2026_pn_mlg_20261031103712.pdf,29,Reza,Andre,verified
+P030,terdakwaKode,T031_YS,putusan_239_pid.sus_2026_pn_mlg_20261031103712.pdf,1,Reza,Andre,verified
+P030,jenisNarkotika,Metamfetamina (Sabu),putusan_239_pid.sus_2026_pn_mlg_20261031103712.pdf,3,Reza,Andre,verified
+P030,beratBarangBuktiGram,1.13,putusan_239_pid.sus_2026_pn_mlg_20261031103712.pdf,2,Reza,Andre,verified
+P030,pasalDakwaan,""Pasal 114 ayat (1) ATAU Pasal 609 ayat (1) huruf a"",putusan_239_pid.sus_2026_pn_mlg_20261031103712.pdf,3,Reza,Andre,verified"
+P030,pasalTerbukti,Pasal 609 ayat (1) huruf a,putusan_239_pid.sus_2026_pn_mlg_20261031103712.pdf,27,Reza,Andre,verified
+P030,tuntutanBulan,84,putusan_239_pid.sus_2026_pn_mlg_20261031103712.pdf,2,Reza,Andre,verified
+P030,vonisBulan,60,putusan_239_pid.sus_2026_pn_mlg_20261031103712.pdf,28,Reza,Andre,verified
+P030,dendaRupiah,50000000,putusan_239_pid.sus_2026_pn_mlg_20261031103712.pdf,28,Reza,Andre,verified
+P030,barangBukti,""2 klip sabu 1.13g, alat hisap, HP Infinix"",putusan_239_pid.sus_2026_pn_mlg_20261031103712.pdf,2,Reza,Andre,verified"
+P030,keadaanMemberatkan,""Tidak mendukung program, meresahkan, residivis (2016 & 2021)"",putusan_239_pid.sus_2026_pn_mlg_20261031103712.pdf,27,Reza,Andre,verified"
+P030,keadaanMeringankan,""Sopan, mengaku, menyesal"",putusan_239_pid.sus_2026_pn_mlg_20261031103712.pdf,27,Reza,Andre,verified"
+P030,sourcePages,""1 (Identitas), 3 (Dakwaan), 2 (BB & Tuntutan), 27-28 (Pertimbangan/Vonis), 29 (Penutup)"",putusan_239_pid.sus_2026_pn_mlg_20261031103712.pdf,1-29,Reza,Andre,verified"
+
+P031,nomorPerkara,240/Pid.Sus/2026/PN Mlg,putusan_240_pid.sus_2026_pn_mlg_20261031103721.pdf,1,Reza,Andre,verified
+P031,pengadilan,Pengadilan Negeri Malang,putusan_240_pid.sus_2026_pn_mlg_20261031103721.pdf,1,Reza,Andre,verified
+P031,tanggalPutusan,2026-09-30,putusan_240_pid.sus_2026_pn_mlg_20261031103721.pdf,29,Reza,Andre,verified
+P031,terdakwaKode,T032_PK,putusan_240_pid.sus_2026_pn_mlg_20261031103721.pdf,1,Reza,Andre,verified
+P031,jenisNarkotika,Ganja,putusan_240_pid.sus_2026_pn_mlg_20261031103721.pdf,3,Reza,Andre,verified
+P031,beratBarangBuktiGram,555.77,putusan_240_pid.sus_2026_pn_mlg_20261031103721.pdf,6,Reza,Andre,verified
+P031,pasalDakwaan,""Pasal 114 ayat (1) UU No. 35/2009 ATAU Pasal 111 ayat (1) UU No. 35/2009"",putusan_240_pid.sus_2026_pn_mlg_20261031103721.pdf,3,Reza,Andre,verified"
+P031,pasalTerbukti,Pasal 114 ayat (1) UU No. 35/2009,putusan_240_pid.sus_2026_pn_mlg_20261031103721.pdf,28,Reza,Andre,verified
+P031,tuntutanBulan,78,putusan_240_pid.sus_2026_pn_mlg_20261031103721.pdf,2,Reza,Andre,verified
+P031,vonisBulan,66,putusan_240_pid.sus_2026_pn_mlg_20261031103721.pdf,29,Reza,Andre,verified
+P031,dendaRupiah,600000000,putusan_240_pid.sus_2026_pn_mlg_20261031103721.pdf,29,Reza,Andre,verified
+P031,barangBukti,""10 bungkus plastik ganja 511.22g, 1 plastik biji ganja 8.05g, 1 bungkus plastik batang ganja 36.50g, alat pres, timbangan digital, HP Oppo"",putusan_240_pid.sus_2026_pn_mlg_20261031103721.pdf,2,Reza,Andre,verified"
+P031,keadaanMemberatkan,Tidak mendukung program pemerintah,putusan_240_pid.sus_2026_pn_mlg_20261031103721.pdf,28,Reza,Andre,verified
+P031,keadaanMeringankan,""Mengaku bersalah, sopan, belum pernah dihukum"",putusan_240_pid.sus_2026_pn_mlg_20261031103721.pdf,28,Reza,Andre,verified"
+P031,sourcePages,""1-2 (Identitas & Tuntutan), 3 (Dakwaan), 2-3 (BB), 28 (Pertimbangan), 29 (Vonis)"",putusan_240_pid.sus_2026_pn_mlg_20261031103721.pdf,1-29,Reza,Andre,verified"
+
+P032,nomorPerkara,254/Pid.Sus/2026/PN Mlg,putusan_254_pid.sus_2026_pn_mlg_20261031103737.pdf,1,Reza,Andre,verified
+P032,pengadilan,Pengadilan Negeri Malang,putusan_254_pid.sus_2026_pn_mlg_20261031103737.pdf,1,Reza,Andre,verified
+P032,tanggalPutusan,2026-09-30,putusan_254_pid.sus_2026_pn_mlg_20261031103737.pdf,17,Reza,Andre,verified
+P032,terdakwaKode,T033_DHW,putusan_254_pid.sus_2026_pn_mlg_20261031103737.pdf,1,Reza,Andre,verified
+P032,jenisNarkotika,Metamfetamina (Sabu),putusan_254_pid.sus_2026_pn_mlg_20261031103737.pdf,3,Reza,Andre,verified
+P032,beratBarangBuktiGram,0.68,putusan_254_pid.sus_2026_pn_mlg_20261031103737.pdf,2,Reza,Andre,verified
+P032,pasalDakwaan,""Pasal 114 ayat (1) UU No. 35/2009 ATAU Pasal 609 ayat (1) huruf a UU No. 1/2023"",putusan_254_pid.sus_2026_pn_mlg_20261031103737.pdf,3,Reza,Andre,verified"
+P032,pasalTerbukti,Pasal 114 ayat (1) UU No. 35/2009,putusan_254_pid.sus_2026_pn_mlg_20261031103737.pdf,16,Reza,Andre,verified
+P032,tuntutanBulan,84,putusan_254_pid.sus_2026_pn_mlg_20261031103737.pdf,2,Reza,Andre,verified
+P032,vonisBulan,72,putusan_254_pid.sus_2026_pn_mlg_20261031103737.pdf,17,Reza,Andre,verified
+P032,dendaRupiah,50000000,putusan_254_pid.sus_2026_pn_mlg_20261031103737.pdf,17,Reza,Andre,verified
+P032,barangBukti,""4 pocket sabu 0.68g, dompet kain merah, HP Redmi A5"",putusan_254_pid.sus_2026_pn_mlg_20261031103737.pdf,10,Reza,Andre,verified"
+P032,keadaanMemberatkan,Tidak mendukung program pemerintah,putusan_254_pid.sus_2026_pn_mlg_20261031103737.pdf,16,Reza,Andre,verified
+P032,keadaanMeringankan,""Belum pernah dihukum, mengakui, menyesal"",putusan_254_pid.sus_2026_pn_mlg_20261031103737.pdf,16,Reza,Andre,verified"
+P032,sourcePages,""1-2 (Identitas & Tuntutan), 2-5 (Dakwaan), 10 (BB), 15-16 (Pertimbangan), 17 (Vonis)"",putusan_254_pid.sus_2026_pn_mlg_20261031103737.pdf,1-17,Reza,Andre,verified"
+
+P033,nomorPerkara,257/Pid.Sus/2026/PN Mlg,putusan_257_pid.sus_2026_pn_mlg_20261031103915.pdf,1,Reza,Andre,verified
+P033,pengadilan,Pengadilan Negeri Malang,putusan_257_pid.sus_2026_pn_mlg_20261031103915.pdf,1,Reza,Andre,verified
+P033,tanggalPutusan,2026-09-23,putusan_257_pid.sus_2026_pn_mlg_20261031103915.pdf,14,Reza,Andre,verified
+P033,terdakwaKode,T034_RIP,putusan_257_pid.sus_2026_pn_mlg_20261031103915.pdf,1,Reza,Andre,verified
+P033,jenisNarkotika,Metamfetamina (Sabu),putusan_257_pid.sus_2026_pn_mlg_20261031103915.pdf,3,Reza,Andre,verified
+P033,beratBarangBuktiGram,4.38,putusan_257_pid.sus_2026_pn_mlg_20261031103915.pdf,2,Reza,Andre,verified
+P033,pasalDakwaan,""Pasal 114 ayat (1) UU No. 35/2009 ATAU Pasal 609 ayat (1) huruf a UU No. 1/2023"",putusan_257_pid.sus_2026_pn_mlg_20261031103915.pdf,3,Reza,Andre,verified"
+P033,pasalTerbukti,Pasal 114 ayat (1) UU No. 35/2009,putusan_257_pid.sus_2026_pn_mlg_20261031103915.pdf,13,Reza,Andre,verified
+P033,tuntutanBulan,60,putusan_257_pid.sus_2026_pn_mlg_20261031103915.pdf,2,Reza,Andre,verified
+P033,vonisBulan,54,putusan_257_pid.sus_2026_pn_mlg_20261031103915.pdf,14,Reza,Andre,verified
+P033,dendaRupiah,0,putusan_257_pid.sus_2026_pn_mlg_20261031103915.pdf,14,Reza,Andre,verified
+P033,barangBukti,""1 plastik klip sabu 4.38g, timbangan, kotak putih, plastik klip, HP Samsung"",putusan_257_pid.sus_2026_pn_mlg_20261031103915.pdf,9,Reza,Andre,verified"
+P033,keadaanMemberatkan,Bertentangan dengan program pemerintah,putusan_257_pid.sus_2026_pn_mlg_20261031103915.pdf,13,Reza,Andre,verified
+P033,keadaanMeringankan,""Menyesal, mengakui, belum pernah dipidana"",putusan_257_pid.sus_2026_pn_mlg_20261031103915.pdf,13,Reza,Andre,verified"
+P033,sourcePages,""1-2 (Identitas & Tuntutan), 2-4 (Dakwaan), 9 (BB), 13 (Pertimbangan), 14 (Vonis)"",putusan_257_pid.sus_2026_pn_mlg_20261031103915.pdf,1-14,Reza,Andre,verified"
+
+P034,nomorPerkara,261/Pid.Sus/2026/PN Mlg,putusan_261_pid.sus_2026_pn_mlg_20261031103755.pdf,1,Reza,Andre,verified
+P034,pengadilan,Pengadilan Negeri Malang,putusan_261_pid.sus_2026_pn_mlg_20261031103755.pdf,1,Reza,Andre,verified
+P034,tanggalPutusan,2026-09-28,putusan_261_pid.sus_2026_pn_mlg_20261031103755.pdf,17,Reza,Andre,verified
+P034,terdakwaKode,T035_BWK,putusan_261_pid.sus_2026_pn_mlg_20261031103755.pdf,1,Reza,Andre,verified
+P034,jenisNarkotika,Metamfetamina (Sabu),putusan_261_pid.sus_2026_pn_mlg_20261031103755.pdf,3,Reza,Andre,verified
+P034,beratBarangBuktiGram,17.08,putusan_261_pid.sus_2026_pn_mlg_20261031103755.pdf,2,Reza,Andre,verified
+P034,pasalDakwaan,""Pasal 114 ayat (2) UU No. 35/2009 ATAU Pasal 609 ayat (2) huruf a UU No. 1/2023"",putusan_261_pid.sus_2026_pn_mlg_20261031103755.pdf,3,Reza,Andre,verified"
+P034,pasalTerbukti,Pasal 114 ayat (2) UU No. 35/2009,putusan_261_pid.sus_2026_pn_mlg_20261031103755.pdf,16,Reza,Andre,verified
+P034,tuntutanBulan,84,putusan_261_pid.sus_2026_pn_mlg_20261031103755.pdf,2,Reza,Andre,verified
+P034,vonisBulan,72,putusan_261_pid.sus_2026_pn_mlg_20261031103755.pdf,17,Reza,Andre,verified
+P034,dendaRupiah,600000000,putusan_261_pid.sus_2026_pn_mlg_20261031103755.pdf,17,Reza,Andre,verified
+P034,barangBukti,""55 klip sabu 17.08g, kotak LCD HP, timbangan, plastik klip kosong, HP Realme"",putusan_261_pid.sus_2026_pn_mlg_20261031103755.pdf,9,Reza,Andre,verified"
+P034,keadaanMemberatkan,""Tidak mendukung program, meresahkan masyarakat"",putusan_261_pid.sus_2026_pn_mlg_20261031103755.pdf,16,Reza,Andre,verified"
+P034,keadaanMeringankan,""Sopan, mengaku, menyesal, belum pernah dihukum"",putusan_261_pid.sus_2026_pn_mlg_20261031103755.pdf,16,Reza,Andre,verified"
+P034,sourcePages,""1-2 (Identitas & Tuntutan), 2-6 (Dakwaan), 9 (BB), 15-16 (Pertimbangan), 17 (Vonis)"",putusan_261_pid.sus_2026_pn_mlg_20261031103755.pdf,1-17,Reza,Andre,verified"
+
+P035,nomorPerkara,262/Pid.Sus/2026/PN Mlg,putusan_262_pid.sus_2026_pn_mlg_20261024140537.pdf,1,Reza,Andre,verified
+P035,pengadilan,Pengadilan Negeri Malang,putusan_262_pid.sus_2026_pn_mlg_20261024140537.pdf,1,Reza,Andre,verified
+P035,tanggalPutusan,2026-10-14,putusan_262_pid.sus_2026_pn_mlg_20261024140537.pdf,18,Reza,Andre,verified
+P035,terdakwaKode,T036_TBH,putusan_262_pid.sus_2026_pn_mlg_20261024140537.pdf,1,Reza,Andre,verified
+P035,jenisNarkotika,Metamfetamina (Sabu),putusan_262_pid.sus_2026_pn_mlg_20261024140537.pdf,3,Reza,Andre,verified
+P035,beratBarangBuktiGram,1.281,putusan_262_pid.sus_2026_pn_mlg_20261024140537.pdf,2,Reza,Andre,verified
+P035,pasalDakwaan,""Pasal 114 ayat (1) UU No. 35/2009 ATAU Pasal 609 ayat (1) huruf a UU No. 1/2023"",putusan_262_pid.sus_2026_pn_mlg_20261024140537.pdf,3,Reza,Andre,verified"
+P035,pasalTerbukti,Pasal 114 ayat (1) UU No. 35/2009,putusan_262_pid.sus_2026_pn_mlg_20261024140537.pdf,17,Reza,Andre,verified
+P035,tuntutanBulan,60,putusan_262_pid.sus_2026_pn_mlg_20261024140537.pdf,2,Reza,Andre,verified
+P035,vonisBulan,60,putusan_262_pid.sus_2026_pn_mlg_20261024140537.pdf,18,Reza,Andre,verified
+P035,dendaRupiah,600000000,putusan_262_pid.sus_2026_pn_mlg_20261024140537.pdf,18,Reza,Andre,verified
+P035,barangBukti,""2 klip sabu 1.281g, timbangan, bong, pipet, korek, tas, HP Xiaomi, uang 350rb"",putusan_262_pid.sus_2026_pn_mlg_20261024140537.pdf,10,Reza,Andre,verified"
+P035,keadaanMemberatkan,""Tidak mendukung program, pernah dipidana narkotika"",putusan_262_pid.sus_2026_pn_mlg_20261024140537.pdf,17,Reza,Andre,verified"
+P035,keadaanMeringankan,""Mengaku, menyesal, tanggungan keluarga"",putusan_262_pid.sus_2026_pn_mlg_20261024140537.pdf,17,Reza,Andre,verified"
+P035,sourcePages,""1-2 (Identitas & Tuntutan), 3-5 (Dakwaan), 10 (BB), 16-17 (Pertimbangan), 18 (Vonis)"",putusan_262_pid.sus_2026_pn_mlg_20261024140537.pdf,1-18,Reza,Andre,verified"
+
+P036,nomorPerkara,283/Pid.Sus/2026/PN Mlg,putusan_283_pid.sus_2026_pn_mlg_20261024140637.pdf,1,Reza,Andre,verified
+P036,pengadilan,Pengadilan Negeri Malang,putusan_283_pid.sus_2026_pn_mlg_20261024140637.pdf,1,Reza,Andre,verified
+P036,tanggalPutusan,2026-10-14,putusan_283_pid.sus_2026_pn_mlg_20261024140637.pdf,15,Reza,Andre,verified
+P036,terdakwaKode,T037_MZ,putusan_283_pid.sus_2026_pn_mlg_20261024140637.pdf,1,Reza,Andre,verified
+P036,jenisNarkotika,Metamfetamina (Sabu),putusan_283_pid.sus_2026_pn_mlg_20261024140637.pdf,2,Reza,Andre,verified
+P036,beratBarangBuktiGram,3.22,putusan_283_pid.sus_2026_pn_mlg_20261024140637.pdf,2,Reza,Andre,verified
+P036,pasalDakwaan,""Pasal 114 ayat (1) UU No. 35/2009 ATAU Pasal 609 ayat (1) huruf a UU No. 1/2023"",putusan_283_pid.sus_2026_pn_mlg_20261024140637.pdf,3,Reza,Andre,verified"
+P036,pasalTerbukti,Pasal 114 ayat (1) UU No. 35/2009,putusan_283_pid.sus_2026_pn_mlg_20261024140637.pdf,14,Reza,Andre,verified
+P036,tuntutanBulan,60,putusan_283_pid.sus_2026_pn_mlg_20261024140637.pdf,2,Reza,Andre,verified
+P036,vonisBulan,54,putusan_283_pid.sus_2026_pn_mlg_20261024140637.pdf,15,Reza,Andre,verified
+P036,dendaRupiah,500000000,putusan_283_pid.sus_2026_pn_mlg_20261024140637.pdf,2,Reza,Andre,verified
+P036,barangBukti,""16 plastik klip sabu 3.22g, timbangan, plastik klip kosong, kardus HP, tas kain, HP Realme"",putusan_283_pid.sus_2026_pn_mlg_20261024140637.pdf,2,Reza,Andre,verified"
+P036,keadaanMemberatkan,Bertentangan dengan program pemerintah,putusan_283_pid.sus_2026_pn_mlg_20261024140637.pdf,13,Reza,Andre,verified
+P036,keadaanMeringankan,""Menyesal, mengakui"",putusan_283_pid.sus_2026_pn_mlg_20261024140637.pdf,13,Reza,Andre,verified"
+P036,sourcePages,""1-2 (Identitas & Tuntutan), 3-8 (Dakwaan), 10 (BB), 13-14 (Pertimbangan), 15 (Vonis)"",putusan_283_pid.sus_2026_pn_mlg_20261024140637.pdf,1-15,Reza,Andre,verified"
+
+P037,nomorPerkara,296/Pid.Sus/2025/PN Mlg,putusan_296_pid.sus_2025_pn_mlg_20261105163917.pdf,1,Reza,Andre,verified
+P037,pengadilan,Pengadilan Negeri Malang,putusan_296_pid.sus_2025_pn_mlg_20261105163917.pdf,1,Reza,Andre,verified
+P037,tanggalPutusan,2025-11-24,putusan_296_pid.sus_2025_pn_mlg_20261105163917.pdf,25,Reza,Andre,verified
+P037,terdakwaKode,T038_ABR,putusan_296_pid.sus_2025_pn_mlg_20261105163917.pdf,1,Reza,Andre,verified
+P037,jenisNarkotika,Metamfetamina (Sabu),putusan_296_pid.sus_2025_pn_mlg_20261105163917.pdf,3,Reza,Andre,verified
+P037,beratBarangBuktiGram,1.14,putusan_296_pid.sus_2025_pn_mlg_20261105163917.pdf,6,Reza,Andre,verified
+P037,pasalDakwaan,""Pasal 114 ayat (1) UU No. 35/2009 ATAU Pasal 112 ayat (1) UU No. 35/2009"",putusan_296_pid.sus_2025_pn_mlg_20261105163917.pdf,3,Reza,Andre,verified"
+P037,pasalTerbukti,Pasal 114 ayat (1) UU No. 35/2009,putusan_296_pid.sus_2025_pn_mlg_20261105163917.pdf,23,Reza,Andre,verified
+P037,tuntutanBulan,78,putusan_296_pid.sus_2025_pn_mlg_20261105163917.pdf,2,Reza,Andre,verified
+P037,vonisBulan,66,putusan_296_pid.sus_2025_pn_mlg_20261105163917.pdf,25,Reza,Andre,verified
+P037,dendaRupiah,1000000000,putusan_296_pid.sus_2025_pn_mlg_20261105163917.pdf,25,Reza,Andre,verified
+P037,barangBukti,""1 klip sabu 0.44g, HP Oppo, 9 klip sabu 0.70g, timbangan, plastik klip, dompet"",putusan_296_pid.sus_2025_pn_mlg_20261105163917.pdf,16,Reza,Andre,verified"
+P037,keadaanMemberatkan,Tidak mendukung program pemerintah,putusan_296_pid.sus_2025_pn_mlg_20261105163917.pdf,24,Reza,Andre,verified
+P037,keadaanMeringankan,""Mengaku, sopan, belum pernah dihukum"",putusan_296_pid.sus_2025_pn_mlg_20261105163917.pdf,24,Reza,Andre,verified"
+P037,sourcePages,""1-2 (Identitas & Tuntutan), 3-9 (Dakwaan), 16 (BB), 23-24 (Pertimbangan), 25 (Vonis)"",putusan_296_pid.sus_2025_pn_mlg_20261105163917.pdf,1-25,Reza,Andre,verified"
+
+P038,nomorPerkara,333/Pid.Sus/2025/PN Mlg,putusan_333_pid.sus_2025_pn_mlg_20261105163643.pdf,1,Reza,Andre,verified
+P038,pengadilan,Pengadilan Negeri Malang,putusan_333_pid.sus_2025_pn_mlg_20261105163643.pdf,1,Reza,Andre,verified
+P038,tanggalPutusan,2025-11-19,putusan_333_pid.sus_2025_pn_mlg_20261105163643.pdf,17,Reza,Andre,verified
+P038,terdakwaKode,T039_ADS,putusan_333_pid.sus_2025_pn_mlg_20261105163643.pdf,1,Reza,Andre,verified
+P038,jenisNarkotika,Metamfetamina (Sabu),putusan_333_pid.sus_2025_pn_mlg_20261105163643.pdf,3,Reza,Andre,verified
+P038,beratBarangBuktiGram,0.16,putusan_333_pid.sus_2025_pn_mlg_20261105163643.pdf,4,Reza,Andre,verified
+P038,pasalDakwaan,""Pasal 114 ayat (1) jo Pasal 132 ayat (1) UU No. 35/2009 ATAU Pasal 112 ayat (1) jo Pasal 132 ayat (1) UU No. 35/2009"",putusan_333_pid.sus_2025_pn_mlg_20261105163643.pdf,3,Reza,Andre,verified"
+P038,pasalTerbukti,Pasal 112 ayat (1) jo Pasal 132 ayat (1) UU No. 35/2009,putusan_333_pid.sus_2025_pn_mlg_20261105163643.pdf,16,Reza,Andre,verified
+P038,tuntutanBulan,60,putusan_333_pid.sus_2025_pn_mlg_20261105163643.pdf,2,Reza,Andre,verified
+P038,vonisBulan,60,putusan_333_pid.sus_2025_pn_mlg_20261105163643.pdf,17,Reza,Andre,verified
+P038,dendaRupiah,1000000000,putusan_333_pid.sus_2025_pn_mlg_20261105163643.pdf,17,Reza,Andre,verified
+P038,barangBukti,""1 unit HP Realme"",putusan_333_pid.sus_2025_pn_mlg_20261105163643.pdf,9,Reza,Andre,verified"
+P038,keadaanMemberatkan,""Tidak mendukung program, pernah dihukum"",putusan_333_pid.sus_2025_pn_mlg_20261105163643.pdf,16,Reza,Andre,verified"
+P038,keadaanMeringankan,""Mengaku, sopan, berjanji tidak mengulangi"",putusan_333_pid.sus_2025_pn_mlg_20261105163643.pdf,16,Reza,Andre,verified"
+P038,sourcePages,""1-2 (Identitas & Tuntutan), 3-6 (Dakwaan), 9 (BB), 16 (Pertimbangan), 17 (Vonis)"",putusan_333_pid.sus_2025_pn_mlg_20261105163643.pdf,1-17,Reza,Andre,verified"
+
+P039,nomorPerkara,345/Pid.Sus/2025/PN Mlg,putusan_345_pid.sus_2025_pn_mlg_20261105163805.pdf,1,Reza,Andre,verified
+P039,pengadilan,Pengadilan Negeri Malang,putusan_345_pid.sus_2025_pn_mlg_20261105163805.pdf,1,Reza,Andre,verified
+P039,tanggalPutusan,2025-11-19,putusan_345_pid.sus_2025_pn_mlg_20261105163805.pdf,36,Reza,Andre,verified
+P039,terdakwaKode,T040_RAC,putusan_345_pid.sus_2025_pn_mlg_20261105163805.pdf,1,Reza,Andre,verified
+P039,jenisNarkotika,Metamfetamina (Sabu),putusan_345_pid.sus_2025_pn_mlg_20261105163805.pdf,3,Reza,Andre,verified
+P039,beratBarangBuktiGram,3.00,putusan_345_pid.sus_2025_pn_mlg_20261105163805.pdf,2,Reza,Andre,verified
+P039,pasalDakwaan,""Pasal 114 ayat (1) UU No. 35/2009 ATAU Pasal 112 ayat (1) UU No. 35/2009"",putusan_345_pid.sus_2025_pn_mlg_20261105163805.pdf,3,Reza,Andre,verified"
+P039,pasalTerbukti,Pasal 114 ayat (1) UU No. 35/2009,putusan_345_pid.sus_2025_pn_mlg_20261105163805.pdf,35,Reza,Andre,verified
+P039,tuntutanBulan,96,putusan_345_pid.sus_2025_pn_mlg_20261105163805.pdf,2,Reza,Andre,verified
+P039,vonisBulan,84,putusan_345_pid.sus_2025_pn_mlg_20261105163805.pdf,36,Reza,Andre,verified
+P039,dendaRupiah,1500000000,putusan_345_pid.sus_2025_pn_mlg_20261105163805.pdf,36,Reza,Andre,verified
+P039,barangBukti,""1 pocket sabu 3.00g, HP Samsung"",putusan_345_pid.sus_2025_pn_mlg_20261105163805.pdf,20,Reza,Andre,verified"
+P039,keadaanMemberatkan,""Bertentangan dengan program, merusak mental generasi muda"",putusan_345_pid.sus_2025_pn_mlg_20261105163805.pdf,35,Reza,Andre,verified"
+P039,keadaanMeringankan,""Menyesal, sopan, belum pernah dihukum"",putusan_345_pid.sus_2025_pn_mlg_20261105163805.pdf,35,Reza,Andre,verified"
+P039,sourcePages,""1-2 (Identitas & Tuntutan), 3-6 (Dakwaan), 20 (BB), 35 (Pertimbangan), 36 (Vonis)"",putusan_345_pid.sus_2025_pn_mlg_20261105163805.pdf,1-36,Reza,Andre,verified"
+
+P040,nomorPerkara,351/Pid.Sus/2025/PN Mlg,putusan_351_pid.sus_2025_pn_mlg_20261105163653.pdf,1,Reza,Andre,verified
+P040,pengadilan,Pengadilan Negeri Malang,putusan_351_pid.sus_2025_pn_mlg_20261105163653.pdf,1,Reza,Andre,verified
+P040,tanggalPutusan,2025-11-19,putusan_351_pid.sus_2025_pn_mlg_20261105163653.pdf,21,Reza,Andre,verified
+P040,terdakwaKode,T041_SN,putusan_351_pid.sus_2025_pn_mlg_20261105163653.pdf,1,Reza,Andre,verified
+P040,jenisNarkotika,Metamfetamina (Sabu),putusan_351_pid.sus_2025_pn_mlg_20261105163653.pdf,3,Reza,Andre,verified
+P040,beratBarangBuktiGram,8.99,putusan_351_pid.sus_2025_pn_mlg_20261105163653.pdf,5,Reza,Andre,verified
+P040,pasalDakwaan,""Pasal 114 ayat (2) UU No. 35/2009 ATAU Pasal 112 ayat (2) UU No. 35/2009"",putusan_351_pid.sus_2025_pn_mlg_20261105163653.pdf,3,Reza,Andre,verified"
+P040,pasalTerbukti,Pasal 114 ayat (2) UU No. 35/2009,putusan_351_pid.sus_2025_pn_mlg_20261105163653.pdf,19,Reza,Andre,verified
+P040,tuntutanBulan,102,putusan_351_pid.sus_2025_pn_mlg_20261105163653.pdf,2,Reza,Andre,verified
+P040,vonisBulan,90,putusan_351_pid.sus_2025_pn_mlg_20261105163653.pdf,21,Reza,Andre,verified
+P040,dendaRupiah,1000000000,putusan_351_pid.sus_2025_pn_mlg_20261105163653.pdf,21,Reza,Andre,verified
+P040,barangBukti,""6 klip sabu 1.9g, HP Infinix, 35 klip sabu 11.19g, timbangan, plastik klip, bong"",putusan_351_pid.sus_2025_pn_mlg_20261105163653.pdf,11,Reza,Andre,verified"
+P040,keadaanMemberatkan,Bertentangan dengan program pemerintah,putusan_351_pid.sus_2025_pn_mlg_20261105163653.pdf,19,Reza,Andre,verified
+P040,keadaanMeringankan,""Belum pernah dihukum, sopan, menyesal"",putusan_351_pid.sus_2025_pn_mlg_20261105163653.pdf,19,Reza,Andre,verified"
+P040,sourcePages,""1-2 (Identitas & Tuntutan), 3-6 (Dakwaan), 11 (BB), 18-19 (Pertimbangan), 21 (Vonis)"",putusan_351_pid.sus_2025_pn_mlg_20261105163653.pdf,1-21,Reza,Andre,verified"
+
+P041,nomorPerkara,354/Pid.Sus/2025/PN Mlg,putusan_354_pid.sus_2025_pn_mlg_20261104172318.pdf,1,Reza,Andre,verified
+P041,pengadilan,Pengadilan Negeri Malang,putusan_354_pid.sus_2025_pn_mlg_20261104172318.pdf,1,Reza,Andre,verified
+P041,tanggalPutusan,2025-11-17,putusan_354_pid.sus_2025_pn_mlg_20261104172318.pdf,22,Reza,Andre,verified
+P041,terdakwaKode,T042_FA,putusan_354_pid.sus_2025_pn_mlg_20261104172318.pdf,1,Reza,Andre,verified
+P041,jenisNarkotika,Metamfetamina (Sabu),putusan_354_pid.sus_2025_pn_mlg_20261104172318.pdf,5,Reza,Andre,verified
+P041,beratBarangBuktiGram,15.13,putusan_354_pid.sus_2025_pn_mlg_20261104172318.pdf,6,Reza,Andre,verified
+P041,pasalDakwaan,""Pasal 114 ayat (2) UU No. 35/2009 ATAU Pasal 112 ayat (2) UU No. 35/2009"",putusan_354_pid.sus_2025_pn_mlg_20261104172318.pdf,4,Reza,Andre,verified"
+P041,pasalTerbukti,Pasal 114 ayat (2) UU No. 35/2009,putusan_354_pid.sus_2025_pn_mlg_20261104172318.pdf,20,Reza,Andre,verified
+P041,tuntutanBulan,144,putusan_354_pid.sus_2025_pn_mlg_20261104172318.pdf,2,Reza,Andre,verified
+P041,vonisBulan,84,putusan_354_pid.sus_2025_pn_mlg_20261104172318.pdf,21,Reza,Andre,verified
+P041,dendaRupiah,2000000000,putusan_354_pid.sus_2025_pn_mlg_20261104172318.pdf,21,Reza,Andre,verified
+P041,barangBukti,""4 pocket sabu 0.85g, 16 pocket sabu 0.33g, 43 pocket sabu 0.15g (total 15.13g), 4 bekas bungkus pocket hitam kuning, 16 bekas hitam, 43 bekas kuning bening, 3 bungkus rokok, 1 HP Samsung"",putusan_354_pid.sus_2025_pn_mlg_20261104172318.pdf,2,Reza,Andre,verified"
+P041,keadaanMemberatkan,Bertentangan dengan program pemerintah,putusan_354_pid.sus_2025_pn_mlg_20261104172318.pdf,21,Reza,Andre,verified
+P041,keadaanMeringankan,""Sopan, terus terang, menyesal"",putusan_354_pid.sus_2025_pn_mlg_20261104172318.pdf,21,Reza,Andre,verified"
+P041,sourcePages,""1-2 (Identitas & Tuntutan), 3-8 (Dakwaan), 2-3 (BB), 14-19 (Pertimbangan), 21-22 (Vonis)"",putusan_354_pid.sus_2025_pn_mlg_20261104172318.pdf,1-23,Reza,Andre,verified"
+
+P042,nomorPerkara,355/Pid.Sus/2025/PN Mlg,putusan_355_pid.sus_2025_pn_mlg_20261105163841.pdf,1,Reza,Andre,verified
+P042,pengadilan,Pengadilan Negeri Malang,putusan_355_pid.sus_2025_pn_mlg_20261105163841.pdf,1,Reza,Andre,verified
+P042,tanggalPutusan,2025-11-19,putusan_355_pid.sus_2025_pn_mlg_20261105163841.pdf,27,Reza,Andre,verified
+P042,terdakwaKode,T043_SG,putusan_355_pid.sus_2025_pn_mlg_20261105163841.pdf,1,Reza,Andre,verified
+P042,jenisNarkotika,Metamfetamina (Sabu),putusan_355_pid.sus_2025_pn_mlg_20261105163841.pdf,4,Reza,Andre,verified
+P042,beratBarangBuktiGram,1.37,putusan_355_pid.sus_2025_pn_mlg_20261105163841.pdf,5,Reza,Andre,verified
+P042,pasalDakwaan,""Pasal 114 ayat (1) UU No. 35/2009 ATAU Pasal 112 ayat (1) UU No. 35/2009"",putusan_355_pid.sus_2025_pn_mlg_20261105163841.pdf,3,Reza,Andre,verified"
+P042,pasalTerbukti,Pasal 114 ayat (1) UU No. 35/2009,putusan_355_pid.sus_2025_pn_mlg_20261105163841.pdf,25,Reza,Andre,verified
+P042,tuntutanBulan,120,putusan_355_pid.sus_2025_pn_mlg_20261105163841.pdf,2,Reza,Andre,verified
+P042,vonisBulan,96,putusan_355_pid.sus_2025_pn_mlg_20261105163841.pdf,26,Reza,Andre,verified
+P042,dendaRupiah,1500000000,putusan_355_pid.sus_2025_pn_mlg_20261105163841.pdf,26,Reza,Andre,verified
+P042,barangBukti,""6 pocket sabu total 1.37g, 1 bungkus rokok LA Ice ungu, 1 HP Redmi, 1 HP Oppo, 1 sepeda motor Suzuki Satria F150"",putusan_355_pid.sus_2025_pn_mlg_20261105163841.pdf,2,Reza,Andre,verified"
+P042,keadaanMemberatkan,""Bertentangan dengan program pemerintah, meresahkan masyarakat"",putusan_355_pid.sus_2025_pn_mlg_20261105163841.pdf,26,Reza,Andre,verified"
+P042,keadaanMeringankan,""Sopan, mengakui dan menyesali perbuatan, tulang punggung keluarga, belum pernah dihukum"",putusan_355_pid.sus_2025_pn_mlg_20261105163841.pdf,26,Reza,Andre,verified"
+P042,sourcePages,""1-2 (Identitas & Tuntutan), 3-8 (Dakwaan), 2 (BB), 20-25 (Pertimbangan), 26-27 (Vonis)"",putusan_355_pid.sus_2025_pn_mlg_20261105163841.pdf,1-27,Reza,Andre,verified"
+
+P043,nomorPerkara,356/Pid.Sus/2025/PN Mlg,putusan_356_pid.sus_2025_pn_mlg_20261105163529.pdf,1,Reza,Andre,verified
+P043,pengadilan,Pengadilan Negeri Malang,putusan_356_pid.sus_2025_pn_mlg_20261105163529.pdf,1,Reza,Andre,verified
+P043,tanggalPutusan,2025-12-01,putusan_356_pid.sus_2025_pn_mlg_20261105163529.pdf,26,Reza,Andre,verified
+P043,terdakwaKode,T044_DA,putusan_356_pid.sus_2025_pn_mlg_20261105163529.pdf,1,Reza,Andre,verified
+P043,jenisNarkotika,Metamfetamina (Sabu),putusan_356_pid.sus_2025_pn_mlg_20261105163529.pdf,5,Reza,Andre,verified
+P043,beratBarangBuktiGram,188.004,putusan_356_pid.sus_2025_pn_mlg_20261105163529.pdf,2,Reza,Andre,verified
+P043,pasalDakwaan,""Pasal 114 ayat (2) UU No. 35/2009 ATAU Pasal 112 ayat (2) UU No. 35/2009"",putusan_356_pid.sus_2025_pn_mlg_20261105163529.pdf,3,Reza,Andre,verified"
+P043,pasalTerbukti,Pasal 114 ayat (2) UU No. 35/2009,putusan_356_pid.sus_2025_pn_mlg_20261105163529.pdf,21,Reza,Andre,verified
+P043,tuntutanBulan,156,putusan_356_pid.sus_2025_pn_mlg_20261105163529.pdf,2,Reza,Andre,verified
+P043,vonisBulan,132,putusan_356_pid.sus_2025_pn_mlg_20261105163529.pdf,25,Reza,Andre,verified
+P043,dendaRupiah,1000000000,putusan_356_pid.sus_2025_pn_mlg_20261105163529.pdf,25,Reza,Andre,verified
+P043,barangBukti,""3 bungkus plastik klip sabu berat kotor 191.11g berat bersih 188.004g, kardus antena, alat press biru, plastik pembungkus, plastik klip kosong, double tape hijau, double tape bening, timbangan elektrik, 2 korek api gas, 2 sendok plastik hitam, 3 pipet kaca, 4 sekrop plastik, 3 tutup botol dilubangi, ATM BNI, HP Redmi, uang Rp350.000"",putusan_356_pid.sus_2025_pn_mlg_20261105163529.pdf,2,Reza,Andre,verified"
+P043,keadaanMemberatkan,""Bertentangan dengan kebijakan pemerintah, merusak mental generasi muda"",putusan_356_pid.sus_2025_pn_mlg_20261105163529.pdf,24,Reza,Andre,verified"
+P043,keadaanMeringankan,""Menyesal dan tidak akan mengulangi, sopan, belum pernah dihukum"",putusan_356_pid.sus_2025_pn_mlg_20261105163529.pdf,24,Reza,Andre,verified"
+P043,sourcePages,""1-2 (Identitas & Tuntutan), 3-8 (Dakwaan), 2-3 (BB), 16-21 (Pertimbangan), 25-26 (Vonis)"",putusan_356_pid.sus_2025_pn_mlg_20261105163529.pdf,1-26,Reza,Andre,verified"
+
+P044,nomorPerkara,357/Pid.Sus/2025/PN Mlg,putusan_357_pid.sus_2025_pn_mlg_20261105163452.pdf,1,Reza,Andre,verified
+P044,pengadilan,Pengadilan Negeri Malang,putusan_357_pid.sus_2025_pn_mlg_20261105163452.pdf,1,Reza,Andre,verified
+P044,tanggalPutusan,2025-12-01,putusan_357_pid.sus_2025_pn_mlg_20261105163452.pdf,47,Reza,Andre,verified
+P044,terdakwaKode,T045_RW,putusan_357_pid.sus_2025_pn_mlg_20261105163452.pdf,1,Reza,Andre,verified
+P044,jenisNarkotika,Metamfetamina (Sabu),putusan_357_pid.sus_2025_pn_mlg_20261105163452.pdf,5,Reza,Andre,verified
+P044,beratBarangBuktiGram,188.004,putusan_357_pid.sus_2025_pn_mlg_20261105163452.pdf,3,Reza,Andre,verified
+P044,pasalDakwaan,""Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU No. 35/2009 ATAU Pasal 112 ayat (2) jo Pasal 132 ayat (1) UU No. 35/2009"",putusan_357_pid.sus_2025_pn_mlg_20261105163452.pdf,3,Reza,Andre,verified"
+P044,pasalTerbukti,Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU No. 35/2009,putusan_357_pid.sus_2025_pn_mlg_20261105163452.pdf,43,Reza,Andre,verified
+P044,tuntutanBulan,156,putusan_357_pid.sus_2025_pn_mlg_20261105163452.pdf,2,Reza,Andre,verified
+P044,vonisBulan,132,putusan_357_pid.sus_2025_pn_mlg_20261105163452.pdf,47,Reza,Andre,verified
+P044,dendaRupiah,1000000000,putusan_357_pid.sus_2025_pn_mlg_20261105163452.pdf,47,Reza,Andre,verified
+P044,barangBukti,""2 timbangan elektrik, 3 double tape bening, 1 alat hisap sabu botol plastik, 3 pipet kaca, 4 sekrop, 1 potongan sedotan plastik, 5 pack plastik klip kosong, 2 sedotan silikon, 1 kardus sepatu, 1 kartu ATM Mandiri, 1 HP Redmi, uang Rp500.000"",putusan_357_pid.sus_2025_pn_mlg_20261105163452.pdf,2,Reza,Andre,verified"
+P044,keadaanMemberatkan,""Bertentangan dengan kebijakan pemerintah, merusak mental generasi muda"",putusan_357_pid.sus_2025_pn_mlg_20261105163452.pdf,46,Reza,Andre,verified"
+P044,keadaanMeringankan,""Menyesal dan tidak akan mengulangi, sopan, belum pernah dihukum"",putusan_357_pid.sus_2025_pn_mlg_20261105163452.pdf,46,Reza,Andre,verified"
+P044,sourcePages,""1-2 (Identitas & Tuntutan), 3-7 (Dakwaan), 2 (BB), 36-43 (Pertimbangan), 47-48 (Vonis)"",putusan_357_pid.sus_2025_pn_mlg_20261105163452.pdf,1-48,Reza,Andre,verified"
+
+P045,nomorPerkara,363/Pid.Sus/2025/PN Mlg,putusan_363_pid.sus_2025_pn_mlg_20261105163730.pdf,1,Reza,Andre,verified
+P045,pengadilan,Pengadilan Negeri Malang,putusan_363_pid.sus_2025_pn_mlg_20261105163730.pdf,1,Reza,Andre,verified
+P045,tanggalPutusan,2025-11-19,putusan_363_pid.sus_2025_pn_mlg_20261105163730.pdf,26,Reza,Andre,verified
+P045,terdakwaKode,T046_ME,putusan_363_pid.sus_2025_pn_mlg_20261105163730.pdf,1,Reza,Andre,verified
+P045,jenisNarkotika,""Metamfetamina (Sabu) dan MDMA (Ekstasi)"",putusan_363_pid.sus_2025_pn_mlg_20261105163730.pdf,5,Reza,Andre,verified"
+P045,beratBarangBuktiGram,14.93,putusan_363_pid.sus_2025_pn_mlg_20261105163730.pdf,5,Reza,Andre,verified
+P045,pasalDakwaan,""Pasal 114 ayat (2) UU No. 35/2009 ATAU Pasal 112 ayat (2) UU No. 35/2009"",putusan_363_pid.sus_2025_pn_mlg_20261105163730.pdf,3,Reza,Andre,verified"
+P045,pasalTerbukti,Pasal 114 ayat (2) UU No. 35/2009,putusan_363_pid.sus_2025_pn_mlg_20261105163730.pdf,24,Reza,Andre,verified
+P045,tuntutanBulan,102,putusan_363_pid.sus_2025_pn_mlg_20261105163730.pdf,2,Reza,Andre,verified
+P045,vonisBulan,90,putusan_363_pid.sus_2025_pn_mlg_20261105163730.pdf,25,Reza,Andre,verified
+P045,dendaRupiah,1000000000,putusan_363_pid.sus_2025_pn_mlg_20261105163730.pdf,25,Reza,Andre,verified
+P045,barangBukti,""1 bola lampu berisi 17 klip sabu total 3.01g dan 8 klip inex/ekstasi total 11.92g, 3 pack plastik klip, 1 timbangan digital silver, 1 kantong plastik hitam, 1 HP Oppo gold"",putusan_363_pid.sus_2025_pn_mlg_20261105163730.pdf,2,Reza,Andre,verified"
+P045,keadaanMemberatkan,""Bertentangan dengan kebijakan pemerintah, terdakwa sudah pernah dihukum"",putusan_363_pid.sus_2025_pn_mlg_20261105163730.pdf,25,Reza,Andre,verified"
+P045,keadaanMeringankan,""Sopan, berterus terang di persidangan"",putusan_363_pid.sus_2025_pn_mlg_20261105163730.pdf,25,Reza,Andre,verified"
+P045,sourcePages,""1-2 (Identitas & Tuntutan), 3-7 (Dakwaan), 2 (BB), 18-24 (Pertimbangan), 25-26 (Vonis)"",putusan_363_pid.sus_2025_pn_mlg_20261105163730.pdf,1-26,Reza,Andre,verified"
+
+P046,nomorPerkara,369/Pid.Sus/2025/PN Mlg,putusan_369_pid.sus_2025_pn_mlg_20261105163303.pdf,1,Reza,Andre,verified
+P046,pengadilan,Pengadilan Negeri Malang,putusan_369_pid.sus_2025_pn_mlg_20261105163303.pdf,1,Reza,Andre,verified
+P046,tanggalPutusan,2025-12-03,putusan_369_pid.sus_2025_pn_mlg_20261105163303.pdf,24,Reza,Andre,verified
+P046,terdakwaKode,""T047_MR; T048_MRM"",putusan_369_pid.sus_2025_pn_mlg_20261105163303.pdf,1,Reza,Andre,verified"
+P046,jenisNarkotika,Metamfetamina (Sabu),putusan_369_pid.sus_2025_pn_mlg_20261105163303.pdf,6,Reza,Andre,verified
+P046,beratBarangBuktiGram,2.68,putusan_369_pid.sus_2025_pn_mlg_20261105163303.pdf,3,Reza,Andre,verified
+P046,pasalDakwaan,""Pasal 114 ayat (1) jo Pasal 132 ayat (1) UU No. 35/2009 ATAU Pasal 112 ayat (1) jo Pasal 132 ayat (1) UU No. 35/2009"",putusan_369_pid.sus_2025_pn_mlg_20261105163303.pdf,4,Reza,Andre,verified"
+P046,pasalTerbukti,Pasal 114 ayat (1) jo Pasal 132 ayat (1) UU No. 35/2009,putusan_369_pid.sus_2025_pn_mlg_20261105163303.pdf,22,Reza,Andre,verified
+P046,tuntutanBulan,90,putusan_369_pid.sus_2025_pn_mlg_20261105163303.pdf,3,Reza,Andre,verified
+P046,vonisBulan,78,putusan_369_pid.sus_2025_pn_mlg_20261105163303.pdf,24,Reza,Andre,verified
+P046,dendaRupiah,1000000000,putusan_369_pid.sus_2025_pn_mlg_20261105163303.pdf,24,Reza,Andre,verified
+P046,barangBukti,""21 plastik klip sabu total 2.68g, 1 tas kecil hitam, 1 timbangan digital hitam, 1 HP Infinix"",putusan_369_pid.sus_2025_pn_mlg_20261105163303.pdf,3,Reza,Andre,verified"
+P046,keadaanMemberatkan,""Tidak mendukung program pemerintah, Terdakwa II pernah dihukum"",putusan_369_pid.sus_2025_pn_mlg_20261105163303.pdf,23,Reza,Andre,verified"
+P046,keadaanMeringankan,""Mengaku bersalah dan sopan di persidangan, Terdakwa I belum pernah dihukum"",putusan_369_pid.sus_2025_pn_mlg_20261105163303.pdf,23,Reza,Andre,verified"
+P046,sourcePages,""1-3 (Identitas & Tuntutan), 4-8 (Dakwaan), 3 (BB), 17-22 (Pertimbangan), 24 (Vonis)"",putusan_369_pid.sus_2025_pn_mlg_20261105163303.pdf,1-25,Reza,Andre,verified"
+
+P047,nomorPerkara,384/Pid.Sus/2025/PN Mlg,putusan_384_pid.sus_2025_pn_mlg_20261105163339.pdf,1,Reza,Andre,verified
+P047,pengadilan,Pengadilan Negeri Malang,putusan_384_pid.sus_2025_pn_mlg_20261105163339.pdf,1,Reza,Andre,verified
+P047,tanggalPutusan,2025-12-03,putusan_384_pid.sus_2025_pn_mlg_20261105163339.pdf,21,Reza,Andre,verified
+P047,terdakwaKode,T049_OD,putusan_384_pid.sus_2025_pn_mlg_20261105163339.pdf,1,Reza,Andre,verified
+P047,jenisNarkotika,Metamfetamina (Sabu),putusan_384_pid.sus_2025_pn_mlg_20261105163339.pdf,3,Reza,Andre,verified
+P047,beratBarangBuktiGram,8.16,putusan_384_pid.sus_2025_pn_mlg_20261105163339.pdf,2,Reza,Andre,verified
+P047,pasalDakwaan,""Pasal 114 ayat (2) UU No. 35/2009 ATAU Pasal 112 ayat (2) UU No. 35/2009"",putusan_384_pid.sus_2025_pn_mlg_20261105163339.pdf,3,Reza,Andre,verified"
+P047,pasalTerbukti,Pasal 112 ayat (2) UU No. 35/2009,putusan_384_pid.sus_2025_pn_mlg_20261105163339.pdf,20,Reza,Andre,verified
+P047,tuntutanBulan,84,putusan_384_pid.sus_2025_pn_mlg_20261105163339.pdf,2,Reza,Andre,verified
+P047,vonisBulan,60,putusan_384_pid.sus_2025_pn_mlg_20261105163339.pdf,20,Reza,Andre,verified
+P047,dendaRupiah,1000000000,putusan_384_pid.sus_2025_pn_mlg_20261105163339.pdf,20,Reza,Andre,verified
+P047,barangBukti,""2 sachet aluminium foil hitam berisi sabu, 3 bungkus sachet aluminium foil hitam berisi sabu, celana panjang abu-abu berisi 2 klip sabu total 8.16g dan 3 pack plastik klip, 1 ikat sachet aluminium foil kuning, 1 ikat hitam, 1 ikat putih, 1 timbangan digital silver, 1 HP Redmi"",putusan_384_pid.sus_2025_pn_mlg_20261105163339.pdf,2,Reza,Andre,verified"
+P047,keadaanMemberatkan,""Bertentangan dengan kebijakan pemerintah, merusak mental generasi muda"",putusan_384_pid.sus_2025_pn_mlg_20261105163339.pdf,19,Reza,Andre,verified"
+P047,keadaanMeringankan,""Menyesal dan tidak akan mengulangi, sopan, belum pernah dihukum"",putusan_384_pid.sus_2025_pn_mlg_20261105163339.pdf,20,Reza,Andre,verified"
+P047,sourcePages,""1-2 (Identitas & Tuntutan), 3-7 (Dakwaan), 2 (BB), 13-18 (Pertimbangan), 20-21 (Vonis)"",putusan_384_pid.sus_2025_pn_mlg_20261105163339.pdf,1-21,Reza,Andre,verified"
+
+P048,nomorPerkara,385/Pid.Sus/2025/PN Mlg,putusan_385_pid.sus_2025_pn_mlg_20261105163418.pdf,1,Reza,Andre,verified
+P048,pengadilan,Pengadilan Negeri Malang,putusan_385_pid.sus_2025_pn_mlg_20261105163418.pdf,1,Reza,Andre,verified
+P048,tanggalPutusan,2025-12-03,putusan_385_pid.sus_2025_pn_mlg_20261105163418.pdf,31,Reza,Andre,verified
+P048,terdakwaKode,T050_YP,putusan_385_pid.sus_2025_pn_mlg_20261105163418.pdf,1,Reza,Andre,verified
+P048,jenisNarkotika,""Ganja dan MDMA (Ekstasi)"",putusan_385_pid.sus_2025_pn_mlg_20261105163418.pdf,5,Reza,Andre,verified"
+P048,beratBarangBuktiGram,23.49,putusan_385_pid.sus_2025_pn_mlg_20261105163418.pdf,5,Reza,Andre,verified
+P048,pasalDakwaan,""Pasal 114 ayat (1) UU No. 35/2009 DAN Pasal 111 ayat (1) UU No. 35/2009"",putusan_385_pid.sus_2025_pn_mlg_20261105163418.pdf,4,Reza,Andre,verified"
+P048,pasalTerbukti,""Pasal 114 ayat (1) UU No. 35/2009 dan Pasal 111 ayat (1) UU No. 35/2009"",putusan_385_pid.sus_2025_pn_mlg_20261105163418.pdf,29,Reza,Andre,verified"
+P048,tuntutanBulan,96,putusan_385_pid.sus_2025_pn_mlg_20261105163418.pdf,2,Reza,Andre,verified
+P048,vonisBulan,84,putusan_385_pid.sus_2025_pn_mlg_20261105163418.pdf,31,Reza,Andre,verified
+P048,dendaRupiah,1000000000,putusan_385_pid.sus_2025_pn_mlg_20261105163418.pdf,31,Reza,Andre,verified
+P048,barangBukti,""1 bungkus plastik klip ganja 21.48g, 1 plastik klip 5 butir inex/ekstasi (2.01g), 1 HP Oppo Silver, 1 jaket hitam, 1 kemasan kertas rokok"",putusan_385_pid.sus_2025_pn_mlg_20261105163418.pdf,2,Reza,Andre,verified"
+P048,keadaanMemberatkan,Tidak mendukung program pemerintah,putusan_385_pid.sus_2025_pn_mlg_20261105163418.pdf,30,Reza,Andre,verified
+P048,keadaanMeringankan,""Mengakui perbuatan, sopan dan kooperatif selama persidangan"",putusan_385_pid.sus_2025_pn_mlg_20261105163418.pdf,30,Reza,Andre,verified"
+P048,sourcePages,""1-2 (Identitas & Tuntutan), 4-10 (Dakwaan), 2 (BB), 19-29 (Pertimbangan), 31 (Vonis)"",putusan_385_pid.sus_2025_pn_mlg_20261105163418.pdf,1-32,Reza,Andre,verified"
+
+P049,nomorPerkara,386/Pid.Sus/2025/PN Mlg,putusan_386_pid.sus_2025_pn_mlg_20261105163216.pdf,1,Reza,Andre,verified
+P049,pengadilan,Pengadilan Negeri Malang,putusan_386_pid.sus_2025_pn_mlg_20261105163216.pdf,1,Reza,Andre,verified
+P049,tanggalPutusan,2025-12-03,putusan_386_pid.sus_2025_pn_mlg_20261105163216.pdf,18,Reza,Andre,verified
+P049,terdakwaKode,T051_MW,putusan_386_pid.sus_2025_pn_mlg_20261105163216.pdf,1,Reza,Andre,verified
+P049,jenisNarkotika,""Metamfetamina (Sabu), Ganja, dan MDMA (Ekstasi)"",putusan_386_pid.sus_2025_pn_mlg_20261105163216.pdf,3,Reza,Andre,verified"
+P049,beratBarangBuktiGram,21.522,putusan_386_pid.sus_2025_pn_mlg_20261105163216.pdf,""5, 11"",Reza,Andre,verified"
+P049,pasalDakwaan,""Pasal 114 ayat (1) UU No. 35/2009 ATAU Pasal 112 ayat (1) UU No. 35/2009"",putusan_386_pid.sus_2025_pn_mlg_20261105163216.pdf,3,Reza,Andre,verified"
+P049,pasalTerbukti,Pasal 114 ayat (1) UU No. 35/2009,putusan_386_pid.sus_2025_pn_mlg_20261105163216.pdf,16,Reza,Andre,verified
+P049,tuntutanBulan,114,putusan_386_pid.sus_2025_pn_mlg_20261105163216.pdf,2,Reza,Andre,verified
+P049,vonisBulan,96,putusan_386_pid.sus_2025_pn_mlg_20261105163216.pdf,18,Reza,Andre,verified
+P049,dendaRupiah,2000000000,putusan_386_pid.sus_2025_pn_mlg_20261105163216.pdf,18,Reza,Andre,verified
+P049,barangBukti,""1 kotak HP berisi pipet kaca sabu 0.042g, 1 HP hitam, 1 bungkus plastik klip ganja 21.48g, 1 plastik klip 5 butir inex/ekstasi"",putusan_386_pid.sus_2025_pn_mlg_20261105163216.pdf,2,Reza,Andre,verified"
+P049,keadaanMemberatkan,""Tidak mendukung program pemerintah, meresahkan masyarakat, pernah dihukum"",putusan_386_pid.sus_2025_pn_mlg_20261105163216.pdf,17,Reza,Andre,verified"
+P049,keadaanMeringankan,""Menyesal, mengaku terus terang, sopan"",putusan_386_pid.sus_2025_pn_mlg_20261105163216.pdf,17,Reza,Andre,verified"
+P049,sourcePages,""1-2 (Identitas & Tuntutan), 3-6 (Dakwaan), 2 (BB), 12-16 (Pertimbangan), 18 (Vonis)"",putusan_386_pid.sus_2025_pn_mlg_20261105163216.pdf,1-19,Reza,Andre,verified"
+
+P050,nomorPerkara,396/Pid.Sus/2025/PN Mlg,putusan_396_pid.sus_2025_pn_mlg_20261105163125.pdf,1,Reza,Andre,verified
+P050,pengadilan,Pengadilan Negeri Malang,putusan_396_pid.sus_2025_pn_mlg_20261105163125.pdf,1,Reza,Andre,verified
+P050,tanggalPutusan,2025-12-10,putusan_396_pid.sus_2025_pn_mlg_20261105163125.pdf,37,Reza,Andre,verified
+P050,terdakwaKode,""T052_IN; T053_AZ; T054_RA"",putusan_396_pid.sus_2025_pn_mlg_20261105163125.pdf,1,Reza,Andre,verified"
+P050,jenisNarkotika,Metamfetamina (Sabu),putusan_396_pid.sus_2025_pn_mlg_20261105163125.pdf,5,Reza,Andre,verified
+P050,beratBarangBuktiGram,12.64,putusan_396_pid.sus_2025_pn_mlg_20261105163125.pdf,3,Reza,Andre,verified
+P050,pasalDakwaan,""Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU No. 35/2009 ATAU Pasal 112 ayat (2) jo Pasal 132 ayat (1) UU No. 35/2009"",putusan_396_pid.sus_2025_pn_mlg_20261105163125.pdf,5,Reza,Andre,verified"
+P050,pasalTerbukti,Pasal 114 ayat (2) jo Pasal 132 ayat (1) UU No. 35/2009,putusan_396_pid.sus_2025_pn_mlg_20261105163125.pdf,35,Reza,Andre,verified
+P050,tuntutanBulan,114,putusan_396_pid.sus_2025_pn_mlg_20261105163125.pdf,3,Reza,Andre,verified
+P050,vonisBulan,96,putusan_396_pid.sus_2025_pn_mlg_20261105163125.pdf,37,Reza,Andre,verified
+P050,dendaRupiah,2000000000,putusan_396_pid.sus_2025_pn_mlg_20261105163125.pdf,37,Reza,Andre,verified
+P050,barangBukti,""8 plastik klip sabu total 12.64g, 1 timbangan digital, 2 plastik kosong, 1 tas hitam, 1 HP Realme, 1 HP Oppo, 1 HP Vivo, uang Rp1.400.000"",putusan_396_pid.sus_2025_pn_mlg_20261105163125.pdf,3,Reza,Andre,verified"
+P050,keadaanMemberatkan,""Tidak mendukung program pemerintah, Terdakwa I dan III pernah dipidana narkotika"",putusan_396_pid.sus_2025_pn_mlg_20261105163125.pdf,36,Reza,Andre,verified"
+P050,keadaanMeringankan,""Mengaku terus terang, menyesal, Terdakwa II belum pernah dipidana, kooperatif, masih muda"",putusan_396_pid.sus_2025_pn_mlg_20261105163125.pdf,36,Reza,Andre,verified"
+P050,sourcePages,""1-3 (Identitas & Tuntutan), 5-12 (Dakwaan), 3 (BB), 27-35 (Pertimbangan), 36-37 (Vonis)"",putusan_396_pid.sus_2025_pn_mlg_20261105163125.pdf,1-38,Reza,Andre,verified"
